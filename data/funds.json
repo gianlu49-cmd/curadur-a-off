@@ -1,0 +1,7199 @@
+{
+ "meta": {
+  "title": "Curaduría de Fondos Offshore",
+  "cutoff": "Performance al 31/08/2026  |  Composición: propios 31/08 · terceros 31/07",
+  "performance": "Performance al 31/08/2026",
+  "composition": "Composición: propios 31/08 · terceros 31/07",
+  "legend": "USO INTERNO · INDIVIDUOS",
+  "feeNote": "Trailer fee y TER expresados como porcentajes anuales. Disponibilidad según cuadro interno provisto.",
+  "feeSource": "Fuente: cuadro interno de fees y plataformas",
+  "sheetSource": "Fuentes: Factsheet y Reuters",
+  "disclaimer": "Material informativo. Los fondos no garantizan rendimientos y están sujetos a riesgos de mercado, crédito, liquidez y moneda."
+ },
+ "institutional": {
+  "kicker2": "CURADURÍA INSTITUCIONAL",
+  "headline": "De un universo de más de 122.000 fondos a una selección accionable",
+  "intro": "La curaduría desarrollada por el equipo de Investment Ideas combina análisis cuantitativo, due diligence cualitativa y seguimiento continuo para identificar estrategias de alta calidad alineadas con las necesidades de cada cliente.",
+  "universeFigure": "+122.000",
+  "universeLabel": "fondos mutuos a nivel global",
+  "challenge": "El desafío no es acceder a más productos, sino seleccionar aquellos con procesos robustos, equipos experimentados y mejores condiciones para sostener resultados a largo plazo, controlando el riesgo de pérdida.",
+  "steps": [
+   {
+    "n": "01",
+    "title": "SELECCIONAR",
+    "text": "El equipo de Investment Ideas filtra el universo para priorizar calidad de gestión, consistencia, liquidez y claridad de mandato."
+   },
+   {
+    "n": "02",
+    "title": "CONOCER",
+    "text": "El análisis realizado por Investment Ideas incorpora reuniones con portfolio managers y distribuidores para comprender la estrategia, su racional y sus fuentes de valor."
+   },
+   {
+    "n": "03",
+    "title": "CONSTRUIR",
+    "text": "La selección elaborada por Investment Ideas reúne fondos complementarios para cubrir perfiles conservador, moderado y agresivo sin duplicar riesgos."
+   },
+   {
+    "n": "04",
+    "title": "ACTUALIZAR",
+    "text": "Investment Ideas revisa periódicamente la selección frente a cambios de mercado y a la evolución de las necesidades de los clientes."
+   }
+  ],
+  "diversification": "Una correcta diversificación y asignación busca reducir la dependencia de un único mercado, proteger el capital a lo largo del ciclo y mejorar la consistencia de los retornos.",
+  "profiles": [
+   "CONSERVADOR",
+   "MODERADO",
+   "AGRESIVO"
+  ],
+  "kicker3": "CONSTRUIR CARTERAS CON MAYOR INTENCIONALIDAD",
+  "headline3": "La selección es el punto de partida; la asignación define el resultado.",
+  "intro3": "La curaduría transforma una oferta global extensa en building blocks concretos para diseñar carteras más diversificadas, comprensibles y alineadas con cada objetivo.",
+  "pillars": [
+   {
+    "n": "01",
+    "title": "SELECCIÓN",
+    "text": "Estrategias evaluadas por calidad, proceso de inversión y consistencia a través de distintos escenarios."
+   },
+   {
+    "n": "02",
+    "title": "ASIGNACIÓN",
+    "text": "Combinación de renta fija, multi-asset y renta variable según horizonte, tolerancia al riesgo y necesidad de liquidez."
+   },
+   {
+    "n": "03",
+    "title": "SEGUIMIENTO",
+    "text": "Monitoreo periódico de performance, riesgo, posicionamiento y cambios relevantes en la gestión."
+   }
+  ],
+  "nextTitle": "El próximo paso",
+  "nextText": "Definir el perfil y construir una asignación que combine retorno esperado, preservación de capital y horizonte de inversión.",
+  "disclaimer": "Material informativo. Los fondos no garantizan rendimientos y están sujetos a riesgos de mercado, crédito, liquidez y moneda."
+ },
+ "categories": [
+  {
+   "name": "Money Market",
+   "asset": "rf"
+  },
+  {
+   "name": "Renta Fija Ultra Corta Duración",
+   "asset": "rf"
+  },
+  {
+   "name": "Renta Fija Corta Duración",
+   "asset": "rf"
+  },
+  {
+   "name": "Renta Fija Income (Flexible)",
+   "asset": "rf"
+  },
+  {
+   "name": "Renta Fija High Yield",
+   "asset": "rf"
+  },
+  {
+   "name": "Renta Fija Mercados Emergentes",
+   "asset": "rf"
+  },
+  {
+   "name": "Renta Mixta (Balanceado)",
+   "asset": "rm"
+  },
+  {
+   "name": "Renta Variable Global",
+   "asset": "rv"
+  },
+  {
+   "name": "Renta Variable US",
+   "asset": "rv"
+  },
+  {
+   "name": "Renta Variable Growth",
+   "asset": "rv"
+  },
+  {
+   "name": "Renta Variable Mercados Emergentes",
+   "asset": "rv"
+  },
+  {
+   "name": "Renta Variable Commodities",
+   "asset": "rv"
+  },
+  {
+   "name": "Renta Variable Alternativos",
+   "asset": "rv"
+  }
+ ],
+ "funds": [
+  {
+   "isin": "XS2621330369",
+   "sheetIsin": "XS2621330369",
+   "name": "Balanz Income",
+   "mapName": "Balanz Income",
+   "manager": "Balanz",
+   "balanz": true,
+   "cls": "USD Acc",
+   "currency": "USD",
+   "category": "Money Market",
+   "pptCategory": "Renta Fija Liquidez",
+   "asset": "rf",
+   "tag": "Renta fija | Liquidez",
+   "strategy": "Liquidez",
+   "intro": "Liquidez en dólares con foco en preservación de capital mediante exposición a T-Bills de muy corta duración.",
+   "objective": "Busca la preservación de capital invirtiendo en instrumentos de renta fija, principalmente en bonos del Tesoro americano. Ideal para personas físicas y jurídicas con perfil conservador que busquen invertir en un instrumento gestionado activamente por un equipo de especialistas en el mercado internacional.",
+   "aum": "99,80m",
+   "returns": {
+    "ytd": {
+     "v": 1.73,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.2,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.66,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.31,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.73,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 3.73,
+    "d": 2
+   },
+   "duration": {
+    "v": 0.08,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "3,73%"
+    },
+    {
+     "label": "Duración",
+     "value": "0,08 años"
+    }
+   ],
+   "ter": {
+    "v": 0.97,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.6,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Distribución por duración",
+     "items": [
+      {
+       "label": "0-30 días",
+       "value": "30,6%",
+       "pct": 30.6
+      },
+      {
+       "label": "31-60 días",
+       "value": "36,2%",
+       "pct": 36.2
+      },
+      {
+       "label": "61-90 días",
+       "value": "32,4%",
+       "pct": 32.4
+      },
+      {
+       "label": "Caja",
+       "value": "0,9%",
+       "pct": 0.9
+      }
+     ]
+    },
+    {
+     "title": "Principales tenencias",
+     "items": [
+      {
+       "label": "UST Bill 29-SEP-2026",
+       "value": "36,2%",
+       "pct": 36.2
+      },
+      {
+       "label": "UST Bill 29-OCT-2026",
+       "value": "32,4%",
+       "pct": 32.4
+      },
+      {
+       "label": "UST Bill 01-SEP-2026",
+       "value": "30,6%",
+       "pct": 30.6
+      },
+      {
+       "label": "Efectivo y equivalentes",
+       "value": "0,9%",
+       "pct": 0.9
+      }
+     ]
+    },
+    {
+     "title": "Datos de cartera",
+     "items": [
+      {
+       "label": "Geografía",
+       "value": "Estados Unidos 100%",
+       "pct": null
+      },
+      {
+       "label": "Calificación promedio",
+       "value": "AA+",
+       "pct": null
+      },
+      {
+       "label": "NAV",
+       "value": "USD 109,90",
+       "pct": null
+      },
+      {
+       "label": "Fecha de inicio",
+       "value": "03/10/2023",
+       "pct": null
+      }
+     ]
+    }
+   ],
+   "compDate": "31/08",
+   "slide": 7,
+   "mapSlide": 4
+  },
+  {
+   "isin": "IE0003334947",
+   "sheetIsin": "IE0003334947",
+   "name": "Federated Hermes Short-Term U.S. Government Securities",
+   "mapName": "Federated Hermes ST US Gvt Sec Invt Gth Srs Acc",
+   "manager": "Federated Hermes",
+   "balanz": false,
+   "cls": "IGS (USD) Acc",
+   "currency": "USD",
+   "category": "Money Market",
+   "pptCategory": "Money Market",
+   "asset": "rf",
+   "tag": "Renta fija | Liquidez",
+   "strategy": "Liquidez",
+   "intro": "Liquidez defensiva en USD respaldada por deuda pública estadounidense y una sensibilidad mínima a movimientos de tasas.",
+   "objective": "Preservar capital y generar ingreso corriente mediante títulos del Tesoro y agencias de EE. UU., con foco en liquidez y baja sensibilidad a tasas. Cartera de alta calidad crediticia, vencimientos cortos y gestión conservadora de duración; clase acumulativa en USD. La cartera concentra el riesgo en Treasuries, agencias y operaciones de recompra, manteniendo vencimientos y duración muy reducidos. El objetivo operativo es ofrecer liquidez diaria y limitar la volatilidad, sin asumir riesgo corporativo significativo.",
+   "aum": "977m",
+   "returns": {
+    "ytd": {
+     "v": 1.75,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.21,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.66,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.32,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.79,
+     "d": 2
+    },
+    "y3": {
+     "v": 3.59,
+     "d": 2
+    },
+    "y5": {
+     "v": 2.85,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 3.7,
+    "d": 2
+   },
+   "duration": {
+    "v": 0.06,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "3,70%"
+    },
+    {
+     "label": "Duración",
+     "value": "0,06 años"
+    }
+   ],
+   "ter": {
+    "v": 1.04,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.5,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Composición de cartera",
+     "items": [
+      {
+       "label": "Repo Treasury EE. UU.",
+       "value": "58,2%",
+       "pct": 58.2
+      },
+      {
+       "label": "Repo agencias EE. UU.",
+       "value": "24,4%",
+       "pct": 24.4
+      }
+     ]
+    },
+    {
+     "title": "Vencimiento efectivo",
+     "items": [
+      {
+       "label": "1 día",
+       "value": "83,3%",
+       "pct": 83.3
+      }
+     ]
+    },
+    {
+     "title": "Características",
+     "items": [
+      {
+       "label": "WAM",
+       "value": "18 días",
+       "pct": null
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 13,
+   "mapSlide": 5
+  },
+  {
+   "isin": "IE00BMTRX064",
+   "sheetIsin": "IE00BMTRX064",
+   "name": "PIMCO GIS US Short-Term Fund",
+   "mapName": "PIMCO GIS US Short-Term E Cl USD Acc",
+   "manager": "PIMCO",
+   "balanz": false,
+   "cls": "E USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Ultra Corta Duración",
+   "pptCategory": "Renta Fija Ultra Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Ultra corta duración",
+   "strategy": "Ultra corta duración",
+   "intro": "Alternativa de liquidez activa que busca mejorar el retorno del efectivo con alta calidad y sensibilidad acotada a tasas.",
+   "objective": "Busca maximizar los ingresos corrientes y preservar el capital, manteniendo liquidez diaria. Invierte principalmente en instrumentos monetarios de alta calidad y valores de renta fija de corto plazo, ampliando el universo hacia crédito global, titulizaciones y deuda relacionada con gobiernos. La gestión activa procura capturar carry con una volatilidad apenas superior a las inversiones tradicionales en efectivo.",
+   "aum": "3,40bn",
+   "returns": {
+    "ytd": {
+     "v": 2.66,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.23,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.85,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.94,
+     "d": 2
+    },
+    "y1": {
+     "v": 4.04,
+     "d": 2
+    },
+    "y3": {
+     "v": 4.89,
+     "d": 2
+    },
+    "y5": {
+     "v": 3.44,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 4.97,
+    "d": 2
+   },
+   "duration": {
+    "v": 0.74,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "4,97%"
+    },
+    {
+     "label": "Duración",
+     "value": "0,74 años"
+    }
+   ],
+   "ter": {
+    "v": 0.85,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.38,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales industrias",
+     "items": [
+      {
+       "label": "Banca",
+       "value": "14,7%",
+       "pct": 14.7
+      },
+      {
+       "label": "Financiero - otros",
+       "value": "4,2%",
+       "pct": 4.2
+      },
+      {
+       "label": "Utilities eléctricas",
+       "value": "4,1%",
+       "pct": 4.1
+      },
+      {
+       "label": "Automotriz",
+       "value": "3,3%",
+       "pct": 3.3
+      },
+      {
+       "label": "Telecomunicaciones fijas",
+       "value": "3,0%",
+       "pct": 3.0
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Crédito investment grade",
+       "value": "47,0%",
+       "pct": 47.0
+      },
+      {
+       "label": "MBS de agencias",
+       "value": "13,0%",
+       "pct": 13.0
+      },
+      {
+       "label": "Gobierno relacionado",
+       "value": "11,0%",
+       "pct": 11.0
+      },
+      {
+       "label": "ABS",
+       "value": "9,0%",
+       "pct": 9.0
+      },
+      {
+       "label": "Efectivo y equivalentes",
+       "value": "7,0%",
+       "pct": 7.0
+      }
+     ]
+    },
+    {
+     "title": "Contribución a duración",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "56,9%",
+       "pct": 56.9
+      },
+      {
+       "label": "Reino Unido",
+       "value": "34,2%",
+       "pct": 34.2
+      },
+      {
+       "label": "Australia",
+       "value": "21,1%",
+       "pct": 21.1
+      },
+      {
+       "label": "Unión Europea",
+       "value": "13,9%",
+       "pct": 13.9
+      },
+      {
+       "label": "Canadá",
+       "value": "-26,2%",
+       "pct": -26.2
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 14,
+   "mapSlide": 5
+  },
+  {
+   "isin": "IE00BYWY0C98",
+   "sheetIsin": "IE00BYWY0C98",
+   "name": "Lord Abbett Ultra Short Bond Fund",
+   "mapName": "Lord Abbett Ultra Short Bond A USD Acc",
+   "manager": "Lord Abbett",
+   "balanz": false,
+   "cls": "A USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Ultra Corta Duración",
+   "pptCategory": "Renta Fija Ultra Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Ultra corta duración",
+   "strategy": "Ultra corta duración",
+   "intro": "Estrategia ultracorta diversificada que prioriza ingreso corriente y preservación de capital con duración inferior a un año.",
+   "objective": "Busca generar ingreso corriente compatible con la preservación de capital. Invierte en un amplio conjunto de instrumentos investment grade ultracortos y del mercado monetario, con duración promedio ponderada inferior a un año. La cartera combina corporativos a tasa fija y flotante, commercial paper, préstamos y titulizaciones, diversificando por emisor para capturar carry con sensibilidad reducida a movimientos de tasas.",
+   "aum": "18,8bn",
+   "returns": {
+    "ytd": {
+     "v": 2.11,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.24,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.8,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.45,
+     "d": 2
+    },
+    "y1": {
+     "v": 3.62,
+     "d": 2
+    },
+    "y3": {
+     "v": 4.92,
+     "d": 2
+    },
+    "y5": {
+     "v": 3.58,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 4.8,
+    "d": 2
+   },
+   "duration": {
+    "v": 0.7,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "4,80%"
+    },
+    {
+     "label": "Duración",
+     "value": "0,70 años"
+    }
+   ],
+   "ter": {
+    "v": 0.59,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.3,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "U.S. Treasury Note/Bond",
+       "value": "2,3%",
+       "pct": 2.3
+      },
+      {
+       "label": "Wells Fargo",
+       "value": "1,1%",
+       "pct": 1.1
+      },
+      {
+       "label": "Bank of America",
+       "value": "1,1%",
+       "pct": 1.1
+      },
+      {
+       "label": "Bank of America",
+       "value": "0,9%",
+       "pct": 0.9
+      },
+      {
+       "label": "Bayer",
+       "value": "0,9%",
+       "pct": 0.9
+      }
+     ]
+    },
+    {
+     "title": "Composición de cartera",
+     "items": [
+      {
+       "label": "Corporativos tasa fija",
+       "value": "52,6%",
+       "pct": 52.6
+      },
+      {
+       "label": "Corporativos tasa flotante",
+       "value": "15,2%",
+       "pct": 15.2
+      },
+      {
+       "label": "Commercial paper",
+       "value": "11,6%",
+       "pct": 11.6
+      },
+      {
+       "label": "Préstamos bancarios",
+       "value": "5,9%",
+       "pct": 5.9
+      },
+      {
+       "label": "CLO",
+       "value": "4,9%",
+       "pct": 4.9
+      }
+     ]
+    },
+    {
+     "title": "Distribución por vencimiento",
+     "items": [
+      {
+       "label": "0,00-0,49 años",
+       "value": "35,8%",
+       "pct": 35.8
+      },
+      {
+       "label": "0,50-0,99 años",
+       "value": "31,4%",
+       "pct": 31.4
+      },
+      {
+       "label": "1,00-1,49 años",
+       "value": "13,7%",
+       "pct": 13.7
+      },
+      {
+       "label": "1,50-1,99 años",
+       "value": "11,9%",
+       "pct": 11.9
+      },
+      {
+       "label": "2,00-2,49 años",
+       "value": "5,0%",
+       "pct": 5.0
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 15,
+   "mapSlide": 5
+  },
+  {
+   "isin": "IE000FLB7EK2",
+   "sheetIsin": "IE000FLB7EK2",
+   "name": "FTGF Franklin Ultra Short Duration Income Fund",
+   "mapName": "FTGF Franklin Ultra Short Duration Inc A USD Acc",
+   "manager": "Franklin Templeton",
+   "balanz": false,
+   "cls": "A USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Ultra Corta Duración",
+   "pptCategory": "Renta Fija Ultra Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Ultra corta duración",
+   "strategy": "Ultra corta duración",
+   "intro": "Cartera ultracorta investment grade con alta diversificación, predominio corporativo y exposición relevante a cupones flotantes.",
+   "objective": "Busca maximizar ingreso y crecimiento de capital —retorno total— manteniendo un alto grado de preservación. Invierte principalmente en renta fija investment grade de corta duración, incluyendo bonos corporativos y gubernamentales de EE. UU., instrumentos monetarios y activos respaldados por hipotecas u otros activos. La elevada diversificación y el sesgo a tasa flotante moderan la sensibilidad a tasas sin eliminar el riesgo de crédito.",
+   "aum": "1,79bn",
+   "returns": {
+    "ytd": {
+     "v": 2.17,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.28,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.84,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.51,
+     "d": 2
+    },
+    "y1": {
+     "v": 3.61,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 4.51,
+    "d": 2
+   },
+   "duration": {
+    "v": 0.54,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "4,51%"
+    },
+    {
+     "label": "Duración",
+     "value": "0,54 años"
+    }
+   ],
+   "ter": {
+    "v": 0.6,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.25,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales emisores",
+     "items": [
+      {
+       "label": "U.S. Treasury",
+       "value": "2,07%",
+       "pct": 2.07
+      },
+      {
+       "label": "Citigroup",
+       "value": "1,43%",
+       "pct": 1.43
+      },
+      {
+       "label": "Mizuho Financial",
+       "value": "1,35%",
+       "pct": 1.35
+      },
+      {
+       "label": "Scotiabank",
+       "value": "1,34%",
+       "pct": 1.34
+      },
+      {
+       "label": "JPMorgan Chase",
+       "value": "1,3%",
+       "pct": 1.3
+      }
+     ]
+    },
+    {
+     "title": "Asignación por activo",
+     "items": [
+      {
+       "label": "Corporativos IG",
+       "value": "82,37%",
+       "pct": 82.37
+      },
+      {
+       "label": "Commercial paper",
+       "value": "10,02%",
+       "pct": 10.02
+      },
+      {
+       "label": "Caja neta",
+       "value": "2,82%",
+       "pct": 2.82
+      },
+      {
+       "label": "Treasury / agencias",
+       "value": "2,07%",
+       "pct": 2.07
+      },
+      {
+       "label": "RMBS no-agencia",
+       "value": "1,51%",
+       "pct": 1.51
+      }
+     ]
+    },
+    {
+     "title": "Calidad crediticia",
+     "items": [
+      {
+       "label": "A",
+       "value": "48,47%",
+       "pct": 48.47
+      },
+      {
+       "label": "AA",
+       "value": "23,81%",
+       "pct": 23.81
+      },
+      {
+       "label": "BBB",
+       "value": "11,38%",
+       "pct": 11.38
+      },
+      {
+       "label": "A-2",
+       "value": "7,97%",
+       "pct": 7.97
+      },
+      {
+       "label": "AAA",
+       "value": "2,46%",
+       "pct": 2.46
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 16,
+   "mapSlide": 5
+  },
+  {
+   "isin": "XS3281861446",
+   "sheetIsin": "XS3281861446",
+   "name": "Balanz Short Duration",
+   "mapName": "Balanz Short Duration",
+   "manager": "Balanz",
+   "balanz": true,
+   "cls": "USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Corta Duración",
+   "pptCategory": "Renta Fija Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Corta duración",
+   "strategy": "Corta duración",
+   "intro": "Renta fija internacional de corta duración, con alta calidad crediticia y gestión activa del carry.",
+   "objective": "El objetivo es generar un nivel de retorno con foco en la preservación de capital, a través de la inversión en un portafolio diversificado de instrumentos de renta fija de corta duración. La estrategia prioriza activos de alta calidad crediticia, complementados de manera selectiva con exposiciones a instrumentos de mayor rendimiento, con el fin de mejorar el perfil de retorno ajustado por riesgo. Es una alternativa de inversión con liquidez y gestión activa orientada a capturar oportunidades de carry.",
+   "aum": "18,95m",
+   "returns": {
+    "ytd": {
+     "v": 1.16,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.32,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.6,
+     "d": 2
+    },
+    "m6": {
+     "v": 0.99,
+     "d": 2
+    },
+    "y1": null,
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.4,
+    "d": 2
+   },
+   "duration": {
+    "v": 1.38,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "5,40%"
+    },
+    {
+     "label": "Duración",
+     "value": "1,38 años"
+    }
+   ],
+   "ter": {
+    "v": 1.08,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.7,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales tenencias",
+     "items": [
+      {
+       "label": "Deuda securitizada",
+       "value": "28,5%",
+       "pct": 28.5
+      },
+      {
+       "label": "Deuda corporativa global",
+       "value": "26,1%",
+       "pct": 26.1
+      },
+      {
+       "label": "T-Bills",
+       "value": "19,9%",
+       "pct": 19.9
+      },
+      {
+       "label": "Bonos corporativos US",
+       "value": "14,7%",
+       "pct": 14.7
+      },
+      {
+       "label": "Mercados emergentes",
+       "value": "5,3%",
+       "pct": 5.3
+      },
+      {
+       "label": "Caja y equivalentes",
+       "value": "5,3%",
+       "pct": 5.3
+      }
+     ]
+    },
+    {
+     "title": "Distribución por duración",
+     "items": [
+      {
+       "label": "0-1 año",
+       "value": "37,0%",
+       "pct": 37.0
+      },
+      {
+       "label": "1-2 años",
+       "value": "45,0%",
+       "pct": 45.0
+      },
+      {
+       "label": "2-3 años",
+       "value": "18,0%",
+       "pct": 18.0
+      }
+     ]
+    },
+    {
+     "title": "Calidad crediticia",
+     "items": [
+      {
+       "label": "AA+",
+       "value": "15,0%",
+       "pct": 15.0
+      },
+      {
+       "label": "A+",
+       "value": "14,0%",
+       "pct": 14.0
+      },
+      {
+       "label": "A",
+       "value": "19,0%",
+       "pct": 19.0
+      },
+      {
+       "label": "A-",
+       "value": "17,0%",
+       "pct": 17.0
+      },
+      {
+       "label": "BBB+",
+       "value": "3,0%",
+       "pct": 3.0
+      },
+      {
+       "label": "BBB",
+       "value": "27,0%",
+       "pct": 27.0
+      },
+      {
+       "label": "BBB-",
+       "value": "5,0%",
+       "pct": 5.0
+      }
+     ]
+    }
+   ],
+   "compDate": "31/08",
+   "slide": 8,
+   "mapSlide": 4
+  },
+  {
+   "isin": "IE00BFNWXY26",
+   "sheetIsin": "IE00BFNWXY26",
+   "name": "Lord Abbett Short Duration Income Fund",
+   "mapName": "Lord Abbett Short Duration Income USD A Acc",
+   "manager": "Lord Abbett",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija Corta Duración",
+   "pptCategory": "Renta Fija Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Corta duración",
+   "strategy": "Corta duración",
+   "intro": "Una estrategia de crédito corto de gran escala que busca capturar carry limitando la volatilidad asociada a la duración.",
+   "objective": "Generar un elevado nivel de ingreso corriente compatible con la preservación de capital. Invierte principalmente en deuda de corto vencimiento: corporativos, gobierno de EE. UU. y activos respaldados por hipotecas u otros activos. La construcción combina crédito corporativo de corto vencimiento con titulizaciones y deuda pública estadounidense. El análisis fundamental y la diversificación por emisor buscan capturar carry y roll-down con menor sensibilidad a tasas que una cartera aggregate tradicional.",
+   "aum": "53,1bn",
+   "returns": {
+    "ytd": {
+     "v": 1.2,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.32,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.48,
+     "d": 2
+    },
+    "m6": {
+     "v": 0.48,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.85,
+     "d": 2
+    },
+    "y3": {
+     "v": 4.74,
+     "d": 2
+    },
+    "y5": {
+     "v": 2.1,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.3,
+    "d": 2
+   },
+   "duration": {
+    "v": 2.0,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "5,30%"
+    },
+    {
+     "label": "Duración",
+     "value": "2,00 años"
+    }
+   ],
+   "ter": {
+    "v": 1.08,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.5,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "15-YR UMBS-TBA",
+       "value": "2,9%",
+       "pct": 2.9
+      },
+      {
+       "label": "U.S. Treasury Note/Bond",
+       "value": "1,5%",
+       "pct": 1.5
+      },
+      {
+       "label": "U.S. Treasury Note/Bond",
+       "value": "1,1%",
+       "pct": 1.1
+      },
+      {
+       "label": "Fannie Mae Pool",
+       "value": "1,0%",
+       "pct": 1.0
+      },
+      {
+       "label": "Barclays Capital",
+       "value": "0,7%",
+       "pct": 0.7
+      }
+     ]
+    },
+    {
+     "title": "Composición de cartera",
+     "items": [
+      {
+       "label": "Corporativos IG",
+       "value": "44,1%",
+       "pct": 44.1
+      },
+      {
+       "label": "Corporativos HY",
+       "value": "14,6%",
+       "pct": 14.6
+      },
+      {
+       "label": "MBS",
+       "value": "14,0%",
+       "pct": 14.0
+      },
+      {
+       "label": "CLO",
+       "value": "11,2%",
+       "pct": 11.2
+      },
+      {
+       "label": "CMBS",
+       "value": "6,6%",
+       "pct": 6.6
+      }
+     ]
+    },
+    {
+     "title": "Vencimientos",
+     "items": [
+      {
+       "label": "Menos de 1 año",
+       "value": "20,0%",
+       "pct": 20.0
+      },
+      {
+       "label": "1-3 años",
+       "value": "48,9%",
+       "pct": 48.9
+      },
+      {
+       "label": "3-5 años",
+       "value": "29,0%",
+       "pct": 29.0
+      },
+      {
+       "label": "5-7 años",
+       "value": "2,2%",
+       "pct": 2.2
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 17,
+   "mapSlide": 5
+  },
+  {
+   "isin": "IE00BF2T2K37",
+   "sheetIsin": "IE00BF2T2K37",
+   "name": "Muzinich EnhancedYield Short-Term Fund",
+   "mapName": "Muzinich Enhancedyield Short-Term Hgd USD Acc P1",
+   "manager": "Muzinich",
+   "balanz": false,
+   "cls": "P1 USD Hedged Acc",
+   "currency": "USD",
+   "category": "Renta Fija Corta Duración",
+   "pptCategory": "Renta Fija Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Corta duración",
+   "strategy": "Corta duración",
+   "intro": "Crédito global crossover con foco en vencimientos cortos, diseñado para elevar el carry sin extender materialmente la duración.",
+   "objective": "Proteger capital y superar el retorno de bonos soberanos de duración comparable. Crédito corporativo global de corta duración; mantiene rating promedio investment grade y puede asignar hasta 40% a high yield. Opera en crédito global crossover, con rating medio investment grade y un límite relevante a high yield. La cobertura a USD reduce la volatilidad cambiaria, mientras el foco en vencimientos cortos busca contener duración y riesgo de spread.",
+   "aum": "8,29bn",
+   "returns": {
+    "ytd": {
+     "v": 1.53,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.41,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.57,
+     "d": 2
+    },
+    "m6": {
+     "v": 0.83,
+     "d": 2
+    },
+    "y1": {
+     "v": 3.04,
+     "d": 2
+    },
+    "y3": {
+     "v": 5.27,
+     "d": 2
+    },
+    "y5": {
+     "v": 2.63,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.9,
+    "d": 2
+   },
+   "duration": {
+    "v": 1.97,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "5,90%"
+    },
+    {
+     "label": "Duración",
+     "value": "1,97 años"
+    }
+   ],
+   "ter": {
+    "v": 1.28,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.69,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales emisores",
+     "items": [
+      {
+       "label": "Ford Motor Credit",
+       "value": "2,18%",
+       "pct": 2.18
+      },
+      {
+       "label": "General Motors Financial",
+       "value": "1,39%",
+       "pct": 1.39
+      },
+      {
+       "label": "DP World",
+       "value": "1,34%",
+       "pct": 1.34
+      },
+      {
+       "label": "BNP Paribas",
+       "value": "1,3%",
+       "pct": 1.3
+      },
+      {
+       "label": "NatWest Group",
+       "value": "1,24%",
+       "pct": 1.24
+      }
+     ]
+    },
+    {
+     "title": "Principales industrias",
+     "items": [
+      {
+       "label": "Banca",
+       "value": "19,1%",
+       "pct": 19.1
+      },
+      {
+       "label": "Automotriz",
+       "value": "11,12%",
+       "pct": 11.12
+      },
+      {
+       "label": "Servicios financieros",
+       "value": "9,12%",
+       "pct": 9.12
+      },
+      {
+       "label": "Real estate",
+       "value": "6,89%",
+       "pct": 6.89
+      },
+      {
+       "label": "Tecnología",
+       "value": "5,85%",
+       "pct": 5.85
+      }
+     ]
+    },
+    {
+     "title": "Exposición geográfica",
+     "items": [
+      {
+       "label": "Europa Occidental",
+       "value": "47,39%",
+       "pct": 47.39
+      },
+      {
+       "label": "EE. UU. y Canadá",
+       "value": "36,88%",
+       "pct": 36.88
+      },
+      {
+       "label": "África / Medio Oriente",
+       "value": "5,01%",
+       "pct": 5.01
+      },
+      {
+       "label": "Asia ex-Japón",
+       "value": "4,51%",
+       "pct": 4.51
+      },
+      {
+       "label": "Otros",
+       "value": "2,65%",
+       "pct": 2.65
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 18,
+   "mapSlide": 5
+  },
+  {
+   "isin": "LU0219442893",
+   "sheetIsin": "LU0219442893",
+   "name": "MFS Meridian Limited Maturity Fund",
+   "mapName": "MFS Meridian Funds-Limited Maturity A1 USD",
+   "manager": "MFS",
+   "balanz": false,
+   "cls": "A1 USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Corta Duración",
+   "pptCategory": "Renta Fija Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Corta duración",
+   "strategy": "Corta duración",
+   "intro": "Una solución conservadora de renta fija USD que combina alta calidad crediticia, ingreso y preservación de capital.",
+   "objective": "Buscar retorno total, con énfasis en ingreso corriente y preservación de capital medido en USD. Invierte en deuda corporativa, soberana y titulizada; construcción bottom-up y vencimiento promedio usualmente no mayor a cinco años. El universo incluye deuda corporativa, soberana y titulizada de alta calidad, seleccionada mediante research bottom-up. La disciplina de vencimiento —habitualmente hasta cinco años en promedio— procura equilibrar ingreso, estabilidad del NAV y liquidez.",
+   "aum": "1,20bn",
+   "returns": {
+    "ytd": {
+     "v": 0.89,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.18,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.3,
+     "d": 2
+    },
+    "m6": {
+     "v": 0.12,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.23,
+     "d": 2
+    },
+    "y3": {
+     "v": 4.3,
+     "d": 2
+    },
+    "y5": {
+     "v": 1.86,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.0,
+    "d": 2
+   },
+   "duration": {
+    "v": 1.9,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "5,00%"
+    },
+    {
+     "label": "Duración",
+     "value": "1,90 años"
+    }
+   ],
+   "ter": {
+    "v": 1.14,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.4,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Composición sectorial",
+     "items": [
+      {
+       "label": "Corporativos IG",
+       "value": "52,4%",
+       "pct": 52.4
+      },
+      {
+       "label": "US Treasuries",
+       "value": "39,5%",
+       "pct": 39.5
+      },
+      {
+       "label": "CLO",
+       "value": "12,8%",
+       "pct": 12.8
+      },
+      {
+       "label": "RMBS",
+       "value": "4,3%",
+       "pct": 4.3
+      },
+      {
+       "label": "CMBS",
+       "value": "1,4%",
+       "pct": 1.4
+      }
+     ]
+    },
+    {
+     "title": "Calidad crediticia",
+     "items": [
+      {
+       "label": "BBB",
+       "value": "37,1%",
+       "pct": 37.1
+      },
+      {
+       "label": "US Government",
+       "value": "23,9%",
+       "pct": 23.9
+      },
+      {
+       "label": "A",
+       "value": "16,8%",
+       "pct": 16.8
+      },
+      {
+       "label": "AAA",
+       "value": "11,8%",
+       "pct": 11.8
+      },
+      {
+       "label": "AA",
+       "value": "7,0%",
+       "pct": 7.0
+      }
+     ]
+    },
+    {
+     "title": "Datos de cartera",
+     "items": [
+      {
+       "label": "Número de emisiones",
+       "value": "318",
+       "pct": null
+      },
+      {
+       "label": "Número de emisores",
+       "value": "212",
+       "pct": null
+      },
+      {
+       "label": "Vencimiento efectivo",
+       "value": "2,8 años",
+       "pct": null
+      },
+      {
+       "label": "Duración efectiva",
+       "value": "1,9 años",
+       "pct": null
+      },
+      {
+       "label": "YTM",
+       "value": "5,0%",
+       "pct": 5.0
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 19,
+   "mapSlide": 5
+  },
+  {
+   "isin": "LU0154237225",
+   "sheetIsin": "LU0154237225",
+   "name": "BGF US Dollar Short Duration Bond Fund",
+   "mapName": "BGF US Dollar Short Duration Bond Fund A2 USD",
+   "manager": "BlackRock",
+   "balanz": false,
+   "cls": "A2 USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Corta Duración",
+   "pptCategory": "Renta Fija Corta Duración",
+   "asset": "rf",
+   "tag": "Renta fija | Corta duración",
+   "strategy": "Corta duración",
+   "intro": "Un bloque core de corta duración para capturar yield en dólares con amplia diversificación y riesgo de tasa contenido.",
+   "objective": "Maximizar retorno total con una exposición predominantemente investment grade en USD. Al menos 80% en renta fija IG y 70% en instrumentos denominados en USD con duración menor a cinco años; duración promedio máxima de tres años. Mantiene al menos 80% en renta fija investment grade y una duración media inferior a tres años, con predominio de instrumentos en USD. Gobierno, agencias, corporativos y MBS/ABS aportan fuentes diferenciadas de carry y diversificación.",
+   "aum": "1,19bn",
+   "returns": {
+    "ytd": {
+     "v": 1.03,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.32,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.45,
+     "d": 2
+    },
+    "m6": {
+     "v": 0.38,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.55,
+     "d": 2
+    },
+    "y3": {
+     "v": 4.58,
+     "d": 2
+    },
+    "y5": {
+     "v": 1.9,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.29,
+    "d": 2
+   },
+   "duration": {
+    "v": 1.99,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "5,29%"
+    },
+    {
+     "label": "Duración",
+     "value": "1,99 años"
+    }
+   ],
+   "ter": {
+    "v": 0.85,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.38,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "UST 3,5% 15/03/29",
+       "value": "4,47%",
+       "pct": 4.47
+      },
+      {
+       "label": "FNMA 25-44B",
+       "value": "2,97%",
+       "pct": 2.97
+      },
+      {
+       "label": "UST 3,5% 15/01/29",
+       "value": "2,31%",
+       "pct": 2.31
+      },
+      {
+       "label": "FHLMC 5547",
+       "value": "1,83%",
+       "pct": 1.83
+      },
+      {
+       "label": "UST 3,375% 29/02/28",
+       "value": "1,76%",
+       "pct": 1.76
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Treasuries",
+       "value": "40,73%",
+       "pct": 40.73
+      },
+      {
+       "label": "Industriales IG",
+       "value": "17,18%",
+       "pct": 17.18
+      },
+      {
+       "label": "ABS",
+       "value": "15,72%",
+       "pct": 15.72
+      },
+      {
+       "label": "Financieras IG",
+       "value": "14,86%",
+       "pct": 14.86
+      },
+      {
+       "label": "Agency CMOs",
+       "value": "9,19%",
+       "pct": 9.19
+      }
+     ]
+    },
+    {
+     "title": "Vencimientos",
+     "items": [
+      {
+       "label": "0-1 año",
+       "value": "10,87%",
+       "pct": 10.87
+      },
+      {
+       "label": "1-2 años",
+       "value": "19,29%",
+       "pct": 19.29
+      },
+      {
+       "label": "2-3 años",
+       "value": "25,4%",
+       "pct": 25.4
+      },
+      {
+       "label": "3-5 años",
+       "value": "36,28%",
+       "pct": 36.28
+      },
+      {
+       "label": "5-7 años",
+       "value": "12,86%",
+       "pct": 12.86
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 20,
+   "mapSlide": 5
+  },
+  {
+   "isin": "IE00B7KFL990",
+   "sheetIsin": "IE00B7KFL990",
+   "name": "PIMCO Income Fund",
+   "mapName": "PIMCO GIS Income E Cl USD Acc",
+   "manager": "PIMCO",
+   "balanz": false,
+   "cls": "E (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija Income (Flexible)",
+   "pptCategory": "Renta Fija Income (Flexible)",
+   "asset": "rf",
+   "tag": "Renta fija | Income",
+   "strategy": "Income",
+   "intro": "Una de las mayores estrategias de renta fija multisectorial del mundo, diseñada para generar income resiliente a través del ciclo.",
+   "objective": "Buscar un elevado ingreso corriente, consistente con preservación de capital y gestión prudente. Asignación multisectorial flexible entre crédito, MBS, deuda soberana y emergente; gestión activa de duración y liquidez. El mandato multisectorial rota entre MBS de agencia y no agencia, crédito corporativo, soberanos y emergentes. La gestión combina un bloque defensivo con activos de mayor spread y administra activamente duración, liquidez, curva y derivados.",
+   "aum": "122,9bn",
+   "returns": {
+    "ytd": {
+     "v": 0.0,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.34,
+     "d": 2
+    },
+    "m3": {
+     "v": -0.5,
+     "d": 2
+    },
+    "m6": {
+     "v": -1.55,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.89,
+     "d": 2
+    },
+    "y3": {
+     "v": 5.97,
+     "d": 2
+    },
+    "y5": {
+     "v": 2.4,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 7.32,
+    "d": 2
+   },
+   "duration": {
+    "v": 6.73,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "7,32%"
+    },
+    {
+     "label": "Duración",
+     "value": "6,73 años"
+    }
+   ],
+   "ter": {
+    "v": 1.45,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.65,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "MBS de agencias",
+       "value": "35,8%",
+       "pct": 35.8
+      },
+      {
+       "label": "Crédito IG",
+       "value": "15,3%",
+       "pct": 15.3
+      },
+      {
+       "label": "Gobierno relacionado",
+       "value": "14,4%",
+       "pct": 14.4
+      },
+      {
+       "label": "Mercados emergentes",
+       "value": "7,3%",
+       "pct": 7.3
+      },
+      {
+       "label": "Efectivo y equivalentes",
+       "value": "6,5%",
+       "pct": 6.5
+      }
+     ]
+    },
+    {
+     "title": "Contribución a duración",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "76,3%",
+       "pct": 76.3
+      },
+      {
+       "label": "Reino Unido",
+       "value": "11,1%",
+       "pct": 11.1
+      },
+      {
+       "label": "Australia",
+       "value": "5,8%",
+       "pct": 5.8
+      },
+      {
+       "label": "Sudáfrica",
+       "value": "1,5%",
+       "pct": 1.5
+      },
+      {
+       "label": "Unión Europea",
+       "value": "1,5%",
+       "pct": 1.5
+      }
+     ]
+    },
+    {
+     "title": "Vencimientos",
+     "items": [
+      {
+       "label": "0-1 año",
+       "value": "0,1%",
+       "pct": 0.1
+      },
+      {
+       "label": "1-3 años",
+       "value": "0,0%",
+       "pct": 0.0
+      },
+      {
+       "label": "3-5 años",
+       "value": "28,5%",
+       "pct": 28.5
+      },
+      {
+       "label": "5-10 años",
+       "value": "55,2%",
+       "pct": 55.2
+      },
+      {
+       "label": "10-20 años",
+       "value": "11,2%",
+       "pct": 11.2
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 21,
+   "mapSlide": 5
+  },
+  {
+   "isin": "IE00B87L2R26",
+   "sheetIsin": "IE00B87L2R26",
+   "name": "Neuberger Berman Strategic Income Fund",
+   "mapName": "NB Strategic Income A USD Acc",
+   "manager": "Neuberger Berman",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija Income (Flexible)",
+   "pptCategory": "Renta Fija Income (Flexible)",
+   "asset": "rf",
+   "tag": "Renta fija | Income",
+   "strategy": "Income",
+   "intro": "Renta fija global flexible con diversificación por sectores, calidades crediticias y fuentes de ingreso.",
+   "objective": "Buscar un nivel atractivo de renta corriente y apreciación de capital mediante una cartera global y diversificada de instrumentos de renta fija. La estrategia puede invertir de forma flexible entre deuda pública, crédito corporativo investment grade y high yield, activos titulizados y mercados emergentes, ajustando duración, calidad y exposición sectorial según las condiciones de mercado.",
+   "aum": "7,60bn",
+   "returns": {
+    "ytd": {
+     "v": 0.21,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.57,
+     "d": 2
+    },
+    "m3": {
+     "v": -0.36,
+     "d": 2
+    },
+    "m6": {
+     "v": -1.27,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.33,
+     "d": 2
+    },
+    "y3": {
+     "v": 6.03,
+     "d": 2
+    },
+    "y5": {
+     "v": 1.92,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 7.12,
+    "d": 2
+   },
+   "duration": {
+    "v": 5.38,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "7,12%"
+    },
+    {
+     "label": "Duración",
+     "value": "5,38 años"
+    }
+   ],
+   "ter": {
+    "v": 1.08,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.5,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Agency MBS",
+       "value": "29,44%",
+       "pct": 29.44
+      },
+      {
+       "label": "Crédito IG",
+       "value": "24,57%",
+       "pct": 24.57
+      },
+      {
+       "label": "Crédito no-IG",
+       "value": "23,69%",
+       "pct": 23.69
+      },
+      {
+       "label": "Crédito titulizado",
+       "value": "21,14%",
+       "pct": 21.14
+      },
+      {
+       "label": "Deuda emergente",
+       "value": "10,04%",
+       "pct": 10.04
+      }
+     ]
+    },
+    {
+     "title": "Calidad crediticia",
+     "items": [
+      {
+       "label": "AA",
+       "value": "36,85%",
+       "pct": 36.85
+      },
+      {
+       "label": "BBB",
+       "value": "23,58%",
+       "pct": 23.58
+      },
+      {
+       "label": "BB",
+       "value": "17,1%",
+       "pct": 17.1
+      },
+      {
+       "label": "A",
+       "value": "14,29%",
+       "pct": 14.29
+      },
+      {
+       "label": "B",
+       "value": "10,61%",
+       "pct": 10.61
+      }
+     ]
+    },
+    {
+     "title": "Distribución regional",
+     "items": [
+      {
+       "label": "Norteamérica",
+       "value": "83,68%",
+       "pct": 83.68
+      },
+      {
+       "label": "Europa ex-UK",
+       "value": "11,92%",
+       "pct": 11.92
+      },
+      {
+       "label": "LatAm emergente",
+       "value": "5,98%",
+       "pct": 5.98
+      },
+      {
+       "label": "Asia emergente + MEA",
+       "value": "3,85%",
+       "pct": 3.85
+      },
+      {
+       "label": "Reino Unido",
+       "value": "3,28%",
+       "pct": 3.28
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 23,
+   "mapSlide": 5
+  },
+  {
+   "isin": "LU1737068558",
+   "sheetIsin": "LU1737068558",
+   "name": "Schroder ISF Global Credit Income",
+   "mapName": "Schroder ISF Global Credit Income A Acc USD",
+   "manager": "Schroders",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija Income (Flexible)",
+   "pptCategory": "Renta Fija Income (Flexible)",
+   "asset": "rf",
+   "tag": "Renta fija | Income",
+   "strategy": "Income",
+   "intro": "Crédito global flexible para ampliar las fuentes de carry entre sectores, ratings y geografías.",
+   "objective": "Proporcionar ingreso y crecimiento de capital invirtiendo en bonos de gobiernos y compañías de todo el mundo. Gestión activa de instrumentos a tasa fija y flotante, con capacidad de rotar entre IG, high yield y geografías. La cartera puede rotar entre investment grade, high yield, soberanos y deuda a tasa flotante. La asignación por sector y geografía se complementa con selección fundamental de emisores y gestión activa de duración y divisas.",
+   "aum": "8,36bn",
+   "returns": {
+    "ytd": {
+     "v": 0.68,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.24,
+     "d": 2
+    },
+    "m3": {
+     "v": -0.02,
+     "d": 2
+    },
+    "m6": {
+     "v": -0.47,
+     "d": 2
+    },
+    "y1": {
+     "v": 2.52,
+     "d": 2
+    },
+    "y3": {
+     "v": 6.94,
+     "d": 2
+    },
+    "y5": {
+     "v": 1.91,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 6.8,
+    "d": 2
+   },
+   "duration": {
+    "v": 4.7,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "6,80%"
+    },
+    {
+     "label": "Duración",
+     "value": "4,70 años"
+    }
+   ],
+   "ter": {
+    "v": 1.4,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.55,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "FNMA 5853 5,5%",
+       "value": "2,0%",
+       "pct": 2.0
+      },
+      {
+       "label": "GNMA II 5,5%",
+       "value": "1,8%",
+       "pct": 1.8
+      },
+      {
+       "label": "FHLMC UMBS 5,5%",
+       "value": "1,8%",
+       "pct": 1.8
+      },
+      {
+       "label": "FHLMC RQ0084 5,0%",
+       "value": "1,4%",
+       "pct": 1.4
+      },
+      {
+       "label": "FNMA 5761 6,0%",
+       "value": "1,3%",
+       "pct": 1.3
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Industriales",
+       "value": "35,8%",
+       "pct": 35.8
+      },
+      {
+       "label": "Financieras",
+       "value": "33,5%",
+       "pct": 33.5
+      },
+      {
+       "label": "Bonos titulizados",
+       "value": "20,7%",
+       "pct": 20.7
+      },
+      {
+       "label": "Soberanos extranjeros",
+       "value": "3,8%",
+       "pct": 3.8
+      },
+      {
+       "label": "Soberanos",
+       "value": "3,1%",
+       "pct": 3.1
+      }
+     ]
+    },
+    {
+     "title": "Desglose geográfico",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "48,7%",
+       "pct": 48.7
+      },
+      {
+       "label": "Otros",
+       "value": "18,7%",
+       "pct": 18.7
+      },
+      {
+       "label": "Reino Unido",
+       "value": "8,3%",
+       "pct": 8.3
+      },
+      {
+       "label": "Alemania",
+       "value": "5,1%",
+       "pct": 5.1
+      },
+      {
+       "label": "México",
+       "value": "2,8%",
+       "pct": 2.8
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 22,
+   "mapSlide": 5
+  },
+  {
+   "isin": "LU2750480548",
+   "sheetIsin": "LU2750480548",
+   "name": "Wellington Credit Total Return Fund",
+   "mapName": "Wellington Credit Total Return Fund USD D AccU",
+   "manager": "Wellington",
+   "balanz": false,
+   "cls": "D (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija Income (Flexible)",
+   "pptCategory": "Renta Fija Income (Flexible)",
+   "asset": "rf",
+   "tag": "Renta fija | Income",
+   "strategy": "Income",
+   "intro": "Una cartera total return concentrada en las mejores ideas de crédito y Treasuries, con asignación sectorial dinámica.",
+   "objective": "Generar retorno total de largo plazo con una cartera long-only de cash y bonos. Universo concentrado en Treasuries, crédito corporativo y deuda emergente seleccionada; asignación dinámica por sector y security selection. Aplica un enfoque total return long-only. La concentración en ideas de mayor convicción y la rotación sectorial buscan monetizar ineficiencias de valoración y cambios del ciclo crediticio.",
+   "aum": "1,50bn",
+   "returns": {
+    "ytd": {
+     "v": -0.26,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.19,
+     "d": 2
+    },
+    "m3": {
+     "v": -0.63,
+     "d": 2
+    },
+    "m6": {
+     "v": -1.53,
+     "d": 2
+    },
+    "y1": {
+     "v": 0.96,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.4,
+    "d": 2
+   },
+   "duration": {
+    "v": 5.0,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "5,40%"
+    },
+    {
+     "label": "Duración",
+     "value": "5,00 años"
+    }
+   ],
+   "ter": {
+    "v": 1.25,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.5,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Distribución por sectores",
+     "items": [
+      {
+       "label": "Treasury + caja",
+       "value": "56,8%",
+       "pct": 56.8
+      },
+      {
+       "label": "IG desarrollados",
+       "value": "32,6%",
+       "pct": 32.6
+      },
+      {
+       "label": "HY desarrollados",
+       "value": "4,0%",
+       "pct": 4.0
+      },
+      {
+       "label": "HY emergentes",
+       "value": "3,3%",
+       "pct": 3.3
+      },
+      {
+       "label": "IG emergentes",
+       "value": "3,3%",
+       "pct": 3.3
+      }
+     ]
+    },
+    {
+     "title": "Principales sectores ex-Treasury",
+     "items": [
+      {
+       "label": "Utilities eléctricas",
+       "value": "6,6%",
+       "pct": 6.6
+      },
+      {
+       "label": "Banca",
+       "value": "6,1%",
+       "pct": 6.1
+      },
+      {
+       "label": "Comunicaciones",
+       "value": "5,9%",
+       "pct": 5.9
+      },
+      {
+       "label": "Consumo cíclico",
+       "value": "5,1%",
+       "pct": 5.1
+      },
+      {
+       "label": "Tecnología",
+       "value": "3,9%",
+       "pct": 3.9
+      }
+     ]
+    },
+    {
+     "title": "Calidad crediticia",
+     "items": [
+      {
+       "label": "AA",
+       "value": "53,0%",
+       "pct": 53.0
+      },
+      {
+       "label": "BBB",
+       "value": "24,1%",
+       "pct": 24.1
+      },
+      {
+       "label": "A",
+       "value": "10,5%",
+       "pct": 10.5
+      },
+      {
+       "label": "BB",
+       "value": "10,1%",
+       "pct": 10.1
+      },
+      {
+       "label": "B",
+       "value": "2,2%",
+       "pct": 2.2
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 24,
+   "mapSlide": 5
+  },
+  {
+   "isin": "LU0131126228",
+   "sheetIsin": "LU0131126228",
+   "name": "Franklin High Yield Fund",
+   "mapName": "Franklin High Yield Fund A (acc) USD",
+   "manager": "Franklin Templeton",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija High Yield",
+   "pptCategory": "Renta Fija High Yield",
+   "asset": "rf",
+   "tag": "Renta fija | EM / High Yield",
+   "strategy": "EM / High Yield",
+   "intro": "High yield estadounidense orientado a maximizar ingreso mediante selección fundamental y diversificación por emisor.",
+   "objective": "Buscar un alto nivel de ingreso corriente y apreciación de capital de largo plazo. Invierte principalmente en deuda corporativa high yield de EE. UU., con análisis fundamental bottom-up y diversificación por emisor. La cartera se concentra en deuda corporativa sub-investment grade estadounidense y puede incorporar préstamos de tasa flotante. El research bottom-up evalúa capacidad de servicio, estructura de capital y recupero esperado, diversificando el riesgo de default por emisor.",
+   "aum": "1,25bn",
+   "returns": {
+    "ytd": {
+     "v": 2.18,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.98,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.82,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.34,
+     "d": 2
+    },
+    "y1": {
+     "v": 4.37,
+     "d": 2
+    },
+    "y3": {
+     "v": 7.82,
+     "d": 2
+    },
+    "y5": {
+     "v": 3.76,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 7.35,
+    "d": 2
+   },
+   "duration": {
+    "v": 2.93,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "7,35%"
+    },
+    {
+     "label": "Duración",
+     "value": "2,93 años"
+    }
+   ],
+   "ter": {
+    "v": 1.51,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.4,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "CCO Holdings",
+       "value": "1,8%",
+       "pct": 1.8
+      },
+      {
+       "label": "Carnival",
+       "value": "1,27%",
+       "pct": 1.27
+      },
+      {
+       "label": "Community Health",
+       "value": "1,04%",
+       "pct": 1.04
+      },
+      {
+       "label": "Jane Street",
+       "value": "1,04%",
+       "pct": 1.04
+      },
+      {
+       "label": "Millrose Properties",
+       "value": "1,03%",
+       "pct": 1.03
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Finanzas",
+       "value": "15,98%",
+       "pct": 15.98
+      },
+      {
+       "label": "Energía",
+       "value": "12,3%",
+       "pct": 12.3
+      },
+      {
+       "label": "Tecnología",
+       "value": "8,31%",
+       "pct": 8.31
+      },
+      {
+       "label": "Salud",
+       "value": "6,59%",
+       "pct": 6.59
+      },
+      {
+       "label": "Medios inalámbricos",
+       "value": "5,88%",
+       "pct": 5.88
+      }
+     ]
+    },
+    {
+     "title": "Calidad crediticia",
+     "items": [
+      {
+       "label": "BB",
+       "value": "50,36%",
+       "pct": 50.36
+      },
+      {
+       "label": "B",
+       "value": "34,0%",
+       "pct": 34.0
+      },
+      {
+       "label": "CCC",
+       "value": "8,44%",
+       "pct": 8.44
+      },
+      {
+       "label": "BBB",
+       "value": "4,67%",
+       "pct": 4.67
+      },
+      {
+       "label": "Sin clasificar",
+       "value": "0,62%",
+       "pct": 0.62
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 27,
+   "mapSlide": 5
+  },
+  {
+   "isin": "IE00BK71B469",
+   "sheetIsin": "IE00BK71B469",
+   "name": "Barings Global Senior Secured Bond Fund",
+   "mapName": "Barings Global Senior Secured Bond Fund A1 USD Acc",
+   "manager": "Barings",
+   "balanz": false,
+   "cls": "A1 (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija High Yield",
+   "pptCategory": "Renta Fija High Yield",
+   "asset": "rf",
+   "tag": "Renta fija | EM / High Yield",
+   "strategy": "EM / High Yield",
+   "intro": "High yield global senior secured, donde seniority y colateral buscan mejorar la protección relativa ante defaults.",
+   "objective": "Proveer alto ingreso corriente y, cuando corresponda, apreciación de capital con un perfil riesgo/retorno atractivo. Cartera diversificada de instrumentos high yield senior secured negociados en Europa y Norteamérica. Invierte en bonos high yield senior secured de Norteamérica y Europa. La prioridad contractual y el respaldo de activos pueden mejorar el recupero relativo, aunque no eliminan el riesgo de default; la selección analiza covenants, colateral y liquidez.",
+   "aum": "3,29bn",
+   "returns": {
+    "ytd": {
+     "v": 2.18,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.75,
+     "d": 2
+    },
+    "m3": {
+     "v": 1.05,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.75,
+     "d": 2
+    },
+    "y1": {
+     "v": 3.92,
+     "d": 2
+    },
+    "y3": {
+     "v": 7.62,
+     "d": 2
+    },
+    "y5": {
+     "v": 3.83,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 7.34,
+    "d": 2
+   },
+   "duration": {
+    "v": 2.77,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "7,34%"
+    },
+    {
+     "label": "Duración",
+     "value": "2,77 años"
+    }
+   ],
+   "ter": {
+    "v": 1.29,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.6,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales emisores",
+     "items": [
+      {
+       "label": "ADT / Protection One",
+       "value": "1,65%",
+       "pct": 1.65
+      },
+      {
+       "label": "Uniti Group",
+       "value": "1,58%",
+       "pct": 1.58
+      },
+      {
+       "label": "Tenet Healthcare",
+       "value": "1,43%",
+       "pct": 1.43
+      },
+      {
+       "label": "Midwest Gaming",
+       "value": "1,29%",
+       "pct": 1.29
+      },
+      {
+       "label": "Bausch Health",
+       "value": "1,21%",
+       "pct": 1.21
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Telecomunicaciones",
+       "value": "15,04%",
+       "pct": 15.04
+      },
+      {
+       "label": "Salud",
+       "value": "13,09%",
+       "pct": 13.09
+      },
+      {
+       "label": "Ocio",
+       "value": "8,63%",
+       "pct": 8.63
+      },
+      {
+       "label": "Servicios",
+       "value": "8,1%",
+       "pct": 8.1
+      },
+      {
+       "label": "Medios",
+       "value": "6,75%",
+       "pct": 6.75
+      }
+     ]
+    },
+    {
+     "title": "Exposición regional",
+     "items": [
+      {
+       "label": "Norteamérica",
+       "value": "66,07%",
+       "pct": 66.07
+      },
+      {
+       "label": "Europa",
+       "value": "30,21%",
+       "pct": 30.21
+      },
+      {
+       "label": "Resto del mundo",
+       "value": "1,44%",
+       "pct": 1.44
+      },
+      {
+       "label": "Caja y equivalentes",
+       "value": "2,28%",
+       "pct": 2.28
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 28,
+   "mapSlide": 5
+  },
+  {
+   "isin": "XS2707193509",
+   "sheetIsin": "XS2707193509",
+   "name": "Balanz Fixed Income Latam",
+   "mapName": "Balanz Fixed Income Latam",
+   "manager": "Balanz",
+   "balanz": true,
+   "cls": "USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Mercados Emergentes",
+   "pptCategory": "Renta Fija Corporativos Latam",
+   "asset": "rf",
+   "tag": "Renta fija | Corporativos Latam",
+   "strategy": "Corporativos Latam",
+   "intro": "Crédito corporativo latinoamericano en dólares, con diversificación regional y una duración moderada.",
+   "objective": "Tiene como objetivo generar un nivel de retorno a través de la inversión en instrumentos de renta fija de Latinoamérica. Principalmente, se invertirá en bonos denominados en dólares estadounidenses emitidos por empresas o entidades establecidas en países de Latinoamérica, o que la mayor parte de sus actividades o ingresos provengan de la región. De acuerdo a la estrategia del comité de inversiones y las condiciones de mercado, puede invertir en bonos de alta calidad y de alto rendimiento, con diferentes vencimientos.",
+   "aum": "113,86m",
+   "returns": {
+    "ytd": {
+     "v": 3.12,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.75,
+     "d": 2
+    },
+    "m3": {
+     "v": 1.26,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.52,
+     "d": 2
+    },
+    "y1": {
+     "v": 5.55,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 6.75,
+    "d": 2
+   },
+   "duration": {
+    "v": 2.97,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "6,75%"
+    },
+    {
+     "label": "Duración",
+     "value": "2,97 años"
+    }
+   ],
+   "ter": {
+    "v": 1.37,
+    "d": 2
+   },
+   "trailer": {
+    "v": 1.0,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales emisores",
+     "items": [
+      {
+       "label": "Ecopetrol",
+       "value": "3,8%",
+       "pct": 3.8
+      },
+      {
+       "label": "Karoon Energy",
+       "value": "2,7%",
+       "pct": 2.7
+      },
+      {
+       "label": "Volcan Compañía Minera",
+       "value": "2,7%",
+       "pct": 2.7
+      },
+      {
+       "label": "Samarco Mineração",
+       "value": "2,7%",
+       "pct": 2.7
+      },
+      {
+       "label": "AI Candelaria",
+       "value": "2,6%",
+       "pct": 2.6
+      },
+      {
+       "label": "Saavi Energía",
+       "value": "2,5%",
+       "pct": 2.5
+      },
+      {
+       "label": "MC Brazil Downstream",
+       "value": "2,5%",
+       "pct": 2.5
+      },
+      {
+       "label": "EnfraGen",
+       "value": "2,5%",
+       "pct": 2.5
+      },
+      {
+       "label": "Cemex",
+       "value": "2,4%",
+       "pct": 2.4
+      },
+      {
+       "label": "Termocandelaria Power",
+       "value": "2,4%",
+       "pct": 2.4
+      }
+     ]
+    },
+    {
+     "title": "Distribución por país",
+     "items": [
+      {
+       "label": "Brasil",
+       "value": "31,0%",
+       "pct": 31.0
+      },
+      {
+       "label": "México",
+       "value": "20,0%",
+       "pct": 20.0
+      },
+      {
+       "label": "Colombia",
+       "value": "18,0%",
+       "pct": 18.0
+      },
+      {
+       "label": "Perú",
+       "value": "16,0%",
+       "pct": 16.0
+      },
+      {
+       "label": "Chile",
+       "value": "12,0%",
+       "pct": 12.0
+      },
+      {
+       "label": "Otros",
+       "value": "3,0%",
+       "pct": 3.0
+      }
+     ]
+    },
+    {
+     "title": "Distribución por sector",
+     "items": [
+      {
+       "label": "Energía",
+       "value": "26,0%",
+       "pct": 26.0
+      },
+      {
+       "label": "Servicios financieros",
+       "value": "18,0%",
+       "pct": 18.0
+      },
+      {
+       "label": "Utilities",
+       "value": "17,0%",
+       "pct": 17.0
+      },
+      {
+       "label": "Metales y minería",
+       "value": "12,0%",
+       "pct": 12.0
+      },
+      {
+       "label": "Consumo",
+       "value": "7,0%",
+       "pct": 7.0
+      },
+      {
+       "label": "Alimentos y tabaco",
+       "value": "7,0%",
+       "pct": 7.0
+      },
+      {
+       "label": "Aerolíneas",
+       "value": "5,0%",
+       "pct": 5.0
+      },
+      {
+       "label": "Transporte",
+       "value": "4,0%",
+       "pct": 4.0
+      },
+      {
+       "label": "Materiales",
+       "value": "3,0%",
+       "pct": 3.0
+      },
+      {
+       "label": "Salud",
+       "value": "2,0%",
+       "pct": 2.0
+      }
+     ]
+    }
+   ],
+   "compDate": "31/08",
+   "slide": 9,
+   "mapSlide": 4
+  },
+  {
+   "isin": "IE00BDZRXR46",
+   "sheetIsin": "IE00BDZRXR46",
+   "name": "Neuberger Berman Short Duration Emerging Market Debt",
+   "mapName": "Neuberger Short Duration EM Dbt USD A Acc",
+   "manager": "Neuberger Berman",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija Mercados Emergentes",
+   "pptCategory": "Renta Fija Mercados Emergentes",
+   "asset": "rf",
+   "tag": "Renta fija | EM / High Yield",
+   "strategy": "EM / High Yield",
+   "intro": "Spread emergente con menor duración que el universo amplio, buscando una relación carry–volatilidad más eficiente.",
+   "objective": "Lograr, antes de comisiones, un retorno promedio objetivo de 3% sobre cash a través de un ciclo. Cartera diversificada de deuda emergente de corta duración, principalmente en moneda dura, con selección soberana y corporativa. Invierte principalmente en deuda soberana y corporativa emergente en moneda dura, con vencimientos acotados. La selección por país y emisor busca capturar spread emergente reduciendo la duración y la volatilidad frente al universo EM amplio.",
+   "aum": "5,38bn",
+   "returns": {
+    "ytd": {
+     "v": 2.38,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.62,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.9,
+     "d": 2
+    },
+    "m6": {
+     "v": 1.17,
+     "d": 2
+    },
+    "y1": {
+     "v": 4.87,
+     "d": 2
+    },
+    "y3": {
+     "v": 7.85,
+     "d": 2
+    },
+    "y5": {
+     "v": 3.28,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.97,
+    "d": 2
+   },
+   "duration": {
+    "v": 2.66,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "5,97%"
+    },
+    {
+     "label": "Duración",
+     "value": "2,66 años"
+    }
+   ],
+   "ter": {
+    "v": 1.06,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.5,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales emisores",
+     "items": [
+      {
+       "label": "Rumania",
+       "value": "5,17%",
+       "pct": 5.17
+      },
+      {
+       "label": "Colombia",
+       "value": "3,89%",
+       "pct": 3.89
+      },
+      {
+       "label": "Pemex",
+       "value": "3,26%",
+       "pct": 3.26
+      },
+      {
+       "label": "Costa de Marfil",
+       "value": "2,86%",
+       "pct": 2.86
+      },
+      {
+       "label": "Argentina",
+       "value": "2,06%",
+       "pct": 2.06
+      }
+     ]
+    },
+    {
+     "title": "Asignación por activo",
+     "items": [
+      {
+       "label": "Corporativos",
+       "value": "42,33%",
+       "pct": 42.33
+      },
+      {
+       "label": "Soberanos",
+       "value": "27,86%",
+       "pct": 27.86
+      },
+      {
+       "label": "Cuasi soberanos",
+       "value": "19,44%",
+       "pct": 19.44
+      },
+      {
+       "label": "Supranacionales",
+       "value": "3,69%",
+       "pct": 3.69
+      },
+      {
+       "label": "Caja y equivalentes",
+       "value": "6,05%",
+       "pct": 6.05
+      }
+     ]
+    },
+    {
+     "title": "Principales países",
+     "items": [
+      {
+       "label": "Arabia Saudita",
+       "value": "8,76%",
+       "pct": 8.76
+      },
+      {
+       "label": "Emiratos Árabes",
+       "value": "7,93%",
+       "pct": 7.93
+      },
+      {
+       "label": "Colombia",
+       "value": "6,78%",
+       "pct": 6.78
+      },
+      {
+       "label": "México",
+       "value": "6,51%",
+       "pct": 6.51
+      },
+      {
+       "label": "Brasil",
+       "value": "5,22%",
+       "pct": 5.22
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 25,
+   "mapSlide": 5
+  },
+  {
+   "isin": "LU0795632180",
+   "sheetIsin": "LU0795632180",
+   "name": "Schroder ISF Emerging Market Bond",
+   "mapName": "Schroder ISF Emerging Market Bond A Acc USD",
+   "manager": "Schroders",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Fija Mercados Emergentes",
+   "pptCategory": "Renta Fija Mercados Emergentes",
+   "asset": "rf",
+   "tag": "Renta fija | EM / High Yield",
+   "strategy": "EM / High Yield",
+   "intro": "Deuda emergente diversificada con gestión activa soberana y corporativa para capturar carry y compresión de spreads.",
+   "objective": "Generar crecimiento de capital e ingreso por encima del JP Morgan Emerging Market Blend en tres a cinco años. Invierte en bonos de gobiernos, agencias, supranacionales y compañías de mercados emergentes. El universo comprende soberanos, cuasi soberanos, supranacionales y corporativos emergentes. La gestión toma posiciones activas por país, curva y emisor para generar carry y apreciación por compresión de spreads frente al benchmark.",
+   "aum": "2,25bn",
+   "returns": {
+    "ytd": {
+     "v": 1.86,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.56,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.26,
+     "d": 2
+    },
+    "m6": {
+     "v": -0.76,
+     "d": 2
+    },
+    "y1": {
+     "v": 6.8,
+     "d": 2
+    },
+    "y3": {
+     "v": 9.53,
+     "d": 2
+    },
+    "y5": {
+     "v": 2.65,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 8.6,
+    "d": 2
+   },
+   "duration": {
+    "v": 6.2,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "8,60%"
+    },
+    {
+     "label": "Duración",
+     "value": "6,20 años"
+    }
+   ],
+   "ter": {
+    "v": 1.29,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.5,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Brasil NTN-F 2027",
+       "value": "2,5%",
+       "pct": 2.5
+      },
+      {
+       "label": "US Treasury Bill",
+       "value": "2,4%",
+       "pct": 2.4
+      },
+      {
+       "label": "Argentina 2035",
+       "value": "2,4%",
+       "pct": 2.4
+      },
+      {
+       "label": "Hungría 2031",
+       "value": "2,0%",
+       "pct": 2.0
+      },
+      {
+       "label": "México 2036",
+       "value": "2,0%",
+       "pct": 2.0
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Soberanos",
+       "value": "62,5%",
+       "pct": 62.5
+      },
+      {
+       "label": "Financieras",
+       "value": "10,7%",
+       "pct": 10.7
+      },
+      {
+       "label": "Utilities",
+       "value": "6,6%",
+       "pct": 6.6
+      },
+      {
+       "label": "Derivados",
+       "value": "5,6%",
+       "pct": 5.6
+      },
+      {
+       "label": "Petróleo y gas",
+       "value": "4,6%",
+       "pct": 4.6
+      }
+     ]
+    },
+    {
+     "title": "Principales países",
+     "items": [
+      {
+       "label": "México",
+       "value": "12,1%",
+       "pct": 12.1
+      },
+      {
+       "label": "Brasil",
+       "value": "11,6%",
+       "pct": 11.6
+      },
+      {
+       "label": "Colombia",
+       "value": "8,8%",
+       "pct": 8.8
+      },
+      {
+       "label": "Sudáfrica",
+       "value": "5,9%",
+       "pct": 5.9
+      },
+      {
+       "label": "Egipto",
+       "value": "5,0%",
+       "pct": 5.0
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 26,
+   "mapSlide": 5
+  },
+  {
+   "isin": "LU0940382277",
+   "sheetIsin": "LU0940382277",
+   "name": "BSF Emerging Markets Flexi Dynamic Bond Fund",
+   "mapName": "BSF Emerging Markets Flexi Dyn Bd A2 USD",
+   "manager": "BlackRock",
+   "balanz": false,
+   "cls": "A2 USD Acc",
+   "currency": "USD",
+   "category": "Renta Fija Mercados Emergentes",
+   "pptCategory": "Renta Fija Mercados Emergentes",
+   "asset": "rf",
+   "tag": "Renta fija | EM / High Yield",
+   "strategy": "EM / High Yield",
+   "intro": "Una estrategia emergente flexible que rota entre tasas, monedas y crédito para ampliar el set de oportunidades.",
+   "objective": "Maximizar retorno total mediante una cartera flexible de deuda y monedas emergentes. Puede rotar entre soberanos y corporativos, hard/local currency, posiciones largas/cortas y derivados. El mandato flexible permite combinar deuda soberana y corporativa, moneda dura y local, FX y derivados. La gestión ajusta duración, exposición cambiaria y beta de crédito según valuaciones y escenario macro, con un perfil de riesgo superior al EM tradicional.",
+   "aum": "1,50bn",
+   "returns": {
+    "ytd": {
+     "v": 2.79,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.61,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.75,
+     "d": 2
+    },
+    "m6": {
+     "v": -0.55,
+     "d": 2
+    },
+    "y1": {
+     "v": 7.69,
+     "d": 2
+    },
+    "y3": {
+     "v": 8.44,
+     "d": 2
+    },
+    "y5": {
+     "v": 2.76,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 7.5,
+    "d": 2
+   },
+   "duration": {
+    "v": 5.01,
+    "d": 2
+   },
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "YTM bruta",
+     "value": "7,50%"
+    },
+    {
+     "label": "Duración",
+     "value": "5,01 años"
+    }
+   ],
+   "ter": {
+    "v": 1.78,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Pemex 5,95% 2031",
+       "value": "2,73%",
+       "pct": 2.73
+      },
+      {
+       "label": "Colombia 13,25% 2033",
+       "value": "2,24%",
+       "pct": 2.24
+      },
+      {
+       "label": "Polonia 5% 2035",
+       "value": "2,07%",
+       "pct": 2.07
+      },
+      {
+       "label": "Polonia 5% 2030",
+       "value": "1,98%",
+       "pct": 1.98
+      },
+      {
+       "label": "México 7,75% 2042",
+       "value": "1,69%",
+       "pct": 1.69
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Deuda soberana local",
+       "value": "36,31%",
+       "pct": 36.31
+      },
+      {
+       "label": "Deuda soberana externa",
+       "value": "35,02%",
+       "pct": 35.02
+      },
+      {
+       "label": "Cuasi soberanos",
+       "value": "10,73%",
+       "pct": 10.73
+      },
+      {
+       "label": "Corporativos hard currency",
+       "value": "8,76%",
+       "pct": 8.76
+      },
+      {
+       "label": "Caja y derivados",
+       "value": "7,44%",
+       "pct": 7.44
+      }
+     ]
+    },
+    {
+     "title": "Calidad crediticia",
+     "items": [
+      {
+       "label": "BBB",
+       "value": "24,59%",
+       "pct": 24.59
+      },
+      {
+       "label": "BB",
+       "value": "24,93%",
+       "pct": 24.93
+      },
+      {
+       "label": "B",
+       "value": "17,38%",
+       "pct": 17.38
+      },
+      {
+       "label": "A",
+       "value": "12,83%",
+       "pct": 12.83
+      },
+      {
+       "label": "CCC",
+       "value": "6,88%",
+       "pct": 6.88
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 29,
+   "mapSlide": 5
+  },
+  {
+   "isin": "XS2707193418",
+   "sheetIsin": "XS2707193418",
+   "name": "Balanz Balanced",
+   "mapName": "Balanz Balanced",
+   "manager": "Balanz",
+   "balanz": true,
+   "cls": "USD Acc",
+   "currency": "USD",
+   "category": "Renta Mixta (Balanceado)",
+   "pptCategory": "Renta Mixta (Balanceado)",
+   "asset": "rm",
+   "tag": "Renta mixta | Balanceado",
+   "strategy": "Balanceado",
+   "intro": "Estrategia multi-activo que combina renta fija y renta variable mediante una asignación dinámica.",
+   "objective": "El objetivo es generar un nivel de retorno a mediano plazo, a través de una combinación de crecimiento de capital e ingresos, mediante una asignación dinámica y diversificada de los activos. De acuerdo a la estrategia del comité de inversiones y las condiciones de mercado, tiene la flexibilidad para invertir tanto en los mercados de renta variable como en los de renta fija.",
+   "aum": "57,27m",
+   "returns": {
+    "ytd": {
+     "v": 7.08,
+     "d": 2
+    },
+    "m1": {
+     "v": 1.35,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.3,
+     "d": 2
+    },
+    "m6": {
+     "v": 6.41,
+     "d": 2
+    },
+    "y1": {
+     "v": 10.92,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": {
+    "v": 5.54,
+    "d": 2
+   },
+   "duration": {
+    "v": 2.81,
+    "d": 2
+   },
+   "rfPortion": true,
+   "keyMetrics": [
+    {
+     "label": "Yield renta fija",
+     "value": "5,54%"
+    },
+    {
+     "label": "Duración renta fija",
+     "value": "2,81 años"
+    }
+   ],
+   "ter": {
+    "v": 1.65,
+    "d": 2
+   },
+   "trailer": {
+    "v": 1.25,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Composición de cartera",
+     "items": [
+      {
+       "label": "Renta variable",
+       "value": "54,0%",
+       "pct": 54.0
+      },
+      {
+       "label": "Renta fija",
+       "value": "45,0%",
+       "pct": 45.0
+      },
+      {
+       "label": "Efectivo y equivalentes",
+       "value": "1,0%",
+       "pct": 1.0
+      }
+     ]
+    },
+    {
+     "title": "Principales tenencias",
+     "items": [
+      {
+       "label": "T-Bills",
+       "value": "14,7%",
+       "pct": 14.7
+      },
+      {
+       "label": "Deuda IG global",
+       "value": "10,2%",
+       "pct": 10.2
+      },
+      {
+       "label": "Deuda IG EE. UU.",
+       "value": "10,1%",
+       "pct": 10.1
+      },
+      {
+       "label": "Deuda securitizada",
+       "value": "8,4%",
+       "pct": 8.4
+      },
+      {
+       "label": "NVIDIA Corp.",
+       "value": "4,0%",
+       "pct": 4.0
+      },
+      {
+       "label": "Apple Inc.",
+       "value": "3,5%",
+       "pct": 3.5
+      },
+      {
+       "label": "Microsoft Corp.",
+       "value": "2,9%",
+       "pct": 2.9
+      },
+      {
+       "label": "Alphabet Inc.",
+       "value": "2,8%",
+       "pct": 2.8
+      },
+      {
+       "label": "Amazon Inc.",
+       "value": "2,0%",
+       "pct": 2.0
+      },
+      {
+       "label": "Broadcom Inc.",
+       "value": "1,3%",
+       "pct": 1.3
+      }
+     ]
+    },
+    {
+     "title": "Datos del producto",
+     "items": [
+      {
+       "label": "NAV",
+       "value": "USD 129,68",
+       "pct": null
+      },
+      {
+       "label": "Fecha de inicio",
+       "value": "18/01/2024",
+       "pct": null
+      },
+      {
+       "label": "Tipo",
+       "value": "Multi-activo",
+       "pct": null
+      },
+      {
+       "label": "Horizonte",
+       "value": "Mediano plazo",
+       "pct": null
+      }
+     ]
+    }
+   ],
+   "compDate": "31/08",
+   "slide": 10,
+   "mapSlide": 4
+  },
+  {
+   "isin": "IE0004445015",
+   "sheetIsin": "IE0004445015",
+   "name": "Janus Henderson Balanced Fund",
+   "mapName": "Janus Henderson Balanced A2 USD",
+   "manager": "Janus Henderson",
+   "balanz": false,
+   "cls": "A2 (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Mixta (Balanceado)",
+   "pptCategory": "Renta Mixta (Balanceado)",
+   "asset": "rm",
+   "tag": "Multi-asset | Balanceado",
+   "strategy": "Balanceado",
+   "intro": "Un núcleo balanceado de larga trayectoria que combina crecimiento de equity estadounidense con renta fija activa para moderar la volatilidad.",
+   "objective": "Generar crecimiento e ingreso procurando limitar pérdidas de capital, sin garantía. 35–70% en acciones y 30–65% en renta fija, préstamos o cash; al menos 80% en compañías y emisores de EE. UU. La política admite 35–70% en acciones y 30–65% en renta fija, préstamos o liquidez, con al menos 80% vinculado a EE. UU. La asignación busca que el equity aporte crecimiento y la renta fija income, diversificación y amortiguación del downside.",
+   "aum": "11,5bn",
+   "returns": {
+    "ytd": {
+     "v": 4.34,
+     "d": 2
+    },
+    "m1": {
+     "v": 1.36,
+     "d": 2
+    },
+    "m3": {
+     "v": 1.33,
+     "d": 2
+    },
+    "m6": {
+     "v": 4.82,
+     "d": 2
+    },
+    "y1": {
+     "v": 8.03,
+     "d": 2
+    },
+    "y3": {
+     "v": 12.07,
+     "d": 2
+    },
+    "y5": {
+     "v": 5.77,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Renta variable",
+     "value": "65,0%"
+    },
+    {
+     "label": "Renta fija",
+     "value": "34,7%"
+    },
+    {
+     "label": "Cash",
+     "value": "0,28%"
+    }
+   ],
+   "ter": {
+    "v": 1.88,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y ASIGNACIÓN ACTUAL",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "5,68%",
+       "pct": 5.68
+      },
+      {
+       "label": "Alphabet",
+       "value": "4,51%",
+       "pct": 4.51
+      },
+      {
+       "label": "Microsoft",
+       "value": "4,21%",
+       "pct": 4.21
+      },
+      {
+       "label": "Amazon",
+       "value": "3,24%",
+       "pct": 3.24
+      },
+      {
+       "label": "Apple",
+       "value": "3,0%",
+       "pct": 3.0
+      }
+     ]
+    },
+    {
+     "title": "Asignación por activo",
+     "items": [
+      {
+       "label": "Renta variable",
+       "value": "64,77%",
+       "pct": 64.77
+      },
+      {
+       "label": "Renta fija",
+       "value": "34,17%",
+       "pct": 34.17
+      },
+      {
+       "label": "Caja y equivalentes",
+       "value": "1,06%",
+       "pct": 1.06
+      }
+     ]
+    },
+    {
+     "title": "Renta fija",
+     "items": [
+      {
+       "label": "Agency MBS",
+       "value": "8,57%",
+       "pct": 8.57
+      },
+      {
+       "label": "Corporativos IG",
+       "value": "7,33%",
+       "pct": 7.33
+      },
+      {
+       "label": "ABS",
+       "value": "3,39%",
+       "pct": 3.39
+      },
+      {
+       "label": "Corporativos HY",
+       "value": "2,18%",
+       "pct": 2.18
+      },
+      {
+       "label": "Préstamos bancarios",
+       "value": "0,66%",
+       "pct": 0.66
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 30,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU1442548993",
+   "sheetIsin": "LU1442548993",
+   "name": "MFS Meridian Prudent Capital Fund",
+   "mapName": "MFS Meridian Funds-Prudent Capital A1 USD",
+   "manager": "MFS",
+   "balanz": false,
+   "cls": "A1 (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Mixta (Balanceado)",
+   "pptCategory": "Renta Mixta (Balanceado)",
+   "asset": "rm",
+   "tag": "Multi-asset | Balanceado",
+   "strategy": "Balanceado",
+   "intro": "Multi-asset defensivo y sin benchmark, con capacidad de reducir riesgo cuando las valuaciones no compensan.",
+   "objective": "Buscar apreciación de capital medida en USD con foco de largo plazo. Cartera concentrada de acciones y bonos globales, sin restricciones de benchmark; usa cash y derivados para modular exposición y downside. Sin restricciones de benchmark, combina una cartera concentrada de acciones y bonos globales con liquidez y coberturas. El equipo puede reducir de forma material la exposición cuando el retorno esperado no compensa el riesgo, priorizando valor absoluto.",
+   "aum": "2,40bn",
+   "returns": {
+    "ytd": {
+     "v": 3.82,
+     "d": 2
+    },
+    "m1": {
+     "v": 3.57,
+     "d": 2
+    },
+    "m3": {
+     "v": 5.65,
+     "d": 2
+    },
+    "m6": {
+     "v": 2.94,
+     "d": 2
+    },
+    "y1": {
+     "v": 3.51,
+     "d": 2
+    },
+    "y3": {
+     "v": 9.16,
+     "d": 2
+    },
+    "y5": {
+     "v": 3.57,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Renta fija",
+     "value": "50,9%"
+    },
+    {
+     "label": "Renta variable",
+     "value": "27,4%"
+    },
+    {
+     "label": "Cash",
+     "value": "18,0%"
+    }
+   ],
+   "ter": {
+    "v": 1.9,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y ASIGNACIÓN ACTUAL",
+   "sections": [
+    {
+     "title": "Posicionamiento neto",
+     "items": [
+      {
+       "label": "Renta variable",
+       "value": "66,1%",
+       "pct": 66.1
+      },
+      {
+       "label": "Oro",
+       "value": "3,9%",
+       "pct": 3.9
+      },
+      {
+       "label": "Deuda",
+       "value": "11,4%",
+       "pct": 11.4
+      },
+      {
+       "label": "Caja y deuda corta",
+       "value": "22,0%",
+       "pct": 22.0
+      },
+      {
+       "label": "Otros",
+       "value": "0,5%",
+       "pct": 0.5
+      }
+     ]
+    },
+    {
+     "title": "Principales países RV",
+     "items": [
+      {
+       "label": "Reino Unido",
+       "value": "23,4%",
+       "pct": 23.4
+      },
+      {
+       "label": "Estados Unidos",
+       "value": "23,3%",
+       "pct": 23.3
+      },
+      {
+       "label": "Alemania",
+       "value": "15,1%",
+       "pct": 15.1
+      },
+      {
+       "label": "Francia",
+       "value": "14,8%",
+       "pct": 14.8
+      },
+      {
+       "label": "España",
+       "value": "4,5%",
+       "pct": 4.5
+      }
+     ]
+    },
+    {
+     "title": "Datos de cartera",
+     "items": [
+      {
+       "label": "Top 10 acciones",
+       "value": "41,2%",
+       "pct": 41.2
+      },
+      {
+       "label": "Número de emisiones",
+       "value": "111",
+       "pct": null
+      },
+      {
+       "label": "Vencimiento efectivo",
+       "value": "2,0 años",
+       "pct": null
+      },
+      {
+       "label": "Duración efectiva",
+       "value": "1,4 años",
+       "pct": null
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 31,
+   "mapSlide": 6
+  },
+  {
+   "isin": "IE00B4YYXB79",
+   "sheetIsin": "IE00B4YYXB79",
+   "name": "PIMCO Balanced Income and Growth Fund",
+   "mapName": "PIMCO GIS Bal Inc and Gth E USD Acc",
+   "manager": "PIMCO",
+   "balanz": false,
+   "cls": "E (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Mixta (Balanceado)",
+   "pptCategory": "Renta Mixta (Balanceado)",
+   "asset": "rm",
+   "tag": "Multi-asset | Balanceado",
+   "strategy": "Balanceado",
+   "intro": "Una solución multi-asset que combina motores de ingreso y crecimiento con gestión activa del downside.",
+   "objective": "Maximizar retorno total con preservación de capital y gestión prudente. Integra estrategias sistemáticas de equity con renta fija multisectorial y overlays defensivos. Integra exposición sistemática a equity global con la plataforma multisectorial de renta fija de PIMCO. La asignación táctica y los derivados permiten modificar beta, duración y riesgo de cola, buscando diversificar las fuentes de ingreso y crecimiento.",
+   "aum": "17,6bn",
+   "returns": {
+    "ytd": {
+     "v": 12.56,
+     "d": 2
+    },
+    "m1": {
+     "v": 1.98,
+     "d": 2
+    },
+    "m3": {
+     "v": 2.24,
+     "d": 2
+    },
+    "m6": {
+     "v": 5.89,
+     "d": 2
+    },
+    "y1": {
+     "v": 20.44,
+     "d": 2
+    },
+    "y3": {
+     "v": 16.34,
+     "d": 2
+    },
+    "y5": {
+     "v": 6.49,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Acciones EE. UU.",
+     "value": "47,8%"
+    },
+    {
+     "label": "Renta fija EE. UU.",
+     "value": "41,6%"
+    },
+    {
+     "label": "Renta fija ex-US",
+     "value": "13,0%"
+    }
+   ],
+   "ter": {
+    "v": 2.15,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.97,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y ASIGNACIÓN ACTUAL",
+   "sections": [
+    {
+     "title": "Asignación por activo",
+     "items": [
+      {
+       "label": "Renta fija EE. UU.",
+       "value": "43,0%",
+       "pct": 43.0
+      },
+      {
+       "label": "Acciones EE. UU.",
+       "value": "41,8%",
+       "pct": 41.8
+      },
+      {
+       "label": "Acciones des. ex-US",
+       "value": "13,0%",
+       "pct": 13.0
+      },
+      {
+       "label": "Acciones emergentes",
+       "value": "10,3%",
+       "pct": 10.3
+      },
+      {
+       "label": "Renta fija emergente",
+       "value": "5,7%",
+       "pct": 5.7
+      }
+     ]
+    },
+    {
+     "title": "Duración por sector RF",
+     "items": [
+      {
+       "label": "Gobierno relacionado",
+       "value": "3,4 años",
+       "pct": null
+      },
+      {
+       "label": "Titulizados",
+       "value": "2,0 años",
+       "pct": null
+      },
+      {
+       "label": "Crédito IG",
+       "value": "0,6 años",
+       "pct": null
+      },
+      {
+       "label": "Mercados emergentes",
+       "value": "0,5 años",
+       "pct": null
+      },
+      {
+       "label": "Crédito HY",
+       "value": "0,0 años",
+       "pct": null
+      }
+     ]
+    },
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "FNMA TBA 5%",
+       "value": "2,5%",
+       "pct": 2.5
+      },
+      {
+       "label": "NVIDIA",
+       "value": "2,1%",
+       "pct": 2.1
+      },
+      {
+       "label": "TSMC",
+       "value": "1,7%",
+       "pct": 1.7
+      },
+      {
+       "label": "Apple",
+       "value": "1,6%",
+       "pct": 1.6
+      },
+      {
+       "label": "Microsoft",
+       "value": "1,6%",
+       "pct": 1.6
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 32,
+   "mapSlide": 6
+  },
+  {
+   "isin": "XS3067937642",
+   "sheetIsin": "XS3067937642",
+   "name": "Balanz Global Equity",
+   "mapName": "Balanz Global Equity",
+   "manager": "Balanz",
+   "balanz": true,
+   "cls": "USD Acc",
+   "currency": "USD",
+   "category": "Renta Variable Global",
+   "pptCategory": "Renta Variable Global",
+   "asset": "rv",
+   "tag": "Renta variable | Global",
+   "strategy": "Global",
+   "intro": "Renta variable global diversificada, enfocada en compañías líderes y crecimiento de capital a largo plazo.",
+   "objective": "El objetivo es maximizar el crecimiento de capital a largo plazo mediante una cartera diversificada compuesta principalmente por instrumentos de renta variable. Invierte en acciones de empresas líderes a nivel global, seleccionadas por su potencial de crecimiento y solidez financiera. El fondo sigue una estrategia activa de selección de activos y asignación geográfica, con flexibilidad para adaptarse a las condiciones cambiantes del mercado global.",
+   "aum": "42,39m",
+   "returns": {
+    "ytd": {
+     "v": 11.57,
+     "d": 2
+    },
+    "m1": {
+     "v": 2.49,
+     "d": 2
+    },
+    "m3": {
+     "v": 1.46,
+     "d": 2
+    },
+    "m6": {
+     "v": 11.05,
+     "d": 2
+    },
+    "y1": {
+     "v": 17.97,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [],
+   "ter": {
+    "v": 1.67,
+    "d": 2
+   },
+   "trailer": {
+    "v": 1.25,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Distribución sectorial",
+     "items": [
+      {
+       "label": "Tecnología",
+       "value": "34,0%",
+       "pct": 34.0
+      },
+      {
+       "label": "Servicios financieros",
+       "value": "19,0%",
+       "pct": 19.0
+      },
+      {
+       "label": "Comunicación",
+       "value": "9,0%",
+       "pct": 9.0
+      },
+      {
+       "label": "Consumo discrecional",
+       "value": "9,0%",
+       "pct": 9.0
+      },
+      {
+       "label": "Salud",
+       "value": "8,0%",
+       "pct": 8.0
+      },
+      {
+       "label": "Industriales",
+       "value": "8,0%",
+       "pct": 8.0
+      },
+      {
+       "label": "Consumo básico",
+       "value": "4,0%",
+       "pct": 4.0
+      },
+      {
+       "label": "Energía",
+       "value": "3,0%",
+       "pct": 3.0
+      }
+     ]
+    },
+    {
+     "title": "Principales tenencias",
+     "items": [
+      {
+       "label": "NVIDIA Corp.",
+       "value": "6,6%",
+       "pct": 6.6
+      },
+      {
+       "label": "Apple Inc.",
+       "value": "5,9%",
+       "pct": 5.9
+      },
+      {
+       "label": "Microsoft Corp.",
+       "value": "4,8%",
+       "pct": 4.8
+      },
+      {
+       "label": "Alphabet Inc.",
+       "value": "4,6%",
+       "pct": 4.6
+      },
+      {
+       "label": "Amazon Inc.",
+       "value": "3,3%",
+       "pct": 3.3
+      },
+      {
+       "label": "Broadcom Inc.",
+       "value": "2,2%",
+       "pct": 2.2
+      },
+      {
+       "label": "JPMorgan Chase & Co.",
+       "value": "2,0%",
+       "pct": 2.0
+      },
+      {
+       "label": "Berkshire Hathaway Inc.",
+       "value": "1,9%",
+       "pct": 1.9
+      },
+      {
+       "label": "Meta Platforms Inc.",
+       "value": "1,6%",
+       "pct": 1.6
+      },
+      {
+       "label": "Micron Technology Inc.",
+       "value": "1,4%",
+       "pct": 1.4
+      }
+     ]
+    },
+    {
+     "title": "Datos del producto",
+     "items": [
+      {
+       "label": "NAV",
+       "value": "USD 126,66",
+       "pct": null
+      },
+      {
+       "label": "Fecha de inicio",
+       "value": "19/05/2025",
+       "pct": null
+      },
+      {
+       "label": "Tipo",
+       "value": "Renta variable",
+       "pct": null
+      },
+      {
+       "label": "Horizonte",
+       "value": "Largo plazo",
+       "pct": null
+      }
+     ]
+    }
+   ],
+   "compDate": "31/08",
+   "slide": 11,
+   "mapSlide": 4
+  },
+  {
+   "isin": "IE00BFMHRM44",
+   "sheetIsin": "IE00BFMHRM44",
+   "name": "Neuberger Berman Global Equity Megatrends",
+   "mapName": "Neuberger Global Equity Megatrends USD A Acc",
+   "manager": "Neuberger Berman",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Global",
+   "pptCategory": "Renta Variable Global",
+   "asset": "rv",
+   "tag": "Renta variable | Global",
+   "strategy": "Global",
+   "intro": "Equity global temático para capturar megatendencias estructurales mediante compañías innovadoras y líderes de nicho.",
+   "objective": "Lograr crecimiento de capital de largo plazo invirtiendo en tendencias económicas y sociales persistentes. Selección global bottom-up alineada con temas como digitalización, salud, consumo y transición de recursos. Selecciona compañías expuestas a tendencias estructurales como digitalización, salud, cambios demográficos y transición de recursos. El proceso combina análisis temático con research fundamental para evitar que la narrativa sustituya calidad, valoración y ejecución.",
+   "aum": "1,16bn",
+   "returns": {
+    "ytd": {
+     "v": 15.14,
+     "d": 2
+    },
+    "m1": {
+     "v": 6.44,
+     "d": 2
+    },
+    "m3": {
+     "v": 9.56,
+     "d": 2
+    },
+    "m6": {
+     "v": 13.71,
+     "d": 2
+    },
+    "y1": {
+     "v": 15.74,
+     "d": 2
+    },
+    "y3": {
+     "v": 19.55,
+     "d": 2
+    },
+    "y5": {
+     "v": 10.44,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Equity global temático"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Consumidor evolutivo"
+    }
+   ],
+   "ter": {
+    "v": 2.0,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.85,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Expedia",
+       "value": "5,09%",
+       "pct": 5.09
+      },
+      {
+       "label": "Shift4 Payments",
+       "value": "5,08%",
+       "pct": 5.08
+      },
+      {
+       "label": "Tetra Tech",
+       "value": "5,04%",
+       "pct": 5.04
+      },
+      {
+       "label": "Alibaba",
+       "value": "5,03%",
+       "pct": 5.03
+      },
+      {
+       "label": "Charles River Labs",
+       "value": "4,95%",
+       "pct": 4.95
+      }
+     ]
+    },
+    {
+     "title": "Distribución de ingresos",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "56,0%",
+       "pct": 56.0
+      },
+      {
+       "label": "Desarrollados ex-US",
+       "value": "26,0%",
+       "pct": 26.0
+      },
+      {
+       "label": "Emergentes y otros",
+       "value": "18,0%",
+       "pct": 18.0
+      }
+     ]
+    },
+    {
+     "title": "Características",
+     "items": [
+      {
+       "label": "Número de acciones",
+       "value": "25",
+       "pct": null
+      },
+      {
+       "label": "Top 10",
+       "value": "47,26%",
+       "pct": 47.26
+      },
+      {
+       "label": "Caja",
+       "value": "1,94%",
+       "pct": 1.94
+      },
+      {
+       "label": "Active share",
+       "value": "96,73%",
+       "pct": 96.73
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 33,
+   "mapSlide": 6
+  },
+  {
+   "isin": "IE0005263466",
+   "sheetIsin": "IE0005263466",
+   "name": "Jupiter Merian World Equity Fund",
+   "mapName": "Jupiter Merian World Equity Fund L USD Acc",
+   "manager": "Jupiter",
+   "balanz": false,
+   "cls": "L (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Global",
+   "pptCategory": "Renta Variable Global",
+   "asset": "rv",
+   "tag": "Renta variable | Global",
+   "strategy": "Global",
+   "intro": "Un proceso cuantitativo global diversificado que busca capturar múltiples fuentes de alfa sin depender de un solo estilo.",
+   "objective": "Lograr crecimiento de activos mediante una cartera mundial ampliamente diversificada. Selección sistemática multi-factor sin sesgo estructural único de estilo; amplia dispersión por sectores y países. La selección sistemática combina señales de valoración, calidad, crecimiento, sentimiento y dinámica empresarial en un universo global amplio. La diversificación por factores procura que el alfa no dependa de un único estilo o régimen de mercado.",
+   "aum": "2,72bn",
+   "returns": {
+    "ytd": {
+     "v": 14.94,
+     "d": 2
+    },
+    "m1": {
+     "v": 3.82,
+     "d": 2
+    },
+    "m3": {
+     "v": 5.05,
+     "d": 2
+    },
+    "m6": {
+     "v": 11.2,
+     "d": 2
+    },
+    "y1": {
+     "v": 24.53,
+     "d": 2
+    },
+    "y3": {
+     "v": 23.28,
+     "d": 2
+    },
+    "y5": {
+     "v": 12.73,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Equity global flex cap"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Tecnología"
+    }
+   ],
+   "ter": {
+    "v": 1.65,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "4,4%",
+       "pct": 4.4
+      },
+      {
+       "label": "Apple",
+       "value": "4,3%",
+       "pct": 4.3
+      },
+      {
+       "label": "Microsoft",
+       "value": "2,7%",
+       "pct": 2.7
+      },
+      {
+       "label": "Amazon",
+       "value": "2,1%",
+       "pct": 2.1
+      },
+      {
+       "label": "Broadcom",
+       "value": "1,9%",
+       "pct": 1.9
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Tecnología",
+       "value": "26,7%",
+       "pct": 26.7
+      },
+      {
+       "label": "Financieras",
+       "value": "16,6%",
+       "pct": 16.6
+      },
+      {
+       "label": "Industriales",
+       "value": "11,2%",
+       "pct": 11.2
+      },
+      {
+       "label": "Salud",
+       "value": "10,3%",
+       "pct": 10.3
+      },
+      {
+       "label": "Comunicación",
+       "value": "9,8%",
+       "pct": 9.8
+      }
+     ]
+    },
+    {
+     "title": "Exposición geográfica",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "70,9%",
+       "pct": 70.9
+      },
+      {
+       "label": "Japón",
+       "value": "5,2%",
+       "pct": 5.2
+      },
+      {
+       "label": "Reino Unido",
+       "value": "4,4%",
+       "pct": 4.4
+      },
+      {
+       "label": "Canadá",
+       "value": "4,2%",
+       "pct": 4.2
+      },
+      {
+       "label": "Alemania",
+       "value": "1,9%",
+       "pct": 1.9
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 34,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU0070217475",
+   "sheetIsin": "LU0070217475",
+   "name": "JPM Global Select Equity",
+   "mapName": "JPM Global Select Equity A Acc USD",
+   "manager": "J.P. Morgan",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Global",
+   "pptCategory": "Renta Variable Global",
+   "asset": "rv",
+   "tag": "Renta variable | Global",
+   "strategy": "Global",
+   "intro": "Un core global activo y agnóstico de estilo, construido sobre research fundamental y control sistemático de riesgos.",
+   "objective": "Superar al mercado accionario global invirtiendo principalmente en compañías de todo el mundo. Cartera diversificada de alta convicción, con control de riesgos de estilo, sector y región frente al MSCI World. Construye una cartera global de alta convicción mediante research fundamental, controlando activamente desvíos de sector, región y estilo frente al MSCI World. El objetivo es generar alfa por selección de compañías sin asumir apuestas factoriales dominantes.",
+   "aum": "6,99bn",
+   "returns": {
+    "ytd": {
+     "v": 6.98,
+     "d": 2
+    },
+    "m1": {
+     "v": 2.2,
+     "d": 2
+    },
+    "m3": {
+     "v": 2.06,
+     "d": 2
+    },
+    "m6": {
+     "v": 5.64,
+     "d": 2
+    },
+    "y1": {
+     "v": 9.86,
+     "d": 2
+    },
+    "y3": {
+     "v": 14.17,
+     "d": 2
+    },
+    "y5": {
+     "v": 8.72,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Equity global blend"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Semis / hardware"
+    }
+   ],
+   "ter": {
+    "v": 1.8,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.7,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "7,1%",
+       "pct": 7.1
+      },
+      {
+       "label": "Microsoft",
+       "value": "5,4%",
+       "pct": 5.4
+      },
+      {
+       "label": "Amazon",
+       "value": "5,0%",
+       "pct": 5.0
+      },
+      {
+       "label": "Alphabet",
+       "value": "4,3%",
+       "pct": 4.3
+      },
+      {
+       "label": "Mastercard",
+       "value": "3,7%",
+       "pct": 3.7
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Semis / hardware",
+       "value": "22,6%",
+       "pct": 22.6
+      },
+      {
+       "label": "Medios / comunicación",
+       "value": "12,3%",
+       "pct": 12.3
+      },
+      {
+       "label": "Bancos",
+       "value": "9,9%",
+       "pct": 9.9
+      },
+      {
+       "label": "Industriales cíclicos",
+       "value": "8,0%",
+       "pct": 8.0
+      },
+      {
+       "label": "Farma / medtech",
+       "value": "7,9%",
+       "pct": 7.9
+      }
+     ]
+    },
+    {
+     "title": "Exposición regional",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "71,8%",
+       "pct": 71.8
+      },
+      {
+       "label": "EMEA ex-UK",
+       "value": "12,5%",
+       "pct": 12.5
+      },
+      {
+       "label": "Japón",
+       "value": "5,5%",
+       "pct": 5.5
+      },
+      {
+       "label": "Emergentes",
+       "value": "3,8%",
+       "pct": 3.8
+      },
+      {
+       "label": "Reino Unido",
+       "value": "3,7%",
+       "pct": 3.7
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 35,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU1084869962",
+   "sheetIsin": "LU1084869962",
+   "name": "Wellington Global Quality Growth Fund",
+   "mapName": "Wellington Global Quality Growth Fd USD D AccU",
+   "manager": "Wellington",
+   "balanz": false,
+   "cls": "D (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Global",
+   "pptCategory": "Renta Variable Global",
+   "asset": "rv",
+   "tag": "Renta variable | Global",
+   "strategy": "Global",
+   "intro": "Crecimiento global de calidad, concentrado en compañías con ventajas competitivas y elevada rentabilidad sobre el capital.",
+   "objective": "Buscar apreciación de capital de largo plazo mediante empresas globales de alta calidad y crecimiento. Selección bottom-up enfocada en calidad, crecimiento, valoración y retorno sobre capital; cartera relativamente concentrada. El proceso bottom-up prioriza ventajas competitivas, crecimiento rentable, retornos elevados sobre el capital y balances sólidos. La cartera relativamente concentrada acepta tracking error para sostener exposición a compounders globales de alta calidad.",
+   "aum": "7,20bn",
+   "returns": {
+    "ytd": {
+     "v": 8.48,
+     "d": 2
+    },
+    "m1": {
+     "v": 1.93,
+     "d": 2
+    },
+    "m3": {
+     "v": -1.06,
+     "d": 2
+    },
+    "m6": {
+     "v": 5.57,
+     "d": 2
+    },
+    "y1": {
+     "v": 13.2,
+     "d": 2
+    },
+    "y3": {
+     "v": 18.15,
+     "d": 2
+    },
+    "y5": {
+     "v": 6.74,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Equity global growth"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Tecnología"
+    }
+   ],
+   "ter": {
+    "v": 1.65,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "4,9%",
+       "pct": 4.9
+      },
+      {
+       "label": "Alphabet",
+       "value": "4,8%",
+       "pct": 4.8
+      },
+      {
+       "label": "TSMC",
+       "value": "3,9%",
+       "pct": 3.9
+      },
+      {
+       "label": "Microsoft",
+       "value": "3,7%",
+       "pct": 3.7
+      },
+      {
+       "label": "Apple",
+       "value": "3,3%",
+       "pct": 3.3
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Tecnología",
+       "value": "27,7%",
+       "pct": 27.7
+      },
+      {
+       "label": "Financieras",
+       "value": "18,6%",
+       "pct": 18.6
+      },
+      {
+       "label": "Salud",
+       "value": "13,2%",
+       "pct": 13.2
+      },
+      {
+       "label": "Comunicación",
+       "value": "10,1%",
+       "pct": 10.1
+      },
+      {
+       "label": "Consumo discrecional",
+       "value": "7,8%",
+       "pct": 7.8
+      }
+     ]
+    },
+    {
+     "title": "Exposición regional",
+     "items": [
+      {
+       "label": "Norteamérica",
+       "value": "58,9%",
+       "pct": 58.9
+      },
+      {
+       "label": "Europa des. ex-UK",
+       "value": "15,0%",
+       "pct": 15.0
+      },
+      {
+       "label": "Emergentes",
+       "value": "9,9%",
+       "pct": 9.9
+      },
+      {
+       "label": "Reino Unido",
+       "value": "9,0%",
+       "pct": 9.0
+      },
+      {
+       "label": "Japón",
+       "value": "5,1%",
+       "pct": 5.1
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 36,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU2864445049",
+   "sheetIsin": "LU2864445049",
+   "name": "MFS Meridian Funds - Contrarian Capital Fund",
+   "mapName": "MFS Meridian Funds - Contrarian Capital A1 USD",
+   "manager": "MFS",
+   "balanz": false,
+   "cls": "A1 USD",
+   "currency": "USD",
+   "category": "Renta Variable Global",
+   "pptCategory": "Renta Variable Global",
+   "asset": "rv",
+   "tag": "Renta variable | Global",
+   "strategy": "Global",
+   "intro": "Estrategia value global concentrada que busca oportunidades controvertidas con descuento y una relación riesgo-retorno asimétrica.",
+   "objective": "Busca la apreciación del capital en dólares estadounidenses mediante una selección global, fundamental y bottom-up. El equipo identifica compañías que cotizan con descuentos significativos respecto de su valor intrínseco por percepción negativa, dificultades operativas o procesos de transición. La construcción enfatiza valoración, solidez de balance y margen de seguridad, principalmente en empresas de mediana y gran capitalización.",
+   "aum": "1,20bn",
+   "returns": {
+    "ytd": {
+     "v": 18.19,
+     "d": 2
+    },
+    "m1": {
+     "v": 0.79,
+     "d": 2
+    },
+    "m3": {
+     "v": 8.37,
+     "d": 2
+    },
+    "m6": {
+     "v": 7.09,
+     "d": 2
+    },
+    "y1": {
+     "v": 23.89,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo",
+     "value": "Value"
+    },
+    {
+     "label": "Cartera",
+     "value": "Selectiva"
+    }
+   ],
+   "ter": {
+    "v": 1.85,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Industriales",
+       "value": "16,6%",
+       "pct": 16.6
+      },
+      {
+       "label": "Salud",
+       "value": "16,0%",
+       "pct": 16.0
+      },
+      {
+       "label": "Consumo básico",
+       "value": "15,7%",
+       "pct": 15.7
+      },
+      {
+       "label": "Financieras",
+       "value": "15,2%",
+       "pct": 15.2
+      },
+      {
+       "label": "Consumo discrecional",
+       "value": "13,9%",
+       "pct": 13.9
+      }
+     ]
+    },
+    {
+     "title": "Exposición por países",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "23,0%",
+       "pct": 23.0
+      },
+      {
+       "label": "Francia",
+       "value": "17,8%",
+       "pct": 17.8
+      },
+      {
+       "label": "Alemania",
+       "value": "13,4%",
+       "pct": 13.4
+      },
+      {
+       "label": "Reino Unido",
+       "value": "12,0%",
+       "pct": 12.0
+      },
+      {
+       "label": "Países Bajos",
+       "value": "8,5%",
+       "pct": 8.5
+      }
+     ]
+    },
+    {
+     "title": "Estructura de cartera",
+     "items": [
+      {
+       "label": "Renta variable",
+       "value": "93,6%",
+       "pct": 93.6
+      },
+      {
+       "label": "Caja y equivalentes",
+       "value": "6,4%",
+       "pct": 6.4
+      },
+      {
+       "label": "Top 10",
+       "value": "38,7%",
+       "pct": 38.7
+      },
+      {
+       "label": "Número de emisiones",
+       "value": "34",
+       "pct": null
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 37,
+   "mapSlide": 6
+  },
+  {
+   "isin": "IE00B1D7YP71",
+   "sheetIsin": "IE00B1D7PY71",
+   "name": "PIMCO StocksPLUS",
+   "mapName": "PIMCO GIS StocksPLUS E Cl USD Acc",
+   "manager": "PIMCO",
+   "balanz": false,
+   "cls": "E (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable US",
+   "pptCategory": "Renta Variable US",
+   "asset": "rv",
+   "tag": "Renta variable | Estados Unidos",
+   "strategy": "Estados Unidos",
+   "intro": "Beta del S&P 500 combinada con una cartera activa de bonos para buscar retorno adicional sobre el índice.",
+   "objective": "Superar al S&P 500 mediante exposición accionaria sintética y una cartera activa de bonos. Futuros y swaps capturan beta de equity; el colateral se invierte en estrategias de renta fija PIMCO. La beta del S&P 500 se obtiene principalmente mediante futuros y swaps; el colateral se invierte en una cartera activa de renta fija. La combinación busca retorno adicional al índice, incorporando riesgo de derivados, basis y gestión obligacionaria.",
+   "aum": "6,4bn",
+   "returns": {
+    "ytd": {
+     "v": 9.48,
+     "d": 2
+    },
+    "m1": null,
+    "m3": null,
+    "m6": {
+     "v": 7.91,
+     "d": 2
+    },
+    "y1": {
+     "v": 18.66,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [
+    {
+     "label": "3Y acumulado",
+     "value": "64,70%",
+     "n": {
+      "v": 64.7,
+      "d": 2
+     }
+    },
+    {
+     "label": "5Y acumulado",
+     "value": "65,21%",
+     "n": {
+      "v": 65.21,
+      "d": 2
+     }
+    },
+    {
+     "label": "Año 2025",
+     "value": "16,73%",
+     "n": {
+      "v": 16.73,
+      "d": 2
+     }
+    },
+    {
+     "label": "Año 2024",
+     "value": "23,64%",
+     "n": {
+      "v": 23.64,
+      "d": 2
+     }
+    }
+   ],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "US large cap + alpha de bonos"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Exposición S&P 500"
+    }
+   ],
+   "ter": {
+    "v": 1.45,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.65,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Duración por sector RF",
+     "items": [
+      {
+       "label": "Gobierno EE. UU.",
+       "value": "-0,7%",
+       "pct": -0.7
+      },
+      {
+       "label": "Titulizados",
+       "value": "0,9%",
+       "pct": 0.9
+      },
+      {
+       "label": "Crédito IG",
+       "value": "0,4%",
+       "pct": 0.4
+      },
+      {
+       "label": "Desarrollados ex-US",
+       "value": "0,2%",
+       "pct": 0.2
+      },
+      {
+       "label": "Otros instrumentos cortos",
+       "value": "-0,2%",
+       "pct": -0.2
+      }
+     ]
+    },
+    {
+     "title": "Vencimientos renta fija",
+     "items": [
+      {
+       "label": "0-1 año",
+       "value": "68,3%",
+       "pct": 68.3
+      },
+      {
+       "label": "1-3 años",
+       "value": "17,5%",
+       "pct": 17.5
+      },
+      {
+       "label": "3-5 años",
+       "value": "13,0%",
+       "pct": 13.0
+      },
+      {
+       "label": "5-10 años",
+       "value": "0,7%",
+       "pct": 0.7
+      },
+      {
+       "label": "10-20 años",
+       "value": "1,4%",
+       "pct": 1.4
+      }
+     ]
+    },
+    {
+     "title": "Contribución a duración",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "0,3%",
+       "pct": 0.3
+      },
+      {
+       "label": "Reino Unido",
+       "value": "0,2%",
+       "pct": 0.2
+      },
+      {
+       "label": "Australia",
+       "value": "0,2%",
+       "pct": 0.2
+      },
+      {
+       "label": "Unión Europea",
+       "value": "0,0%",
+       "pct": 0.0
+      },
+      {
+       "label": "Canadá",
+       "value": "-0,2%",
+       "pct": -0.2
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 38,
+   "mapSlide": 6
+  },
+  {
+   "isin": "IE0031385887",
+   "sheetIsin": "IE0031385887",
+   "name": "Jupiter Merian North American Equity Fund",
+   "mapName": "Jupiter Merian North American Eq (IRL) L USD Acc",
+   "manager": "Jupiter",
+   "balanz": false,
+   "cls": "L (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable US",
+   "pptCategory": "Renta Variable US",
+   "asset": "rv",
+   "tag": "Renta variable | Estados Unidos",
+   "strategy": "Estados Unidos",
+   "intro": "Equity norteamericano sistemático y multi-factor, diseñado para diversificar las fuentes de alfa.",
+   "objective": "Lograr crecimiento de capital invirtiendo principalmente en acciones norteamericanas. Selección cuantitativa dinámica sobre señales de valoración, calidad, crecimiento, sentimiento y tendencias. Aplica un modelo cuantitativo dinámico sobre acciones norteamericanas, combinando valoración, calidad, crecimiento, sentimiento y tendencias. La amplitud del universo y la diversificación de señales buscan reducir la dependencia de decisiones discrecionales.",
+   "aum": "331m",
+   "returns": {
+    "ytd": {
+     "v": 17.94,
+     "d": 2
+    },
+    "m1": {
+     "v": 4.72,
+     "d": 2
+    },
+    "m3": {
+     "v": 6.23,
+     "d": 2
+    },
+    "m6": {
+     "v": 15.61,
+     "d": 2
+    },
+    "y1": {
+     "v": 26.23,
+     "d": 2
+    },
+    "y3": {
+     "v": 22.58,
+     "d": 2
+    },
+    "y5": {
+     "v": 12.57,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "US large cap blend"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Tecnología"
+    }
+   ],
+   "ter": {
+    "v": 1.65,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "6,1%",
+       "pct": 6.1
+      },
+      {
+       "label": "Apple",
+       "value": "5,6%",
+       "pct": 5.6
+      },
+      {
+       "label": "Microsoft",
+       "value": "3,3%",
+       "pct": 3.3
+      },
+      {
+       "label": "Broadcom",
+       "value": "2,7%",
+       "pct": 2.7
+      },
+      {
+       "label": "Micron Technology",
+       "value": "2,6%",
+       "pct": 2.6
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Tecnología",
+       "value": "31,8%",
+       "pct": 31.8
+      },
+      {
+       "label": "Comunicación",
+       "value": "12,9%",
+       "pct": 12.9
+      },
+      {
+       "label": "Financieras",
+       "value": "11,9%",
+       "pct": 11.9
+      },
+      {
+       "label": "Salud",
+       "value": "10,5%",
+       "pct": 10.5
+      },
+      {
+       "label": "Industriales",
+       "value": "10,4%",
+       "pct": 10.4
+      }
+     ]
+    },
+    {
+     "title": "Características de cartera",
+     "items": [
+      {
+       "label": "Universo",
+       "value": "EE. UU. / Canadá",
+       "pct": null
+      },
+      {
+       "label": "Número de posiciones",
+       "value": "220",
+       "pct": null
+      },
+      {
+       "label": "Top 10",
+       "value": "29,4%",
+       "pct": 29.4
+      },
+      {
+       "label": "Caja",
+       "value": "0,0%",
+       "pct": 0.0
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 39,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU0070214290",
+   "sheetIsin": "LU0070214290",
+   "name": "JPM US Select Equity",
+   "mapName": "JPM US Select Equity A Acc USD",
+   "manager": "J.P. Morgan",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable US",
+   "pptCategory": "Renta Variable US",
+   "asset": "rv",
+   "tag": "Renta variable | Estados Unidos",
+   "strategy": "Estados Unidos",
+   "intro": "Un core activo de EE. UU. que busca alfa fundamental evitando depender de un único sesgo de estilo.",
+   "objective": "Superar al mercado accionario estadounidense mediante compañías principalmente de EE. UU. Cartera de alta convicción basada en research fundamental, con control de exposiciones sectoriales y de estilo. La cartera se apoya en research fundamental para seleccionar compañías estadounidenses con potencial de retorno superior. El control de riesgos limita concentraciones no deseadas por sector y estilo, manteniendo un perfil core large-cap.",
+   "aum": "7,49bn",
+   "returns": {
+    "ytd": {
+     "v": 5.1,
+     "d": 2
+    },
+    "m1": {
+     "v": 2.64,
+     "d": 2
+    },
+    "m3": {
+     "v": -0.13,
+     "d": 2
+    },
+    "m6": {
+     "v": 8.68,
+     "d": 2
+    },
+    "y1": {
+     "v": 9.39,
+     "d": 2
+    },
+    "y3": {
+     "v": 15.42,
+     "d": 2
+    },
+    "y5": {
+     "v": 8.83,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "US large cap blend"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Semis / hardware"
+    }
+   ],
+   "ter": {
+    "v": 1.8,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "7,7%",
+       "pct": 7.7
+      },
+      {
+       "label": "Alphabet",
+       "value": "6,8%",
+       "pct": 6.8
+      },
+      {
+       "label": "Apple",
+       "value": "6,0%",
+       "pct": 6.0
+      },
+      {
+       "label": "Amazon",
+       "value": "5,3%",
+       "pct": 5.3
+      },
+      {
+       "label": "Microsoft",
+       "value": "4,7%",
+       "pct": 4.7
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Semis / hardware",
+       "value": "28,2%",
+       "pct": 28.2
+      },
+      {
+       "label": "Medios / comunicación",
+       "value": "17,1%",
+       "pct": 17.1
+      },
+      {
+       "label": "Farma / medtech",
+       "value": "8,2%",
+       "pct": 8.2
+      },
+      {
+       "label": "Industriales cíclicos",
+       "value": "7,5%",
+       "pct": 7.5
+      },
+      {
+       "label": "Bancos / brokers",
+       "value": "7,4%",
+       "pct": 7.4
+      }
+     ]
+    },
+    {
+     "title": "Características de cartera",
+     "items": [
+      {
+       "label": "Universo",
+       "value": "Estados Unidos",
+       "pct": null
+      },
+      {
+       "label": "Top 10",
+       "value": "45,8%",
+       "pct": 45.8
+      },
+      {
+       "label": "Caja",
+       "value": "0,4%",
+       "pct": 0.4
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 40,
+   "mapSlide": 6
+  },
+  {
+   "isin": "IE00B1BXHZ80",
+   "sheetIsin": "IE00B1BXHZ80",
+   "name": "FTGF Putnam US Research Fund",
+   "mapName": "FTGF Putnam US Research Fund A Acc USD",
+   "manager": "Franklin Templeton",
+   "balanz": false,
+   "cls": "A USD Acc",
+   "currency": "USD",
+   "category": "Renta Variable US",
+   "pptCategory": "Renta Variable US",
+   "asset": "rv",
+   "tag": "Renta variable | Estados Unidos",
+   "strategy": "Estados Unidos",
+   "intro": "Estrategia core estadounidense de gran capitalización que combina ideas growth y value con amplia diversificación por emisor.",
+   "objective": "Busca generar apreciación de capital a largo plazo. Invierte principalmente en acciones y títulos vinculados a renta variable de grandes compañías estadounidenses, combinando un núcleo de empresas growth y value. El proceso apoyado en research fundamental construye una cartera diversificada por emisor, con una exposición sectorial cercana al mercado amplio pero capacidad para expresar convicciones activas.",
+   "aum": "4,54bn",
+   "returns": {
+    "ytd": {
+     "v": 14.4,
+     "d": 2
+    },
+    "m1": {
+     "v": 2.22,
+     "d": 2
+    },
+    "m3": {
+     "v": 1.3,
+     "d": 2
+    },
+    "m6": {
+     "v": 13.28,
+     "d": 2
+    },
+    "y1": {
+     "v": 22.54,
+     "d": 2
+    },
+    "y3": {
+     "v": 20.13,
+     "d": 2
+    },
+    "y5": {
+     "v": 11.37,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Price / book",
+     "value": "5,66x"
+    },
+    {
+     "label": "Vol. 5Y",
+     "value": "14,85%"
+    }
+   ],
+   "ter": {
+    "v": 1.25,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Apple",
+       "value": "7,38%",
+       "pct": 7.38
+      },
+      {
+       "label": "Microsoft",
+       "value": "7,24%",
+       "pct": 7.24
+      },
+      {
+       "label": "NVIDIA",
+       "value": "5,7%",
+       "pct": 5.7
+      },
+      {
+       "label": "Alphabet",
+       "value": "5,28%",
+       "pct": 5.28
+      },
+      {
+       "label": "Amazon",
+       "value": "4,77%",
+       "pct": 4.77
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Tecnología",
+       "value": "35,99%",
+       "pct": 35.99
+      },
+      {
+       "label": "Financieras",
+       "value": "13,44%",
+       "pct": 13.44
+      },
+      {
+       "label": "Salud",
+       "value": "9,6%",
+       "pct": 9.6
+      },
+      {
+       "label": "Consumo discrecional",
+       "value": "9,51%",
+       "pct": 9.51
+      },
+      {
+       "label": "Comunicación",
+       "value": "9,42%",
+       "pct": 9.42
+      }
+     ]
+    },
+    {
+     "title": "Capitalización bursátil",
+     "items": [
+      {
+       "label": "> USD 150bn",
+       "value": "73,02%",
+       "pct": 73.02
+      },
+      {
+       "label": "USD 35-150bn",
+       "value": "21,36%",
+       "pct": 21.36
+      },
+      {
+       "label": "USD 6,5-35bn",
+       "value": "5,62%",
+       "pct": 5.62
+      },
+      {
+       "label": "Caja y otros activos",
+       "value": "1,38%",
+       "pct": 1.38
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 41,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU0109392836",
+   "sheetIsin": "LU0109392836",
+   "name": "Franklin Technology Fund",
+   "mapName": "Franklin Technology Fund A acc USD",
+   "manager": "Franklin Templeton",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Growth",
+   "pptCategory": "Renta Variable Growth",
+   "asset": "rv",
+   "tag": "Renta variable | Tecnología",
+   "strategy": "Tecnología",
+   "intro": "Una estrategia tecnológica global de alta convicción, posicionada en semiconductores, infraestructura digital y plataformas líderes.",
+   "objective": "Lograr apreciación de capital invirtiendo al menos dos tercios en compañías beneficiadas por el avance y uso de tecnología. Research top-down y bottom-up en software, semiconductores, internet, telecomunicaciones y servicios digitales globales. Invierte al menos dos tercios en compañías beneficiadas por el desarrollo, producción o uso de tecnología. El análisis top-down y bottom-up recorre semiconductores, software, cloud, internet y servicios digitales, con una definición tecnológica amplia y global.",
+   "aum": "14,6bn",
+   "returns": {
+    "ytd": {
+     "v": 23.33,
+     "d": 2
+    },
+    "m1": {
+     "v": 4.81,
+     "d": 2
+    },
+    "m3": {
+     "v": -3.8,
+     "d": 2
+    },
+    "m6": {
+     "v": 26.66,
+     "d": 2
+    },
+    "y1": {
+     "v": 29.94,
+     "d": 2
+    },
+    "y3": {
+     "v": 26.56,
+     "d": 2
+    },
+    "y5": {
+     "v": 9.63,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Tecnología global"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Semiconductores"
+    }
+   ],
+   "ter": {
+    "v": 1.81,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.5,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "8,11%",
+       "pct": 8.11
+      },
+      {
+       "label": "Broadcom",
+       "value": "6,43%",
+       "pct": 6.43
+      },
+      {
+       "label": "Alphabet",
+       "value": "5,73%",
+       "pct": 5.73
+      },
+      {
+       "label": "TSMC",
+       "value": "5,57%",
+       "pct": 5.57
+      },
+      {
+       "label": "Micron Technology",
+       "value": "4,24%",
+       "pct": 4.24
+      }
+     ]
+    },
+    {
+     "title": "Asignación por subsectores",
+     "items": [
+      {
+       "label": "Semiconductores",
+       "value": "38,37%",
+       "pct": 38.37
+      },
+      {
+       "label": "Medios interactivos",
+       "value": "9,69%",
+       "pct": 9.69
+      },
+      {
+       "label": "Equipos para semis",
+       "value": "8,97%",
+       "pct": 8.97
+      },
+      {
+       "label": "Software de sistemas",
+       "value": "8,51%",
+       "pct": 8.51
+      },
+      {
+       "label": "Hardware / periféricos",
+       "value": "6,91%",
+       "pct": 6.91
+      }
+     ]
+    },
+    {
+     "title": "Exposición geográfica",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "79,96%",
+       "pct": 79.96
+      },
+      {
+       "label": "Taiwán",
+       "value": "5,57%",
+       "pct": 5.57
+      },
+      {
+       "label": "Corea del Sur",
+       "value": "4,1%",
+       "pct": 4.1
+      },
+      {
+       "label": "Países Bajos",
+       "value": "3,42%",
+       "pct": 3.42
+      },
+      {
+       "label": "Canadá",
+       "value": "1,85%",
+       "pct": 1.85
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 42,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU0070992663",
+   "sheetIsin": "LU0070992663",
+   "name": "Janus Henderson Global Technology Leaders",
+   "mapName": "Janus Henderson HF Global Tech Leaders A2 USD",
+   "manager": "Janus Henderson",
+   "balanz": false,
+   "cls": "A2 (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Growth",
+   "pptCategory": "Renta Variable Growth",
+   "asset": "rv",
+   "tag": "Renta variable | Tecnología",
+   "strategy": "Tecnología",
+   "intro": "Tecnología global concentrada en líderes capaces de sostener crecimiento estructural y financiar innovación a lo largo del ciclo.",
+   "objective": "Buscar crecimiento de capital de largo plazo mediante compañías tecnológicas globales. Selección fundamental de empresas con ventajas competitivas, crecimiento secular y balances capaces de financiar innovación. La selección fundamental combina líderes establecidos e innovadores con crecimiento secular, ventajas competitivas y capacidad financiera para sostener I+D. La cartera puede extenderse a compañías cuyo negocio se beneficia materialmente de la digitalización.",
+   "aum": "7,89bn",
+   "returns": {
+    "ytd": {
+     "v": 24.24,
+     "d": 2
+    },
+    "m1": {
+     "v": 2.38,
+     "d": 2
+    },
+    "m3": {
+     "v": -4.8,
+     "d": 2
+    },
+    "m6": {
+     "v": 24.68,
+     "d": 2
+    },
+    "y1": {
+     "v": 33.46,
+     "d": 2
+    },
+    "y3": {
+     "v": 30.46,
+     "d": 2
+    },
+    "y5": {
+     "v": 14.86,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Tecnología global"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Semiconductores / equipos"
+    }
+   ],
+   "ter": {
+    "v": 1.89,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.6,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "NVIDIA",
+       "value": "8,81%",
+       "pct": 8.81
+      },
+      {
+       "label": "TSMC",
+       "value": "7,87%",
+       "pct": 7.87
+      },
+      {
+       "label": "Alphabet",
+       "value": "7,06%",
+       "pct": 7.06
+      },
+      {
+       "label": "Amazon",
+       "value": "5,84%",
+       "pct": 5.84
+      },
+      {
+       "label": "Broadcom",
+       "value": "5,57%",
+       "pct": 5.57
+      }
+     ]
+    },
+    {
+     "title": "Capitalización bursátil",
+     "items": [
+      {
+       "label": "> USD 500bn",
+       "value": "60,64%",
+       "pct": 60.64
+      },
+      {
+       "label": "USD 100-500bn",
+       "value": "22,27%",
+       "pct": 22.27
+      },
+      {
+       "label": "USD 50-100bn",
+       "value": "5,92%",
+       "pct": 5.92
+      },
+      {
+       "label": "USD 25-50bn",
+       "value": "4,89%",
+       "pct": 4.89
+      },
+      {
+       "label": "USD 10-25bn",
+       "value": "4,28%",
+       "pct": 4.28
+      }
+     ]
+    },
+    {
+     "title": "Exposición geográfica",
+     "items": [
+      {
+       "label": "Estados Unidos",
+       "value": "72,1%",
+       "pct": 72.1
+      },
+      {
+       "label": "Taiwán",
+       "value": "8,81%",
+       "pct": 8.81
+      },
+      {
+       "label": "Países Bajos",
+       "value": "4,4%",
+       "pct": 4.4
+      },
+      {
+       "label": "Corea del Sur",
+       "value": "4,01%",
+       "pct": 4.01
+      },
+      {
+       "label": "China",
+       "value": "4,01%",
+       "pct": 4.01
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 43,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU0210535034",
+   "sheetIsin": "LU0210535034",
+   "name": "JPM Latin America Equity",
+   "mapName": "JPM Latin America Equity A Acc USD",
+   "manager": "J.P. Morgan",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Mercados Emergentes",
+   "pptCategory": "Renta Variable Mercados Emergentes",
+   "asset": "rv",
+   "tag": "Renta variable | Latam",
+   "strategy": "Latam",
+   "intro": "Equity latinoamericano activo para capturar la dispersión entre países, sectores y compañías de la región.",
+   "objective": "Generar crecimiento de capital de largo plazo invirtiendo en compañías latinoamericanas. Cartera fundamental por país y sector, con exposición a bancos, commodities, consumo, utilities e industriales. La gestión asigna activamente entre países y sectores latinoamericanos, combinando lectura macro con research bottom-up. Bancos, commodities, consumo, utilities e industriales expresan tanto el ciclo regional como oportunidades específicas por compañía.",
+   "aum": "570m",
+   "returns": {
+    "ytd": {
+     "v": 10.05,
+     "d": 2
+    },
+    "m1": {
+     "v": -1.91,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.52,
+     "d": 2
+    },
+    "m6": {
+     "v": -6.56,
+     "d": 2
+    },
+    "y1": {
+     "v": 22.84,
+     "d": 2
+    },
+    "y3": {
+     "v": 12.25,
+     "d": 2
+    },
+    "y5": {
+     "v": 8.25,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Equity Latinoamérica"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Financieras"
+    }
+   ],
+   "ter": {
+    "v": 1.8,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.7,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Itaú Unibanco",
+       "value": "8,3%",
+       "pct": 8.3
+      },
+      {
+       "label": "Petrobras",
+       "value": "7,4%",
+       "pct": 7.4
+      },
+      {
+       "label": "Grupo México",
+       "value": "6,7%",
+       "pct": 6.7
+      },
+      {
+       "label": "Vale",
+       "value": "6,4%",
+       "pct": 6.4
+      },
+      {
+       "label": "NU Holdings",
+       "value": "5,4%",
+       "pct": 5.4
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Financieras",
+       "value": "39,9%",
+       "pct": 39.9
+      },
+      {
+       "label": "Materiales",
+       "value": "20,3%",
+       "pct": 20.3
+      },
+      {
+       "label": "Utilities",
+       "value": "11,3%",
+       "pct": 11.3
+      },
+      {
+       "label": "Industriales",
+       "value": "8,8%",
+       "pct": 8.8
+      },
+      {
+       "label": "Energía",
+       "value": "7,7%",
+       "pct": 7.7
+      }
+     ]
+    },
+    {
+     "title": "Exposición por países",
+     "items": [
+      {
+       "label": "Brasil",
+       "value": "50,0%",
+       "pct": 50.0
+      },
+      {
+       "label": "México",
+       "value": "23,7%",
+       "pct": 23.7
+      },
+      {
+       "label": "Perú",
+       "value": "8,2%",
+       "pct": 8.2
+      },
+      {
+       "label": "Estados Unidos",
+       "value": "5,9%",
+       "pct": 5.9
+      },
+      {
+       "label": "Chile",
+       "value": "2,8%",
+       "pct": 2.8
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 44,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU0128526570",
+   "sheetIsin": "LU0128526570",
+   "name": "Templeton Latin America Fund",
+   "mapName": "Templeton Latin America Fund Class A (acc) USD",
+   "manager": "Franklin Templeton",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Mercados Emergentes",
+   "pptCategory": "Renta Variable Mercados Emergentes",
+   "asset": "rv",
+   "tag": "Renta variable | Latam",
+   "strategy": "Latam",
+   "intro": "Una cartera de LatAm con fuerte sesgo fundamental hacia líderes locales de Brasil y México.",
+   "objective": "Buscar crecimiento de capital de largo plazo mediante compañías vinculadas a América Latina. Selección fundamental contrarian en una cartera concentrada; al corte, 97.43% en acciones y 2.57% en cash. Aplica un enfoque fundamental y contrarian sobre compañías vinculadas a América Latina, con horizonte de largo plazo. La concentración en líderes de Brasil y México busca capturar descuentos de valoración, aceptando volatilidad política, cambiaria y de commodities.",
+   "aum": "615m",
+   "returns": {
+    "ytd": {
+     "v": 14.67,
+     "d": 2
+    },
+    "m1": {
+     "v": -1.03,
+     "d": 2
+    },
+    "m3": {
+     "v": 0.58,
+     "d": 2
+    },
+    "m6": {
+     "v": -5.5,
+     "d": 2
+    },
+    "y1": {
+     "v": 30.18,
+     "d": 2
+    },
+    "y3": {
+     "v": 12.7,
+     "d": 2
+    },
+    "y5": {
+     "v": 8.23,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Equity Latinoamérica"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Financieras"
+    }
+   ],
+   "ter": {
+    "v": 2.26,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Petrobras",
+       "value": "9,81%",
+       "pct": 9.81
+      },
+      {
+       "label": "Itaúsa",
+       "value": "7,74%",
+       "pct": 7.74
+      },
+      {
+       "label": "Vale",
+       "value": "6,68%",
+       "pct": 6.68
+      },
+      {
+       "label": "AXIA Energía",
+       "value": "6,08%",
+       "pct": 6.08
+      },
+      {
+       "label": "Banorte",
+       "value": "5,14%",
+       "pct": 5.14
+      }
+     ]
+    },
+    {
+     "title": "Asignación sectorial",
+     "items": [
+      {
+       "label": "Financieras",
+       "value": "34,52%",
+       "pct": 34.52
+      },
+      {
+       "label": "Materiales",
+       "value": "14,37%",
+       "pct": 14.37
+      },
+      {
+       "label": "Consumo básico",
+       "value": "14,21%",
+       "pct": 14.21
+      },
+      {
+       "label": "Industriales",
+       "value": "12,76%",
+       "pct": 12.76
+      },
+      {
+       "label": "Energía",
+       "value": "9,81%",
+       "pct": 9.81
+      }
+     ]
+    },
+    {
+     "title": "Exposición por países",
+     "items": [
+      {
+       "label": "Brasil",
+       "value": "59,44%",
+       "pct": 59.44
+      },
+      {
+       "label": "México",
+       "value": "27,98%",
+       "pct": 27.98
+      },
+      {
+       "label": "Chile",
+       "value": "5,39%",
+       "pct": 5.39
+      },
+      {
+       "label": "Perú",
+       "value": "5,04%",
+       "pct": 5.04
+      },
+      {
+       "label": "Caja",
+       "value": "2,16%",
+       "pct": 2.16
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 45,
+   "mapSlide": 6
+  },
+  {
+   "isin": "IE00BYVJR809",
+   "sheetIsin": "IE00BYVJR809",
+   "name": "Jupiter Gold & Silver Fund",
+   "mapName": "Jupiter Gold & Silver Fund L USD Acc",
+   "manager": "Jupiter",
+   "balanz": false,
+   "cls": "L (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Commodities",
+   "pptCategory": "Renta Variable Commodities",
+   "asset": "rv",
+   "tag": "Renta variable | Metales preciosos",
+   "strategy": "Metales preciosos",
+   "intro": "Exposición especializada a productores de plata y oro, con elevada convexidad frente al ciclo de metales preciosos.",
+   "objective": "Lograr apreciación de capital invirtiendo globalmente en compañías y activos vinculados a oro y plata. Cartera flexible entre productores, desarrolladores, explorers y exposición física; gestión activa según valoración y ciclo. Puede combinar productores, desarrolladores, exploradores y exposición física a oro y plata. La asignación varía según valoración, calidad de activos, costos y etapa del ciclo, generando una sensibilidad elevada —y no lineal— a los metales.",
+   "aum": "2,61bn",
+   "returns": {
+    "ytd": {
+     "v": 11.93,
+     "d": 2
+    },
+    "m1": {
+     "v": 31.93,
+     "d": 2
+    },
+    "m3": {
+     "v": 14.77,
+     "d": 2
+    },
+    "m6": {
+     "v": -13.13,
+     "d": 2
+    },
+    "y1": {
+     "v": 73.75,
+     "d": 2
+    },
+    "y3": {
+     "v": 57.34,
+     "d": 2
+    },
+    "y5": {
+     "v": 26.12,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Gold & precious metals equity"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Productores de plata"
+    }
+   ],
+   "ter": {
+    "v": 1.75,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Discovery Mining",
+       "value": "9,5%",
+       "pct": 9.5
+      },
+      {
+       "label": "Sprott Physical Silver",
+       "value": "7,5%",
+       "pct": 7.5
+      },
+      {
+       "label": "Sprott Gold & Silver",
+       "value": "6,0%",
+       "pct": 6.0
+      },
+      {
+       "label": "Wheaton Precious Metals",
+       "value": "5,1%",
+       "pct": 5.1
+      },
+      {
+       "label": "First Majestic Silver",
+       "value": "5,0%",
+       "pct": 5.0
+      }
+     ]
+    },
+    {
+     "title": "Distribución por activo",
+     "items": [
+      {
+       "label": "Renta variable",
+       "value": "80,6%",
+       "pct": 80.6
+      },
+      {
+       "label": "Lingotes físicos",
+       "value": "17,8%",
+       "pct": 17.8
+      },
+      {
+       "label": "Fondos",
+       "value": "0,5%",
+       "pct": 0.5
+      },
+      {
+       "label": "Efectivo",
+       "value": "1,0%",
+       "pct": 1.0
+      }
+     ]
+    },
+    {
+     "title": "Características de cartera",
+     "items": [
+      {
+       "label": "Número de posiciones",
+       "value": "64",
+       "pct": null
+      },
+      {
+       "label": "Top 10",
+       "value": "53,9%",
+       "pct": 53.9
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 46,
+   "mapSlide": 6
+  },
+  {
+   "isin": "LU0496367417",
+   "sheetIsin": "LU0496367417",
+   "name": "Franklin Gold and Precious Metals Fund",
+   "mapName": "Franklin Gold and Precious Metals A (acc) USD",
+   "manager": "Franklin Templeton",
+   "balanz": false,
+   "cls": "A (USD) Acc",
+   "currency": "USD",
+   "category": "Renta Variable Commodities",
+   "pptCategory": "Renta Variable Commodities",
+   "asset": "rv",
+   "tag": "Renta variable | Metales preciosos",
+   "strategy": "Metales preciosos",
+   "intro": "Una estrategia global de mineras de oro y metales preciosos orientada a capturar apalancamiento operativo al precio del metal.",
+   "objective": "Buscar crecimiento de capital y, secundariamente, ingreso mediante compañías ligadas a oro y otros metales preciosos. Invierte principalmente en mineras, procesadoras y comercializadoras globales, incluyendo mercados emergentes. Invierte principalmente en compañías de exploración, extracción, procesamiento y comercialización de oro y otros metales preciosos. La selección global evalúa reservas, costos, jurisdicción y disciplina de capital para capturar apalancamiento operativo al metal.",
+   "aum": "1,71bn",
+   "returns": {
+    "ytd": {
+     "v": 15.12,
+     "d": 2
+    },
+    "m1": {
+     "v": 31.75,
+     "d": 2
+    },
+    "m3": {
+     "v": 6.74,
+     "d": 2
+    },
+    "m6": {
+     "v": -13.84,
+     "d": 2
+    },
+    "y1": {
+     "v": 73.26,
+     "d": 2
+    },
+    "y3": {
+     "v": 59.71,
+     "d": 2
+    },
+    "y5": {
+     "v": 26.03,
+     "d": 2
+    }
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [
+    {
+     "label": "Estilo / universo",
+     "value": "Gold & precious metals equity"
+    },
+    {
+     "label": "Mayor exposición",
+     "value": "Oro vida larga"
+    }
+   ],
+   "ter": {
+    "v": 1.81,
+    "d": 2
+   },
+   "trailer": {
+    "v": 0.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": false,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE DE LA CLASE",
+   "sections": [
+    {
+     "title": "Principales posiciones",
+     "items": [
+      {
+       "label": "Newmont",
+       "value": "5,84%",
+       "pct": 5.84
+      },
+      {
+       "label": "Barrick Mining",
+       "value": "5,51%",
+       "pct": 5.51
+      },
+      {
+       "label": "G Mining Ventures",
+       "value": "5,38%",
+       "pct": 5.38
+      },
+      {
+       "label": "Alamos Gold",
+       "value": "4,27%",
+       "pct": 4.27
+      },
+      {
+       "label": "Equinox Gold",
+       "value": "3,97%",
+       "pct": 3.97
+      }
+     ]
+    },
+    {
+     "title": "Composición de cartera",
+     "items": [
+      {
+       "label": "Oro de larga vida",
+       "value": "54,55%",
+       "pct": 54.55
+      },
+      {
+       "label": "Exploración / desarrollo",
+       "value": "21,71%",
+       "pct": 21.71
+      },
+      {
+       "label": "Minería diversificada",
+       "value": "9,75%",
+       "pct": 9.75
+      },
+      {
+       "label": "Plata",
+       "value": "4,1%",
+       "pct": 4.1
+      },
+      {
+       "label": "Metales preciosos",
+       "value": "4,01%",
+       "pct": 4.01
+      }
+     ]
+    },
+    {
+     "title": "Exposición geográfica",
+     "items": [
+      {
+       "label": "Canadá",
+       "value": "57,31%",
+       "pct": 57.31
+      },
+      {
+       "label": "Australia",
+       "value": "26,53%",
+       "pct": 26.53
+      },
+      {
+       "label": "Estados Unidos",
+       "value": "7,95%",
+       "pct": 7.95
+      },
+      {
+       "label": "Sudáfrica",
+       "value": "2,33%",
+       "pct": 2.33
+      },
+      {
+       "label": "Burkina Faso",
+       "value": "1,94%",
+       "pct": 1.94
+      }
+     ]
+    }
+   ],
+   "compDate": "31/07",
+   "slide": 47,
+   "mapSlide": 6
+  },
+  {
+   "isin": "XS3146740496",
+   "sheetIsin": "XS3146740496",
+   "name": "Balanz Crypto",
+   "mapName": "Balanz Crypto",
+   "manager": "Balanz",
+   "balanz": true,
+   "cls": "USD Acc",
+   "currency": "USD",
+   "category": "Renta Variable Alternativos",
+   "pptCategory": "Alternativos Criptoactivos",
+   "asset": "rv",
+   "tag": "Alternativos | Criptoactivos",
+   "strategy": "Criptoactivos",
+   "intro": "Exposición diversificada al ecosistema cripto mediante activos digitales y compañías vinculadas al sector.",
+   "objective": "Tiene como objetivo brindar exposición diversificada al ecosistema de criptoactivos mediante una combinación de activos digitales y acciones de empresas relevantes del sector. Invierte en las principales redes blockchain y en empresas que impulsan su adopción, seleccionadas por su potencial de crecimiento y capacidad de beneficiarse del desarrollo del mercado. Sigue una estrategia activa de selección de activos y asignación temática, con horizonte de largo plazo.",
+   "aum": "5,36m",
+   "returns": {
+    "ytd": {
+     "v": -13.75,
+     "d": 2
+    },
+    "m1": {
+     "v": 28.52,
+     "d": 2
+    },
+    "m3": {
+     "v": 10.45,
+     "d": 2
+    },
+    "m6": {
+     "v": 20.56,
+     "d": 2
+    },
+    "y1": {
+     "v": -36.43,
+     "d": 2
+    },
+    "y3": null,
+    "y5": null
+   },
+   "extraReturns": [],
+   "ytm": null,
+   "duration": null,
+   "rfPortion": false,
+   "keyMetrics": [],
+   "ter": {
+    "v": 2.25,
+    "d": 2
+   },
+   "trailer": {
+    "v": 1.75,
+    "d": 2
+   },
+   "platforms": {
+    "BCV": true,
+    "BCI": true,
+    "StoneX": true,
+    "Pershing": true
+   },
+   "perfHeader": "PERFORMANCE Y MÉTRICAS CLAVE",
+   "sections": [
+    {
+     "title": "Composición de cartera",
+     "items": [
+      {
+       "label": "Criptoactivos",
+       "value": "91,0%",
+       "pct": 91.0
+      },
+      {
+       "label": "Empresas de reserva cripto",
+       "value": "6,0%",
+       "pct": 6.0
+      },
+      {
+       "label": "Empresas de servicios cripto",
+       "value": "2,0%",
+       "pct": 2.0
+      }
+     ]
+    },
+    {
+     "title": "Principales tenencias",
+     "items": [
+      {
+       "label": "iShares Bitcoin Trust ETF",
+       "value": "62,0%",
+       "pct": 62.0
+      },
+      {
+       "label": "iShares Ethereum Trust ETF",
+       "value": "28,9%",
+       "pct": 28.9
+      },
+      {
+       "label": "BitMine Immersion Tech.",
+       "value": "4,1%",
+       "pct": 4.1
+      },
+      {
+       "label": "Strategy",
+       "value": "2,4%",
+       "pct": 2.4
+      },
+      {
+       "label": "Circle Internet Group",
+       "value": "1,1%",
+       "pct": 1.1
+      }
+     ]
+    },
+    {
+     "title": "Datos del producto",
+     "items": [
+      {
+       "label": "NAV",
+       "value": "USD 61,72",
+       "pct": null
+      },
+      {
+       "label": "Fecha de inicio",
+       "value": "18/08/2025",
+       "pct": null
+      },
+      {
+       "label": "Tipo",
+       "value": "Criptoactivos",
+       "pct": null
+      },
+      {
+       "label": "Horizonte",
+       "value": "Largo plazo",
+       "pct": null
+      }
+     ]
+    }
+   ],
+   "compDate": "31/08",
+   "slide": 12,
+   "mapSlide": 4
+  }
+ ]
+}
