@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curaduría de Fondos Offshore · Balanz International</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --hdr:#071A3D; --hdr-2:#0C2A5C; --hdr-ink:#FFFFFF; --hdr-muted:#AFC1DE;
+  --bg:#F2F5F9; --surface:#FFFFFF; --surface-2:#F7F9FC; --line:#DAE2EC; --line-2:#E9EEF4;
+  --ink:#0D1B33; --ink-2:#33445F; --muted:#5B6B83;
+  --accent:#1D5BF5; --accent-ink:#1747C4; --accent-soft:#E8EFFE; --celeste:#56BDEB; --celeste-soft:#E5F5FC;
+  --neg:#B42318; --rf:#1D5BF5; --rm:#0C2A5C; --rv:#56BDEB;
+  --yes:#0C2A5C; --no:#8894A7; --focus:#1D5BF5;
+  --c1:#1D5BF5; --c2:#56BDEB; --c3:#0C2A5C; --c4:#7C8DA8; --c5:#9DB9FF;
+  --font: Aptos, "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --r:6px; --hh:60px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --hdr:#040C1C; --hdr-2:#0A1B38; --hdr-muted:#94A7C6;
+    --bg:#07101E; --surface:#0D192C; --surface-2:#112039; --line:#21324E; --line-2:#182842;
+    --ink:#E6ECF5; --ink-2:#C2CDDE; --muted:#8FA0B9;
+    --accent:#6D97FF; --accent-ink:#A3BDFF; --accent-soft:#16284A; --celeste:#6FD0F5; --celeste-soft:#0F2A3A;
+    --neg:#FF8F85; --rf:#6D97FF; --rm:#A9B8D6; --rv:#6FD0F5; --yes:#C2CDDE; --no:#62728C; --focus:#8FB0FF;
+    --c1:#6D97FF; --c2:#6FD0F5; --c3:#A9B8D6; --c4:#7C8DA8; --c5:#C9D8FF;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --hdr:#040C1C; --hdr-2:#0A1B38; --hdr-muted:#94A7C6;
+  --bg:#07101E; --surface:#0D192C; --surface-2:#112039; --line:#21324E; --line-2:#182842;
+  --ink:#E6ECF5; --ink-2:#C2CDDE; --muted:#8FA0B9;
+  --accent:#6D97FF; --accent-ink:#A3BDFF; --accent-soft:#16284A; --celeste:#6FD0F5; --celeste-soft:#0F2A3A;
+  --neg:#FF8F85; --rf:#6D97FF; --rm:#A9B8D6; --rv:#6FD0F5; --yes:#C2CDDE; --no:#62728C; --focus:#8FB0FF;
+  --c1:#6D97FF; --c2:#6FD0F5; --c3:#A9B8D6; --c4:#7C8DA8; --c5:#C9D8FF;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5;font-variant-numeric:tabular-nums}
+a{color:var(--accent-ink)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+img{max-width:100%}
+.skip{position:absolute;left:-9999px;top:0;background:var(--surface);padding:8px 12px;z-index:100}
+.skip:focus{left:8px;top:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- header */
+.topbar{position:sticky;top:0;z-index:40;background:var(--hdr);color:var(--hdr-ink)}
+.topbar-in{display:flex;align-items:center;gap:18px;height:var(--hh);padding:0 20px}
+.brand{display:flex;flex-direction:column;line-height:1;text-decoration:none;color:#fff;padding-right:18px;border-right:1px solid rgba(255,255,255,.18)}
+.brand b{font-weight:700;font-size:19px;letter-spacing:.14em}
+.brand span{font-size:8.5px;letter-spacing:.42em;margin-top:4px;color:var(--hdr-muted)}
+.apptitle{font-size:15px;font-weight:600;white-space:nowrap}
+.nav{display:flex;gap:2px;margin-left:auto}
+.nav a{color:#DCE6F6;text-decoration:none;padding:8px 12px;border-radius:4px;font-size:14px;white-space:nowrap}
+.nav a:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav a[aria-current="page"]{background:var(--hdr-2);color:#fff;box-shadow:inset 0 -2px 0 var(--celeste)}
+.nav .badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:6px;border-radius:9px;background:var(--celeste);color:#071A3D;font-size:11.5px;font-weight:700;line-height:18px;text-align:center}
+.hbtn{display:inline-flex;align-items:center;gap:8px;background:transparent;border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:4px;padding:6px 10px;cursor:pointer;font-size:14px}
+.hbtn:hover{background:rgba(255,255,255,.08)}
+.hbtn svg{width:16px;height:16px}
+.strip{background:var(--hdr-2);color:var(--hdr-muted);font-size:12.5px;display:flex;flex-wrap:wrap;gap:4px 18px;padding:5px 20px;align-items:center}
+.strip strong{color:#fff;font-weight:600;letter-spacing:.06em}
+
+/* ---------- shell */
+.shell{display:grid;grid-template-columns:280px minmax(0,1fr);min-height:calc(100vh - var(--hh))}
+.shell.noindex{grid-template-columns:minmax(0,1fr)}
+.shell.noindex .index{display:none}
+.index{position:sticky;top:calc(var(--hh) + 29px);height:calc(100vh - var(--hh) - 29px);overflow:auto;background:var(--surface);border-right:1px solid var(--line);padding:14px 12px 24px}
+.index h2{font-size:12.5px;color:var(--muted);font-weight:600;margin:6px 8px 8px}
+.index .idx-search{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface-2)}
+.idx-nav{display:none;margin-bottom:12px}
+.idx-nav a{display:block;padding:9px 10px;text-decoration:none;color:var(--ink);border-radius:4px;font-weight:500}
+.idx-nav a[aria-current="page"]{background:var(--accent-soft);color:var(--accent-ink)}
+.idx-group{margin-top:14px}
+.idx-asset{font-size:12.5px;font-weight:600;color:var(--muted);margin:0 8px 4px;display:flex;align-items:center;gap:8px}
+.idx-asset::before{content:"";width:10px;height:3px;background:var(--rf);border-radius:2px}
+.idx-asset.rm::before{background:var(--rm)} .idx-asset.rv::before{background:var(--rv)}
+.idx details{border-radius:4px}
+.index summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:8px;padding:6px 8px;border-radius:4px;font-size:13.5px;font-weight:600;color:var(--ink-2)}
+.index summary::-webkit-details-marker{display:none}
+.index summary:hover{background:var(--surface-2)}
+.index summary .n{color:var(--muted);font-weight:500}
+.index ul{list-style:none;margin:0 0 6px;padding:0 0 0 10px;border-left:1px solid var(--line-2);margin-left:10px}
+.index li a{display:block;padding:4px 8px;font-size:13px;color:var(--ink-2);text-decoration:none;border-radius:4px;line-height:1.3}
+.index li a:hover{background:var(--surface-2);color:var(--ink)}
+.index li a[aria-current="true"]{background:var(--accent-soft);color:var(--accent-ink);font-weight:600}
+.index li a .bz{font-size:10.5px;color:var(--accent-ink);font-weight:700;margin-left:4px}
+.idx-empty{padding:10px 8px;color:var(--muted);font-size:13px}
+.backdrop{display:none}
+
+main{min-width:0;padding:24px 28px 90px}
+main:focus{outline:none}
+.page-h{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:18px}
+h1{font-size:28px;line-height:1.15;margin:0;font-weight:700;letter-spacing:-.01em}
+.lede{color:var(--ink-2);margin:6px 0 0;max-width:72ch}
+.muted{color:var(--muted)}
+
+/* ---------- filters */
+.filters{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(4,minmax(140px,1fr));gap:10px}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field label{font-size:12.5px;color:var(--muted);font-weight:500}
+.field input,.field select{width:100%;height:38px;padding:0 10px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface-2);min-width:0}
+.field input:focus,.field select:focus{border-color:var(--accent)}
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin:14px 0 10px}
+.count{font-weight:600}
+.toolbar .spacer{flex:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:36px;padding:0 14px;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);cursor:pointer;font-size:14px;text-decoration:none;color:var(--ink);white-space:nowrap}
+.btn:hover{border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{filter:brightness(1.07);color:#fff}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.btn svg{width:16px;height:16px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:transparent;padding:0 12px;height:34px;cursor:pointer;font-size:13.5px;color:var(--ink-2)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.check{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--ink-2);cursor:pointer}
+.check input{width:16px;height:16px;accent-color:var(--accent)}
+.sortsel{height:36px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:0 8px;max-width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);color:var(--accent-ink);border-radius:14px;padding:3px 6px 3px 10px;font-size:13px}
+.chip button{border:0;background:transparent;cursor:pointer;color:inherit;padding:0 4px;font-size:15px;line-height:1}
+
+/* ---------- table */
+.tablewrap{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:auto;max-height:calc(100vh - var(--hh) - 120px);position:relative}
+table.map{border-collapse:separate;border-spacing:0;width:max-content;min-width:100%;font-size:13.5px}
+.map th,.map td{padding:8px 10px;border-bottom:1px solid var(--line-2);white-space:nowrap;text-align:left;vertical-align:middle;background:var(--surface)}
+.map thead th{position:sticky;top:0;z-index:3;background:var(--surface-2);font-size:12.5px;font-weight:600;color:var(--ink-2);border-bottom:1px solid var(--line)}
+.map thead tr.super th{top:0;height:26px;font-size:11.5px;color:var(--muted);font-weight:600;text-align:center;border-bottom:0;padding:6px 10px 0}
+.map thead tr.cols th{top:26px}
+.map .num{text-align:right}
+.map td.wrap{white-space:normal;min-width:110px;max-width:150px;line-height:1.3}
+.map thead th.num{text-align:right}
+.map .ctr{text-align:center}
+.map .s0{position:sticky;left:0;z-index:2;width:40px;min-width:40px;text-align:center}
+.map .s1{position:sticky;left:40px;z-index:2;min-width:230px;max-width:280px;white-space:normal;box-shadow:1px 0 0 var(--line)}
+.map thead .s0,.map thead .s1{z-index:4}
+.map tbody tr.row{cursor:pointer}
+.map tbody tr.row:hover td,.map tbody tr.row:hover th{background:var(--surface-2)}
+.map tbody tr.row.sel td,.map tbody tr.row.sel th{background:var(--accent-soft)}
+.map .fname a{color:var(--ink);font-weight:600;text-decoration:none;line-height:1.3}
+.map .fname a:hover{color:var(--accent-ink);text-decoration:underline}
+.map .fname .sub{display:block;font-size:12px;color:var(--muted);font-weight:400;margin-top:2px}
+.map tr.grp th{padding:0;background:var(--surface);border-bottom:1px solid var(--line)}
+.grp .gin{position:sticky;left:0;display:flex;align-items:baseline;gap:10px;padding:14px 12px 6px;width:max-content}
+.grp .gin b{font-size:14px;color:var(--ink)}
+.grp .gin span{font-size:12.5px;color:var(--muted);font-weight:500}
+.grp .gin::before{content:"";align-self:center;width:4px;height:16px;border-radius:2px;background:var(--rf)}
+.grp.rm .gin::before{background:var(--rm)} .grp.rv .gin::before{background:var(--rv)}
+.sortbtn{display:inline-flex;align-items:center;gap:4px;border:0;background:transparent;cursor:pointer;font-weight:600;font-size:12.5px;color:var(--ink-2);padding:2px 0}
+.sortbtn .ar{display:inline-block;width:10px;color:var(--muted);font-size:11px}
+.sortbtn.on{color:var(--accent-ink)} .sortbtn.on .ar{color:var(--accent-ink)}
+.sortbtn:hover{color:var(--accent-ink)}
+.neg{color:var(--neg)}
+.dash{color:var(--muted)}
+.pl{display:inline-flex;align-items:center;gap:5px;font-size:12.5px}
+.pl::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--yes)}
+.pl.no{color:var(--no)} .pl.no::before{background:transparent;border:1.5px solid var(--no);width:5px;height:5px}
+.bz{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;color:var(--accent-ink);background:var(--accent-soft);border-radius:3px;padding:1px 5px;margin-left:6px;vertical-align:1px}
+.rftag{font-size:10.5px;font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:0 3px;margin-left:4px;cursor:help}
+.isin{letter-spacing:.02em}
+.cmpbox{width:16px;height:16px;accent-color:var(--accent);cursor:pointer}
+
+/* ---------- cards */
+.groups{display:flex;flex-direction:column;gap:6px}
+.cgroup-h{display:flex;align-items:baseline;gap:10px;margin:14px 0 8px}
+.cgroup-h::before{content:"";align-self:center;width:4px;height:16px;border-radius:2px;background:var(--rf)}
+.cgroup-h.rm::before{background:var(--rm)} .cgroup-h.rv::before{background:var(--rv)}
+.cgroup-h b{font-size:15px} .cgroup-h span{color:var(--muted);font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 14px 12px;display:flex;flex-direction:column;gap:10px;cursor:pointer;border-top:3px solid var(--rf)}
+.card.rm{border-top-color:var(--rm)} .card.rv{border-top-color:var(--rv)}
+.card:hover{border-color:var(--accent)}
+.card.sel{box-shadow:0 0 0 2px var(--accent) inset}
+.card h3{margin:0;font-size:15.5px;line-height:1.3}
+.card h3 a{color:var(--ink);text-decoration:none}
+.card h3 a:hover{color:var(--accent-ink);text-decoration:underline}
+.card .meta{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 12px}
+.kgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-2);border:1px solid var(--line-2);border-radius:4px;overflow:hidden}
+.kgrid div{background:var(--surface);padding:6px 7px}
+.kgrid dt{font-size:11.5px;color:var(--muted)}
+.kgrid dd{margin:0;font-weight:600;font-size:13.5px}
+.card-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px}
+.plats{display:flex;flex-wrap:wrap;gap:4px 10px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:28px;text-align:center;color:var(--ink-2)}
+
+/* ---------- fund page */
+.fbar{position:sticky;top:calc(var(--hh) + 29px);z-index:20;background:var(--bg);display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;padding:10px 0;margin:-10px 0 12px;border-bottom:1px solid var(--line)}
+.fbar .pos{color:var(--muted);font-size:13px;margin:0 4px}
+.fbar .spacer{flex:1}
+.fhead{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:start}
+.tagline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:8px;font-size:13px;color:var(--ink-2);font-weight:600}
+.tagline .dot{width:10px;height:10px;border-radius:2px;background:var(--rf)}
+.tagline .dot.rm{background:var(--rm)} .tagline .dot.rv{background:var(--rv)}
+.intro{font-size:18px;line-height:1.45;color:var(--ink-2);margin:12px 0 0;max-width:70ch}
+.idgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:18px 0 0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.idgrid div{padding:10px 14px;border-right:1px solid var(--line-2);border-bottom:1px solid var(--line-2);min-width:0}
+.idgrid dt{font-size:12px;color:var(--muted)}
+.idgrid dd{margin:2px 0 0;font-weight:600;overflow-wrap:anywhere}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;min-width:0}
+.panel h2{font-size:16px;margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.panel h2 small{font-size:12.5px;color:var(--muted);font-weight:500}
+.stack{display:flex;flex-direction:column;gap:14px;margin-top:18px}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.perf{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border:1px solid var(--line-2);border-radius:4px;overflow:hidden}
+.perf div{padding:10px 12px;border-right:1px solid var(--line-2)}
+.perf div:last-child{border-right:0}
+.perf dt{font-size:12.5px;color:var(--muted)}
+.perf dd{margin:2px 0 0;font-size:20px;font-weight:600;letter-spacing:-.01em}
+.extra{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px}
+.extra b{font-weight:600}
+.kv{display:grid;grid-template-columns:minmax(0,1fr) auto;margin:0}
+.kv dt,.kv dd{padding:8px 0;border-bottom:1px solid var(--line-2);margin:0}
+.kv dd{text-align:right;font-weight:600;padding-left:12px}
+.kv dt:last-of-type,.kv dd:last-of-type{border-bottom:0}
+.kv.hl dt:nth-of-type(-n+2){}
+.platgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.platgrid div{border:1px solid var(--line-2);border-radius:4px;padding:8px 10px}
+.platgrid dt{font-size:12px;color:var(--muted)}
+.platgrid dd{margin:2px 0 0}
+.note{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+.objective{font-size:15.5px;line-height:1.65;max-width:78ch;margin:0;color:var(--ink)}
+.secgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.sec h3{font-size:14px;margin:0 0 10px;color:var(--ink)}
+.bars{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+.bars li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;font-size:13.5px}
+.bars .l{overflow-wrap:anywhere}
+.bars .v{font-weight:600;text-align:right}
+.bars .b{grid-column:1 / -1;height:5px;background:var(--line-2);border-radius:3px;overflow:hidden}
+.bars .b i{display:block;height:100%;background:var(--accent);border-radius:3px;min-width:2px}
+.sec.rv .bars .b i{background:var(--celeste)}
+.sec .kv{font-size:13.5px}
+.foot-src{font-size:12.5px;color:var(--muted);margin-top:4px}
+.bars li.plain,.sec .plain{list-style:none;margin:0;padding:0;font-size:13.5px}
+.sec .plain li{padding:5px 0;border-bottom:1px solid var(--line-2)}
+.sec .plain li:last-child{border-bottom:0}
+.srcnotes{margin-top:14px;border-top:1px solid var(--line-2);padding-top:10px}
+.srcnotes p{margin:0 0 6px;font-size:13px;color:var(--ink-2);line-height:1.5;max-width:92ch}
+.srcnotes p:last-child{margin-bottom:0}
+
+/* ---------- compare */
+.cmp-add{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin:0 0 14px}
+.cmp-add .field{min-width:260px;flex:1;max-width:520px}
+.cmpwrap{overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+table.cmp{border-collapse:separate;border-spacing:0;min-width:100%;font-size:13.5px}
+.cmp th,.cmp td{padding:8px 12px;border-bottom:1px solid var(--line-2);vertical-align:top;text-align:left;background:var(--surface);min-width:170px;max-width:260px}
+.cmp tbody th{position:sticky;left:0;z-index:2;min-width:150px;max-width:170px;width:160px;font-weight:600;color:var(--ink-2);font-size:13px;box-shadow:1px 0 0 var(--line)}
+.cmp thead th{vertical-align:top;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.cmp thead th:first-child{position:sticky;left:0;z-index:3;box-shadow:1px 0 0 var(--line)}
+.cmp .hd{border-top:4px solid var(--c1);padding-top:6px;display:flex;flex-direction:column;gap:6px}
+.cmp .hd a{font-weight:700;color:var(--ink);text-decoration:none;font-size:14.5px;line-height:1.3}
+.cmp .hd a:hover{color:var(--accent-ink);text-decoration:underline}
+.cmp .hd button{align-self:flex-start;border:1px solid var(--line);background:var(--surface);border-radius:4px;font-size:12.5px;padding:2px 8px;cursor:pointer;color:var(--ink-2)}
+.cmp .hd button:hover{border-color:var(--neg);color:var(--neg)}
+.cmp tr.band th,.cmp tr.band td{background:var(--surface-2);font-size:12px;color:var(--muted);font-weight:600;padding:6px 12px}
+.cmp td.num{font-weight:600}
+.cmp .mini h4{font-size:12.5px;margin:10px 0 4px;color:var(--ink-2)}
+.cmp .mini h4:first-child{margin-top:0}
+.cmp .mini ul{list-style:none;margin:0;padding:0}
+.cmp .mini li{display:flex;justify-content:space-between;gap:10px;font-size:12.5px;padding:2px 0;border-bottom:1px dotted var(--line-2)}
+.cmp .mini li span:last-child{font-weight:600;white-space:nowrap}
+
+/* ---------- tray */
+.tray{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:35;background:var(--hdr);color:#fff;border-radius:8px;box-shadow:0 8px 24px rgba(4,12,28,.28);display:flex;align-items:center;gap:12px;padding:8px 8px 8px 16px;max-width:calc(100vw - 24px)}
+.tray[hidden]{display:none}
+.tray .t{font-size:14px;white-space:nowrap}
+.tray .tchips{display:flex;gap:6px;overflow:auto;max-width:min(52vw,720px)}
+.tray .tchip .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tray .tchip{max-width:190px;overflow:hidden;text-overflow:ellipsis;display:inline-flex;align-items:center;gap:4px;background:rgba(255,255,255,.1);border-radius:12px;padding:2px 4px 2px 10px;font-size:12.5px;white-space:nowrap}
+.tray .tchip button{border:0;background:transparent;color:#fff;cursor:pointer;font-size:15px;padding:0 4px}
+.tray .btn{height:34px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:76px;background:var(--ink);color:var(--surface);padding:8px 14px;border-radius:6px;font-size:14px;z-index:60}
+.toast[hidden]{display:none}
+
+/* ---------- curaduría */
+.cur{max-width:1080px}
+.cur-toc{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 22px}
+.cur-toc a{font-size:13.5px;text-decoration:none;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);border-radius:14px;padding:4px 12px}
+.cur-toc a:hover{border-color:var(--accent);color:var(--accent-ink)}
+.csec{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;margin-bottom:14px;scroll-margin-top:110px}
+.csec h2{font-size:20px;margin:0 0 12px}
+.csec p{margin:0 0 10px;max-width:74ch;line-height:1.6}
+.csec .big{font-size:22px;line-height:1.35;font-weight:600;max-width:40ch;margin-bottom:12px}
+.csec .kick{font-size:13px;color:var(--muted);font-weight:600;margin-bottom:6px}
+.universe{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 28px;align-items:center}
+.universe .fig{font-size:52px;font-weight:700;line-height:1;color:var(--accent-ink);letter-spacing:-.02em}
+.universe .fl{color:var(--muted);font-size:14px;margin-top:6px}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border:1px solid var(--line-2);border-radius:4px;overflow:hidden}
+.steps li{padding:16px;border-right:1px solid var(--line-2)}
+.steps li:last-child{border-right:0}
+.steps .sn{font-size:13px;font-weight:700;color:var(--accent-ink)}
+.steps h3{font-size:16px;margin:4px 0 8px}
+.steps p{font-size:14px;margin:0;color:var(--ink-2)}
+.pillar{border-left:3px solid var(--accent);padding:4px 0 4px 14px;margin:14px 0}
+.pillar h3{font-size:15px;margin:0 0 4px}
+.pillar p{margin:0}
+.profiles{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.profiles span{border:1px solid var(--line);border-radius:4px;padding:6px 14px;font-weight:600;font-size:14px;background:var(--surface-2)}
+.nextstep{background:var(--accent-soft);border-radius:4px;padding:12px 16px;margin-top:12px}
+.nextstep h3{font-size:15px;margin:0 0 4px;color:var(--accent-ink)}
+.nextstep p{margin:0}
+.catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.catcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;border-top:3px solid var(--rf);display:flex;flex-direction:column;gap:8px}
+.catcard.rm{border-top-color:var(--rm)} .catcard.rv{border-top-color:var(--rv)}
+.catcard h3{margin:0;font-size:15.5px}
+.catcard ul{list-style:none;margin:0;padding:0;flex:1}
+.catcard li{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line-2);font-size:13.5px}
+.catcard li:last-child{border-bottom:0}
+.catcard li a{color:var(--ink);text-decoration:none}
+.catcard li a:hover{color:var(--accent-ink);text-decoration:underline}
+.catcard li span{color:var(--muted);font-size:12.5px;white-space:nowrap}
+.asset-h{font-size:18px;margin:22px 0 10px;display:flex;align-items:center;gap:10px}
+.asset-h::before{content:"";width:14px;height:4px;border-radius:2px;background:var(--rf)}
+.asset-h.rm::before{background:var(--rm)} .asset-h.rv::before{background:var(--rv)}
+
+footer.site{border-top:1px solid var(--line);margin-top:28px;padding-top:14px;font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+footer.site strong{color:var(--ink-2);letter-spacing:.06em}
+
+/* ---------- responsive */
+@media (max-width:1240px){
+  .idgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .filters{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .filters .field.q{grid-column:1 / -1}
+  .perf{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .perf div{border-bottom:1px solid var(--line-2)}
+  .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .steps li:nth-child(2n){border-right:0}
+  .steps li:nth-child(-n+2){border-bottom:1px solid var(--line-2)}
+}
+@media (max-width:1100px){
+  .shell,.shell.noindex{grid-template-columns:minmax(0,1fr)}
+  .index{position:fixed;display:block!important;top:0;left:0;bottom:0;height:100vh;width:min(320px,86vw);z-index:70;transform:translateX(-102%);transition:transform .2s ease;box-shadow:4px 0 24px rgba(4,12,28,.2)}
+  .index.open{transform:none}
+  .idx-nav{display:block}
+  .backdrop.open{display:block;position:fixed;inset:0;background:rgba(4,12,28,.45);z-index:65}
+  .nav{display:none}
+  .apptitle{margin-right:auto}
+}
+@media (max-width:760px){
+  :root{--hh:54px}
+  main{padding:16px 14px 90px}
+  .topbar-in{padding:0 12px;gap:10px}
+  .brand{padding-right:10px}
+  .brand b{font-size:16px}
+  .apptitle{font-size:13.5px;white-space:normal;line-height:1.2}
+  .strip{padding:5px 12px;font-size:11.5px;gap:2px 12px}
+  h1{font-size:23px}
+  .filters{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}
+  .intro{font-size:16.5px}
+  .two{grid-template-columns:minmax(0,1fr)}
+  .fhead{grid-template-columns:minmax(0,1fr)}
+  .perf{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .perf div:nth-child(3n){border-right:0}
+  .perf dd{font-size:17px}
+  .perf div{padding:8px 10px}
+  .idgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .filters .field.q{grid-column:1 / -1}
+  .kgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .platgrid{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:minmax(0,1fr)}
+  .steps li{border-right:0;border-bottom:1px solid var(--line-2)}
+  .universe{grid-template-columns:minmax(0,1fr)}
+  .universe .fig{font-size:42px}
+  .csec{padding:18px 16px}
+  .tablewrap{max-height:70vh}
+  .tray{left:12px;right:12px;transform:none;bottom:10px;padding:8px 8px 8px 12px}
+  .tray .tchips{display:none}
+  .tray .t{flex:1}
+  .cards{grid-template-columns:minmax(0,1fr)}
+  .fbar{top:calc(var(--hh) + 24px)}
+  .fbar .lbl{display:none}
+}
+@media (max-width:420px){
+  .apptitle{display:none}
+  .brand{border-right:0}
+  .filters{gap:8px}
+}
+@media (prefers-reduced-motion: reduce){ .index{transition:none} }
+@media print{ .topbar,.index,.tray,.fbar,.filters,.toolbar{display:none!important} .shell{display:block} .tablewrap{max-height:none;overflow:visible} }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <button class="hbtn" id="idxBtn" aria-controls="index" aria-expanded="false" title="Índice de fondos">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span class="sr">Índice</span>
+    </button>
+    <a class="brand" href="#/mapa" aria-label="Balanz International, ir al mapa de fondos"><b>BALANZ</b><span>INTERNATIONAL</span></a>
+    <div class="apptitle">Curaduría de Fondos Offshore</div>
+    <nav class="nav" aria-label="Principal" id="topnav"></nav>
+  </div>
+  <div class="strip" id="strip"></div>
+</header>
+<div class="shell" id="shell">
+  <aside class="index" id="index" aria-label="Índice de fondos"></aside>
+  <div class="backdrop" id="backdrop"></div>
+  <main id="main" tabindex="-1"></main>
+</div>
+<div class="tray" id="tray" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p style="padding:20px">Esta aplicación requiere JavaScript habilitado.</p></noscript>
+
+<script type="application/json" id="fund-data">/*__DATA__*/</script>
+<script>
+(function(){
+"use strict";
+const DATA = JSON.parse(document.getElementById('fund-data').textContent);
+const META = DATA.meta, INST = DATA.institutional, CATS = DATA.categories, FUNDS = DATA.funds;
+const BY = new Map(FUNDS.map(f => [f.isin, f]));
+const ASSET_NAME = {rf:'Renta fija', rm:'Renta mixta', rv:'Renta variable'};
+const PLATFORMS = ['BCV','BCI','StoneX','Pershing'];
+const RET_COLS = [['ytd','YTD'],['m1','1M'],['m3','3M'],['m6','6M'],['y1','1Y'],['y3','3Y anual.'],['y5','5Y anual.']];
+const RET_LONG = {ytd:'YTD', m1:'1 mes', m3:'3 meses', m6:'6 meses', y1:'1 año', y3:'3 años anualizado', y5:'5 años anualizado'};
+const SORTS = {
+  ytd:{label:'YTD', get:f=>v(f.returns.ytd)}, m1:{label:'1M', get:f=>v(f.returns.m1)}, m3:{label:'3M', get:f=>v(f.returns.m3)},
+  m6:{label:'6M', get:f=>v(f.returns.m6)}, y1:{label:'1Y', get:f=>v(f.returns.y1)}, y3:{label:'3Y anual.', get:f=>v(f.returns.y3)},
+  y5:{label:'5Y anual.', get:f=>v(f.returns.y5)}, ytm:{label:'YTM', get:f=>v(f.ytm)}, dur:{label:'Duración', get:f=>v(f.duration)}
+};
+const MAX_CMP = 5;
+const DASH = '<span class="dash" aria-label="sin dato">—</span>';
+
+function v(n){ return n == null ? null : n.v; }
+function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function norm(s){ return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
+function numTxt(n, suf){ return n.v.toFixed(n.d).replace('.', ',') + suf; }
+function pct(n){ return n == null ? DASH : `<span class="${n.v < 0 ? 'neg' : ''}">${numTxt(n,'%')}</span>`; }
+function yrs(n, long){ return n == null ? DASH : numTxt(n, long ? ' años' : ''); }
+function sentence(s){ return s ? s.charAt(0) + s.slice(1).toLowerCase() : s; }
+function plat(ok){ return ok ? '<span class="pl yes">Sí</span>' : '<span class="pl no">No</span>'; }
+function valTxt(s){ return /^-\d/.test(s) ? `<span class="neg">${esc(s)}</span>` : esc(s); }
+const store = {
+  get(k, d){ try { const x = localStorage.getItem('cfo:' + k); return x == null ? d : JSON.parse(x); } catch(e){ return d; } },
+  set(k, x){ try { localStorage.setItem('cfo:' + k, JSON.stringify(x)); } catch(e){} }
+};
+const $ = (sel, root) => (root || document).querySelector(sel);
+const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
+const RFTAG = '<abbr class="rftag" title="Yield y duración de la porción de renta fija, según la fuente">RF</abbr>';
+function ytmCell(f){ return f.ytm == null ? DASH : pct(f.ytm) + (f.rfPortion ? RFTAG : ''); }
+function durCell(f, long){ return f.duration == null ? DASH : yrs(f.duration, long) + (f.rfPortion ? RFTAG : ''); }
+
+/* ---------------- state */
+const DEFAULT_MAP = {q:'', cat:'', str:'', ges:'', pla:'', sort:'', dir:'', group:true};
+let mapState = Object.assign({}, DEFAULT_MAP);
+let view = store.get('view', null);
+let cmp = (store.get('cmp', []) || []).filter(i => BY.has(i)).slice(0, MAX_CMP);
+let currentRoute = null;
+let mapScroll = {y:0, left:0, top:0};
+
+function mapQuery(st){
+  const p = new URLSearchParams();
+  if (st.q) p.set('q', st.q);
+  if (st.cat) p.set('categoria', st.cat);
+  if (st.str) p.set('clasificacion', st.str);
+  if (st.ges) p.set('gestora', st.ges);
+  if (st.pla) p.set('plataforma', st.pla);
+  if (st.sort) p.set('orden', st.sort + '-' + st.dir);
+  if (!st.group) p.set('agrupar', '0');
+  const s = p.toString();
+  return s ? '?' + s : '';
+}
+function parseMapQuery(qs){
+  const p = new URLSearchParams(qs);
+  const st = Object.assign({}, DEFAULT_MAP);
+  st.q = p.get('q') || '';
+  st.cat = p.get('categoria') || '';
+  st.str = p.get('clasificacion') || '';
+  st.ges = p.get('gestora') || '';
+  st.pla = PLATFORMS.includes(p.get('plataforma')) ? p.get('plataforma') : '';
+  const o = (p.get('orden') || '').split('-');
+  if (SORTS[o[0]] && (o[1] === 'asc' || o[1] === 'desc')) { st.sort = o[0]; st.dir = o[1]; }
+  st.group = p.get('agrupar') !== '0';
+  return st;
+}
+function mapHref(){ return '#/mapa' + mapQuery(mapState); }
+function effectiveView(){ return view || (matchMedia('(max-width: 760px)').matches ? 'cards' : 'table'); }
+
+/* ---------------- data helpers */
+function filtered(st){
+  const q = norm(st.q.trim());
+  return FUNDS.filter(f => {
+    if (q && !norm([f.name, f.mapName, f.manager, f.isin, f.sheetIsin].join(' ')).includes(q)) return false;
+    if (st.cat) {
+      if (st.cat.startsWith('clase:')) { if (f.asset !== st.cat.slice(6)) return false; }
+      else if (f.category !== st.cat) return false;
+    }
+    if (st.str && f.strategy !== st.str) return false;
+    if (st.ges && f.manager !== st.ges) return false;
+    if (st.pla && !f.platforms[st.pla]) return false;
+    return true;
+  });
+}
+function sorted(list, st){
+  if (!st.sort) return list;
+  const g = SORTS[st.sort].get, s = st.dir === 'asc' ? 1 : -1;
+  return list.slice().sort((a, b) => {
+    const x = g(a), y = g(b);
+    if (x == null && y == null) return 0;
+    if (x == null) return 1;
+    if (y == null) return -1;
+    return (x - y) * s;
+  });
+}
+function grouped(list){
+  return CATS.map(c => ({cat:c, items:list.filter(f => f.category === c.name)})).filter(g => g.items.length);
+}
+function orderedList(st){
+  const l = sorted(filtered(st), st);
+  return st.group ? grouped(l).flatMap(g => g.items) : l;
+}
+const STRATEGIES = [...new Set(FUNDS.map(f => f.strategy))];
+const MANAGERS = [...new Set(FUNDS.map(f => f.manager))].sort((a,b) => a.localeCompare(b, 'es'));
+
+/* ---------------- shell */
+function renderStrip(){
+  $('#strip').innerHTML = `<strong>${esc(META.legend)}</strong><span>${esc(META.performanceShort || META.performance)}</span><span>${esc(META.composition)}</span>`;
+}
+function renderNav(active){
+  const items = [['mapa', mapHref(), 'Mapa de fondos'], ['curaduria', '#/curaduria', 'Curaduría y criterios'],
+                 ['comparar', '#/comparar', 'Comparador'], ['categorias', '#/categorias', 'Categorías']];
+  const html = items.map(([k, h, l]) => `<a href="${h}" ${active === k ? 'aria-current="page"' : ''}>${l}${k === 'comparar' && cmp.length ? `<span class="badge" aria-label="${cmp.length} seleccionados">${cmp.length}</span>` : ''}</a>`).join('');
+  $('#topnav').innerHTML = html;
+  const idxNav = $('.idx-nav');
+  if (idxNav) idxNav.innerHTML = html;
+}
+function renderIndex(){
+  const el = $('#index');
+  el.innerHTML = `<nav class="idx-nav" aria-label="Principal (móvil)"></nav>
+    <h2 id="idxTitle">Acceso rápido a fondos</h2>
+    <label class="sr" for="idxSearch">Buscar fondo en el índice</label>
+    <input class="idx-search" id="idxSearch" type="search" placeholder="Buscar por nombre, gestora o ISIN" autocomplete="off">
+    <div id="idxList"></div>`;
+  $('#idxSearch').addEventListener('input', e => renderIndexList(e.target.value));
+  renderIndexList('');
+}
+function renderIndexList(q){
+  const nq = norm(q.trim());
+  const cur = currentRoute && currentRoute.name === 'fondo' ? currentRoute.isin : null;
+  let html = '', total = 0;
+  ['rf','rm','rv'].forEach(a => {
+    const cats = CATS.filter(c => c.asset === a).map(c => ({c, items:FUNDS.filter(f => f.category === c.name && (!nq || norm(f.name + ' ' + f.mapName + ' ' + f.manager + ' ' + f.isin).includes(nq)))})).filter(x => x.items.length);
+    if (!cats.length) return;
+    html += `<div class="idx-group"><div class="idx-asset ${a}">${ASSET_NAME[a]}</div>`;
+    cats.forEach(({c, items}) => {
+      total += items.length;
+      const open = nq || (cur && items.some(f => f.isin === cur)) ? ' open' : '';
+      html += `<details${open}><summary><span>${esc(c.name)}</span><span class="n">${items.length}</span></summary><ul>` +
+        items.map(f => `<li><a href="#/fondo/${f.isin}" ${f.isin === cur ? 'aria-current="true"' : ''}>${esc(f.name)}${f.balanz ? '<span class="bz">BALANZ</span>' : ''}</a></li>`).join('') + '</ul></details>';
+    });
+    html += '</div>';
+  });
+  $('#idxList').innerHTML = total ? html : '<p class="idx-empty">Ningún fondo coincide con la búsqueda.</p>';
+}
+function isDrawer(){ return matchMedia('(max-width: 1100px)').matches; }
+function toggleIndex(force){
+  const idx = $('#index'), shell = $('#shell'), btn = $('#idxBtn');
+  if (isDrawer()) {
+    const open = force != null ? force : !idx.classList.contains('open');
+    idx.classList.toggle('open', open); $('#backdrop').classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open);
+    if (open) setTimeout(() => $('#idxSearch').focus(), 50);
+  } else {
+    const hidden = force != null ? !force : !shell.classList.contains('noindex');
+    shell.classList.toggle('noindex', hidden); btn.setAttribute('aria-expanded', !hidden);
+    store.set('indexHidden', hidden);
+  }
+}
+function setupShell(){
+  renderStrip(); renderIndex();
+  if (store.get('indexHidden', false) && !isDrawer()) $('#shell').classList.add('noindex');
+  $('#idxBtn').setAttribute('aria-expanded', isDrawer() ? 'false' : String(!$('#shell').classList.contains('noindex')));
+  $('#idxBtn').addEventListener('click', () => toggleIndex());
+  $('#backdrop').addEventListener('click', () => toggleIndex(false));
+  $('#index').addEventListener('click', e => { if (e.target.closest('a') && isDrawer()) toggleIndex(false); });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && $('#index').classList.contains('open')) { toggleIndex(false); $('#idxBtn').focus(); }
+    if (e.key === '/' && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) {
+      const s = $('#q'); if (s) { e.preventDefault(); s.focus(); }
+    }
+  });
+}
+function footer(extra){
+  return `<footer class="site">
+    <div><strong>${esc(META.legend)}</strong></div>
+    <div>${esc(META.disclaimer)}</div>
+    <div>${esc(META.performance)}. ${esc(META.compositionLong || META.composition)}. Los rendimientos de 3Y y 5Y son anualizados.</div>
+    <div>${esc(META.feeNote)} ${esc(META.feeSource)}.</div>
+    <div>${esc(META.sheetSource)}.</div>${extra || ''}</footer>`;
+}
+
+/* ---------------- compare state */
+function setCmp(list){
+  cmp = list.slice(0, MAX_CMP); store.set('cmp', cmp);
+  renderNav(currentRoute && currentRoute.name); renderTray(); syncCmpControls();
+}
+function toggleCmp(isin){
+  if (cmp.includes(isin)) setCmp(cmp.filter(i => i !== isin));
+  else if (cmp.length >= MAX_CMP) toast('El comparador admite hasta cinco fondos. Quitá uno para agregar otro.');
+  else setCmp(cmp.concat(isin));
+}
+function syncCmpControls(){
+  const full = cmp.length >= MAX_CMP;
+  $$('[data-cmp]').forEach(el => {
+    const on = cmp.includes(el.dataset.cmp);
+    if (el.type === 'checkbox') { el.checked = on; el.disabled = full && !on; }
+    else { el.setAttribute('aria-pressed', on); el.textContent = on ? 'Quitar del comparador' : 'Agregar al comparador'; el.disabled = full && !on; }
+    const row = el.closest('.row, .card'); if (row) row.classList.toggle('sel', on);
+  });
+}
+function renderTray(){
+  const t = $('#tray');
+  if (!cmp.length || (currentRoute && currentRoute.name === 'comparar')) { t.hidden = true; return; }
+  t.hidden = false;
+  t.innerHTML = `<span class="t">Comparador ${cmp.length}/${MAX_CMP}</span>
+    <span class="tchips">${cmp.map(i => `<span class="tchip"><span class="nm">${esc(BY.get(i).name)}</span><button type="button" data-untray="${i}" aria-label="Quitar ${esc(BY.get(i).name)}">×</button></span>`).join('')}</span>
+    <a class="btn primary" href="#/comparar">Comparar</a>`;
+}
+let toastTimer;
+function toast(msg){
+  const el = $('#toast'); el.textContent = msg; el.hidden = false;
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { el.hidden = true; }, 3200);
+}
+
+/* ---------------- MAP VIEW */
+function catOptions(sel, withAssets){
+  let h = '';
+  ['rf','rm','rv'].forEach(a => {
+    h += `<optgroup label="${ASSET_NAME[a]}">`;
+    if (withAssets) h += `<option value="clase:${a}" ${sel === 'clase:' + a ? 'selected' : ''}>${ASSET_NAME[a]}: todas las categorías</option>`;
+    CATS.filter(c => c.asset === a).forEach(c => {
+      const n = FUNDS.filter(f => f.category === c.name).length;
+      h += `<option value="${esc(c.name)}" ${sel === c.name ? 'selected' : ''}>${esc(c.name)} (${n})</option>`;
+    });
+    h += '</optgroup>';
+  });
+  return h;
+}
+function renderMap(){
+  const st = mapState;
+  const sortOpts = ['<option value="">Orden de la curaduría</option>'].concat(Object.entries(SORTS).flatMap(([k, s]) =>
+    [`<option value="${k}-desc">${s.label}: mayor a menor</option>`, `<option value="${k}-asc">${s.label}: menor a mayor</option>`])).join('');
+  $('#main').innerHTML = `
+    <div class="page-h">
+      <div>
+        <h1>Mapa de fondos</h1>
+        <p class="lede">${FUNDS.length} fondos de la curaduría, agrupados por categoría. Seleccioná un fondo para ver su ficha o marcá hasta cinco para compararlos.</p>
+      </div>
+    </div>
+    <form class="filters" role="search" aria-label="Filtros del mapa" onsubmit="return false">
+      <div class="field q"><label for="q">Buscar</label><input id="q" type="search" placeholder="Nombre, gestora o ISIN" value="${esc(st.q)}" autocomplete="off"></div>
+      <div class="field"><label for="fcat">Categoría</label><select id="fcat"><option value="">Todas</option>${catOptions(st.cat, true)}</select></div>
+      <div class="field"><label for="fstr">Clasificación</label><select id="fstr"><option value="">Todas</option>${STRATEGIES.map(s => `<option ${st.str === s ? 'selected' : ''}>${esc(s)}</option>`).join('')}</select></div>
+      <div class="field"><label for="fges">Gestora</label><select id="fges"><option value="">Todas</option>${MANAGERS.map(s => `<option ${st.ges === s ? 'selected' : ''}>${esc(s)}</option>`).join('')}</select></div>
+      <div class="field"><label for="fpla">Plataforma</label><select id="fpla"><option value="">Todas</option>${PLATFORMS.map(s => `<option value="${s}" ${st.pla === s ? 'selected' : ''}>Habilitado en ${s}</option>`).join('')}</select></div>
+    </form>
+    <div class="toolbar">
+      <span class="count" id="count" aria-live="polite"></span>
+      <span class="chips" id="activeChips"></span>
+      <button type="button" class="btn" id="clear">Limpiar filtros</button>
+      <span class="spacer"></span>
+      <label class="check"><input type="checkbox" id="grp" ${st.group ? 'checked' : ''}> Agrupar por categoría</label>
+      <label class="sr" for="sortSel">Ordenar</label>
+      <select class="sortsel" id="sortSel">${sortOpts}</select>
+      <div class="seg" role="group" aria-label="Vista">
+        <button type="button" data-view="table" aria-pressed="${effectiveView() === 'table'}">Tabla</button>
+        <button type="button" data-view="cards" aria-pressed="${effectiveView() === 'cards'}">Tarjetas</button>
+      </div>
+    </div>
+    <div id="results"></div>
+    ${footer()}`;
+  $('#sortSel').value = st.sort ? st.sort + '-' + st.dir : '';
+  const upd = (k, val) => { mapState[k] = val; commitMap(); };
+  $('#q').addEventListener('input', e => upd('q', e.target.value));
+  $('#fcat').addEventListener('change', e => upd('cat', e.target.value));
+  $('#fstr').addEventListener('change', e => upd('str', e.target.value));
+  $('#fges').addEventListener('change', e => upd('ges', e.target.value));
+  $('#fpla').addEventListener('change', e => upd('pla', e.target.value));
+  $('#grp').addEventListener('change', e => upd('group', e.target.checked));
+  $('#sortSel').addEventListener('change', e => {
+    const [k, d] = e.target.value ? e.target.value.split('-') : ['', ''];
+    mapState.sort = k; mapState.dir = d; commitMap();
+  });
+  $('#clear').addEventListener('click', () => { mapState = Object.assign({}, DEFAULT_MAP); renderMap(); commitMap(true); $('#q').focus(); });
+  $$('.seg button').forEach(b => b.addEventListener('click', () => {
+    view = b.dataset.view; store.set('view', view);
+    $$('.seg button').forEach(x => x.setAttribute('aria-pressed', x === b)); renderResults();
+  }));
+  bindResults($('#results'));
+  $('#activeChips').addEventListener('click', e => {
+    const b = e.target.closest('[data-unset]'); if (!b) return;
+    const k = b.dataset.unset; mapState[k] = DEFAULT_MAP[k]; if (k === 'sort') mapState.dir = '';
+    renderMap(); commitMap(true);
+  });
+  renderResults();
+}
+function commitMap(){
+  history.replaceState(null, '', '#/mapa' + mapQuery(mapState));
+  renderNav('mapa');
+  const ss = $('#sortSel'); if (ss) ss.value = mapState.sort ? mapState.sort + '-' + mapState.dir : '';
+  renderResults();
+}
+function renderChips(n){
+  const st = mapState, chips = [];
+  if (st.q) chips.push(['q', `Búsqueda: “${st.q}”`]);
+  if (st.cat) chips.push(['cat', st.cat.startsWith('clase:') ? ASSET_NAME[st.cat.slice(6)] : st.cat]);
+  if (st.str) chips.push(['str', 'Clasificación: ' + st.str]);
+  if (st.ges) chips.push(['ges', 'Gestora: ' + st.ges]);
+  if (st.pla) chips.push(['pla', 'Plataforma: ' + st.pla]);
+  if (st.sort) chips.push(['sort', `${SORTS[st.sort].label}: ${st.dir === 'desc' ? 'mayor a menor' : 'menor a mayor'}`]);
+  $('#activeChips').innerHTML = chips.map(([k, l]) => `<span class="chip">${esc(l)}<button type="button" data-unset="${k}" aria-label="Quitar ${esc(l)}">×</button></span>`).join('');
+  $('#count').textContent = n === FUNDS.length ? `${n} fondos` : `${n} de ${FUNDS.length} fondos`;
+  $('#clear').disabled = !chips.length && st.group;
+}
+function renderResults(){
+  const st = mapState;
+  const list = sorted(filtered(st), st);
+  renderChips(list.length);
+  const box = $('#results');
+  if (!list.length) {
+    box.innerHTML = `<div class="empty"><p><strong>Ningún fondo cumple con los filtros seleccionados.</strong></p><p>Probá con otra búsqueda o limpiá los filtros para volver al mapa completo.</p><button type="button" class="btn primary" id="clear2">Ver el mapa completo</button></div>`;
+    $('#clear2').addEventListener('click', () => $('#clear').click());
+    return;
+  }
+  const groups = st.group ? grouped(list) : [{cat:null, items:list}];
+  box.innerHTML = effectiveView() === 'table' ? tableHTML(groups) : cardsHTML(groups);
+  syncCmpControls();
+}
+function sortHead(k, label, extraCls){
+  const on = mapState.sort === k, dir = on ? mapState.dir : '';
+  const aria = on ? (dir === 'desc' ? 'descending' : 'ascending') : 'none';
+  const next = on && dir === 'desc' ? 'menor a mayor' : 'mayor a menor';
+  return `<th scope="col" class="num ${extraCls || ''}" aria-sort="${aria}"><button type="button" class="sortbtn ${on ? 'on' : ''}" data-sort="${k}" title="Ordenar ${label}: ${next}">${label}<span class="ar" aria-hidden="true">${on ? (dir === 'desc' ? '▼' : '▲') : '↕'}</span></button></th>`;
+}
+function tableHTML(groups){
+  const NCOL = 20;
+  const head = `<thead>
+    <tr class="super"><th class="s0"></th><th class="s1"></th><th colspan="4"></th><th colspan="7">${esc(META.performanceShort || META.performance)}</th><th colspan="2">Renta fija</th><th colspan="2">Costos anuales</th><th colspan="4">Plataformas habilitadas</th></tr>
+    <tr class="cols">
+      <th scope="col" class="s0"><span class="sr">Comparar</span></th>
+      <th scope="col" class="s1">Fondo</th><th scope="col">Gestora</th><th scope="col">ISIN</th><th scope="col">Categoría</th><th scope="col" class="num">AUM<br><span style="font-weight:400;color:var(--muted)">USD mill.</span></th>
+      ${RET_COLS.map(([k, l]) => sortHead(k, l)).join('')}
+      ${sortHead('ytm', 'YTM')}${sortHead('dur', 'Duración')}
+      <th scope="col" class="num">TER</th><th scope="col" class="num">Trailer fee</th>
+      ${PLATFORMS.map(p => `<th scope="col">${p}</th>`).join('')}
+    </tr></thead>`;
+  const rows = groups.map(g => {
+    let h = '';
+    if (g.cat) h += `<tr class="grp ${g.cat.asset}"><th colspan="${NCOL}" scope="rowgroup"><div class="gin"><b>${esc(g.cat.name)}</b><span>${g.items.length} ${g.items.length === 1 ? 'fondo' : 'fondos'}</span></div></th></tr>`;
+    h += g.items.map(f => `<tr class="row" data-isin="${f.isin}">
+      <td class="s0"><input class="cmpbox" type="checkbox" data-cmp="${f.isin}" aria-label="Comparar ${esc(f.name)}"></td>
+      <th scope="row" class="s1 fname"><a href="#/fondo/${f.isin}">${esc(f.name)}</a>${f.balanz ? '<span class="bz">BALANZ</span>' : ''}${f.cls ? `<span class="sub">${esc(f.cls)}</span>` : ''}</th>
+      <td class="wrap">${esc(f.manager)}</td><td class="isin">${f.isin}</td><td class="wrap">${esc(f.category)}</td><td class="num">${esc(f.aum)}</td>
+      ${RET_COLS.map(([k]) => `<td class="num">${pct(f.returns[k])}</td>`).join('')}
+      <td class="num">${ytmCell(f)}</td><td class="num">${durCell(f)}</td>
+      <td class="num">${pct(f.ter)}</td><td class="num">${pct(f.trailer)}</td>
+      ${PLATFORMS.map(p => `<td>${plat(f.platforms[p])}</td>`).join('')}
+    </tr>`).join('');
+    return `<tbody>${h}</tbody>`;
+  }).join('');
+  return `<div class="tablewrap" id="tw" tabindex="0" aria-label="Tabla del mapa de fondos, desplazable"><table class="map"><caption class="sr">Mapa de fondos. Duración en años. Rendimientos de 3Y y 5Y anualizados.</caption>${head}${rows}</table></div>`;
+}
+function cardsHTML(groups){
+  return '<div class="groups">' + groups.map(g => {
+    const head = g.cat ? `<h2 class="cgroup-h ${g.cat.asset}"><b>${esc(g.cat.name)}</b><span>${g.items.length} ${g.items.length === 1 ? 'fondo' : 'fondos'}</span></h2>` : '';
+    return head + '<div class="cards">' + g.items.map(f => `<article class="card ${f.asset}" data-isin="${f.isin}">
+      <div>
+        <h3><a href="#/fondo/${f.isin}">${esc(f.name)}</a>${f.balanz ? '<span class="bz">BALANZ</span>' : ''}</h3>
+        <div class="meta"><span>${esc(f.manager)}</span><span class="isin">${f.isin}</span><span>${esc(f.category)}</span></div>
+      </div>
+      <dl class="kgrid">
+        <div><dt>AUM (USD mill.)</dt><dd>${esc(f.aum)}</dd></div>
+        ${RET_COLS.map(([k, l]) => `<div><dt>${l}</dt><dd>${pct(f.returns[k])}</dd></div>`).join('')}
+        <div><dt>YTM${f.rfPortion ? ' (RF)' : ''}</dt><dd>${f.ytm == null ? DASH : pct(f.ytm)}</dd></div>
+        <div><dt>Duración${f.rfPortion ? ' (RF)' : ''}</dt><dd>${f.duration == null ? DASH : yrs(f.duration, false)}</dd></div>
+        <div><dt>TER</dt><dd>${pct(f.ter)}</dd></div>
+        <div><dt>Trailer fee</dt><dd>${pct(f.trailer)}</dd></div>
+      </dl>
+      <div class="card-foot">
+        <div class="plats" aria-label="Plataformas">${PLATFORMS.map(p => `<span class="pl ${f.platforms[p] ? 'yes' : 'no'}">${p}<span class="sr">: ${f.platforms[p] ? 'Sí' : 'No'}</span></span>`).join('')}</div>
+        <label class="check"><input class="cmpbox" type="checkbox" data-cmp="${f.isin}"> Comparar</label>
+      </div>
+    </article>`).join('') + '</div>';
+  }).join('') + '</div>';
+}
+function bindResults(box){
+  box.addEventListener('click', e => {
+    const sb = e.target.closest('[data-sort]');
+    if (sb) {
+      const k = sb.dataset.sort;
+      if (mapState.sort === k) mapState.dir = mapState.dir === 'desc' ? 'asc' : 'desc';
+      else { mapState.sort = k; mapState.dir = 'desc'; }
+      const tw = $('#tw'); const sl = tw ? tw.scrollLeft : 0;
+      commitMap();
+      const tw2 = $('#tw'); if (tw2) tw2.scrollLeft = sl;
+      const nb = $(`[data-sort="${k}"]`); if (nb) nb.focus({preventScroll:true});
+      return;
+    }
+    if (e.target.closest('input, a, button, label')) return;
+    const row = e.target.closest('[data-isin]');
+    if (row) location.hash = '#/fondo/' + row.dataset.isin;
+  });
+  box.addEventListener('change', e => { if (e.target.dataset.cmp) toggleCmp(e.target.dataset.cmp); });
+}
+
+/* ---------------- FUND VIEW */
+function sectionHTML(s, asset){
+  const noVal = s.items.every(i => i.value == null);
+  if (noVal) {
+    return `<section class="sec ${asset}"><h3>${esc(s.title)}</h3><ul class="plain">${s.items.map(i =>
+      `<li>${esc(i.label)}</li>`).join('')}</ul></section>`;
+  }
+  const allPct = s.items.every(i => i.pct != null && i.pct >= 0);
+  if (allPct) {
+    return `<section class="sec ${asset}"><h3>${esc(s.title)}</h3><ul class="bars">${s.items.map(i =>
+      `<li><span class="l">${esc(i.label)}</span><span class="v">${esc(i.value)}</span><span class="b" aria-hidden="true"><i style="width:${Math.min(100, i.pct)}%"></i></span></li>`).join('')}</ul></section>`;
+  }
+  return `<section class="sec ${asset}"><h3>${esc(s.title)}</h3><dl class="kv">${s.items.map(i => `<dt>${esc(i.label)}</dt><dd>${valTxt(i.value)}</dd>`).join('')}</dl></section>`;
+}
+function renderFund(isin){
+  const f = BY.get(isin);
+  if (!f) {
+    $('#main').innerHTML = `<div class="empty"><p><strong>No se encontró un fondo con el ISIN ${esc(isin)}.</strong></p><a class="btn primary" href="${mapHref()}">Volver al mapa</a></div>`;
+    return;
+  }
+  let ctx = orderedList(mapState);
+  if (!ctx.some(x => x.isin === isin)) ctx = orderedList(DEFAULT_MAP);
+  const i = ctx.findIndex(x => x.isin === isin);
+  const prev = ctx[i - 1], next = ctx[i + 1];
+  const filteredCtx = ctx.length !== FUNDS.length;
+  const catMeta = CATS.find(c => c.name === f.category);
+  const keyRows = [['AUM (USD mill.)', esc(f.aum)]].concat(f.keyMetrics.map(k => [esc(k.label), valTxt(k.value)]));
+  $('#main').innerHTML = `
+  <div class="fbar">
+    <a class="btn" href="${mapHref()}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>Volver al mapa</a>
+    <span class="spacer"></span>
+    <span class="pos">${i + 1} de ${ctx.length}${filteredCtx ? ' (filtrados)' : ''}</span>
+    ${prev ? `<a class="btn" href="#/fondo/${prev.isin}" title="${esc(prev.name)}" rel="prev">‹ <span class="lbl">Fondo anterior</span></a>` : `<button class="btn" disabled>‹ <span class="lbl">Fondo anterior</span></button>`}
+    ${next ? `<a class="btn" href="#/fondo/${next.isin}" title="${esc(next.name)}" rel="next"><span class="lbl">Fondo siguiente</span> ›</a>` : `<button class="btn" disabled><span class="lbl">Fondo siguiente</span> ›</button>`}
+  </div>
+  <article aria-labelledby="fname">
+    <div class="fhead">
+      <div>
+        <div class="tagline"><span class="dot ${f.asset}" aria-hidden="true"></span><span>${esc(f.tag)}</span>${f.balanz ? '<span class="bz">PRODUCTO PROPIO BALANZ</span>' : ''}</div>
+        <h1 id="fname">${esc(f.name)}</h1>
+        ${f.intro ? `<p class="intro">${esc(f.intro)}</p>` : ''}
+      </div>
+      <div><button type="button" class="btn" data-cmp="${f.isin}" aria-pressed="false">Agregar al comparador</button></div>
+    </div>
+    <dl class="idgrid">
+      <div><dt>Gestora</dt><dd>${esc(f.manager)}</dd></div>
+      <div><dt>ISIN</dt><dd class="isin">${f.isin}</dd></div>
+      <div><dt>Clase</dt><dd>${f.cls ? esc(f.cls) : DASH}</dd></div>
+      <div><dt>Moneda</dt><dd>${f.currency ? esc(f.currency) : DASH}</dd></div>
+      <div><dt>Categoría</dt><dd><a href="#/mapa${mapQuery(Object.assign({}, DEFAULT_MAP, {cat:f.category}))}">${esc(f.category)}</a></dd></div>
+      <div><dt>Clasificación</dt><dd>${esc(f.strategy)}</dd></div>
+      <div><dt>AUM (USD mill.)</dt><dd>${esc(f.aum)}</dd></div>
+      <div><dt>Nombre completo en el documento</dt><dd>${esc(f.mapName)}</dd></div>
+    </dl>
+    <div class="stack">
+      <section class="panel" aria-labelledby="h-perf">
+        <h2 id="h-perf">Performance <small>${esc(META.performance.replace(/^Performance\s*/, ''))} · 3Y y 5Y anualizados</small></h2>
+        <dl class="perf">${RET_COLS.map(([k]) => `<div><dt>${RET_LONG[k]}</dt><dd>${pct(f.returns[k])}</dd></div>`).join('')}</dl>
+        ${f.extraReturns.length ? `<div class="extra"><span class="muted">Otros rendimientos informados:</span>${f.extraReturns.map(x => `<span>${esc(x.label)} <b>${valTxt(x.value)}</b></span>`).join('')}</div>` : ''}
+      </section>
+      <div class="two">
+        <section class="panel" aria-labelledby="h-key">
+          <h2 id="h-key">Métricas clave${f.rfPortion ? ' <small>Yield y duración corresponden a la porción de renta fija</small>' : ''}</h2>
+          <dl class="kv">${keyRows.map(([a, b]) => `<dt>${a}</dt><dd>${b}</dd>`).join('')}</dl>
+        </section>
+        <section class="panel" aria-labelledby="h-cost">
+          <h2 id="h-cost">Costos y plataformas</h2>
+          <dl class="kv"><dt>TER</dt><dd>${pct(f.ter)}</dd><dt>Trailer fee</dt><dd>${pct(f.trailer)}</dd></dl>
+          <dl class="platgrid">${PLATFORMS.map(p => `<div><dt>${p}</dt><dd>${plat(f.platforms[p])}</dd></div>`).join('')}</dl>
+          <p class="note">${esc(META.feeNote)} ${esc(META.feeSource)}.</p>
+        </section>
+      </div>
+      <section class="panel" aria-labelledby="h-obj">
+        <h2 id="h-obj">Objetivo y política de inversión</h2>
+        <p class="objective">${esc(f.objective)}</p>
+      </section>
+      <section class="panel" aria-labelledby="h-comp">
+        <h2 id="h-comp">Cartera <small>Composición al ${f.compDate}</small></h2>
+        <div class="secgrid">${f.sections.map(s => sectionHTML(s, f.asset)).join('')}</div>
+        ${(f.notes || []).length ? `<div class="srcnotes">${f.notes.map(n => `<p>${esc(n)}</p>`).join('')}</div>` : ''}
+        <p class="foot-src">${esc(META.sheetSource)}.</p>
+      </section>
+    </div>
+  </article>
+  ${footer()}`;
+  $('[data-cmp]', $('#main')).addEventListener('click', e => toggleCmp(e.currentTarget.dataset.cmp));
+  syncCmpControls();
+}
+
+/* ---------------- COMPARE VIEW */
+function renderCompare(){
+  const fs = cmp.map(i => BY.get(i));
+  const full = fs.length >= MAX_CMP;
+  const avail = FUNDS.filter(f => !cmp.includes(f.isin));
+  const addSel = `<div class="cmp-add">
+      <div class="field"><label for="addf">Agregar fondo (${fs.length}/${MAX_CMP})</label>
+        <select id="addf" ${full ? 'disabled' : ''}><option value="">${full ? 'Llegaste al máximo de cinco fondos' : 'Elegí un fondo'}</option>
+        ${['rf','rm','rv'].map(a => `<optgroup label="${ASSET_NAME[a]}">${avail.filter(f => f.asset === a).map(f => `<option value="${f.isin}">${esc(f.name)} · ${f.isin}</option>`).join('')}</optgroup>`).join('')}
+        </select></div>
+      ${fs.length ? '<button type="button" class="btn" id="cmpClear">Quitar todos</button>' : ''}
+      <a class="btn" href="${mapHref()}">Volver al mapa</a>
+    </div>`;
+  let body;
+  if (!fs.length) {
+    body = `<div class="empty"><p><strong>Todavía no hay fondos en el comparador.</strong></p><p>Elegí fondos en la lista de arriba o marcá la casilla “Comparar” en el mapa. Podés comparar hasta cinco a la vez.</p></div>`;
+  } else {
+    const colors = ['--c1','--c2','--c3','--c4','--c5'];
+    const band = t => `<tr class="band"><th scope="rowgroup">${t}</th>${fs.map(() => '<td></td>').join('')}</tr>`;
+    const row = (label, fn, cls) => `<tr><th scope="row">${label}</th>${fs.map(f => `<td class="${cls || ''}">${fn(f)}</td>`).join('')}</tr>`;
+    const chars = f => {
+      const km = f.keyMetrics.filter(k => !/^(YTM bruta|Duración|Yield renta fija|Duración renta fija)$/.test(k.label));
+      let h = '<div class="mini">';
+      if (km.length) h += `<h4>Métricas</h4><ul>${km.map(k => `<li><span>${esc(k.label)}</span><span>${valTxt(k.value)}</span></li>`).join('')}</ul>`;
+      h += f.sections.map(s => `<h4>${esc(s.title)}</h4><ul>${s.items.map(i => `<li><span>${esc(i.label)}</span>${i.value == null ? '' : `<span>${valTxt(i.value)}</span>`}</li>`).join('')}</ul>`).join('');
+      h += `<p class="note">Composición al ${f.compDate}</p></div>`;
+      return h;
+    };
+    body = `<div class="cmpwrap" tabindex="0" aria-label="Tabla comparativa, desplazable"><table class="cmp">
+      <caption class="sr">Comparación de ${fs.length} fondos</caption>
+      <thead><tr><th scope="col"><span class="sr">Dato</span></th>${fs.map((f, n) => `<th scope="col"><div class="hd" style="border-top-color:var(${colors[n]})">
+        <a href="#/fondo/${f.isin}">${esc(f.name)}</a>${f.balanz ? '<span class="bz" style="margin-left:0;align-self:flex-start">BALANZ</span>' : ''}
+        <button type="button" data-rm="${f.isin}" aria-label="Quitar ${esc(f.name)} del comparador">Quitar</button></div></th>`).join('')}</tr></thead>
+      <tbody>
+        ${row('Gestora', f => esc(f.manager))}
+        ${row('ISIN', f => `<span class="isin">${f.isin}</span>`)}
+        ${row('Clase', f => f.cls ? esc(f.cls) : DASH)}
+        ${row('Categoría', f => esc(f.category))}
+        ${row('Clasificación', f => esc(f.strategy))}
+        ${row('AUM (USD mill.)', f => esc(f.aum), 'num')}
+        ${band(esc(META.performanceShort || META.performance))}
+        ${RET_COLS.map(([k]) => row(RET_LONG[k], f => pct(f.returns[k]), 'num')).join('')}
+        ${fs.some(f => f.extraReturns.length) ? row('Otros rendimientos', f => f.extraReturns.length ? f.extraReturns.map(x => `${esc(x.label)}: ${valTxt(x.value)}`).join('<br>') : DASH) : ''}
+        ${band('Renta fija')}
+        ${row('YTM', f => ytmCell(f), 'num')}
+        ${row('Duración', f => durCell(f, true), 'num')}
+        ${band('Costos anuales')}
+        ${row('TER', f => pct(f.ter), 'num')}
+        ${row('Trailer fee', f => pct(f.trailer), 'num')}
+        ${band('Plataformas habilitadas')}
+        ${PLATFORMS.map(p => row(p, f => plat(f.platforms[p]))).join('')}
+        ${band('Principales características de cartera')}
+        ${row('Cartera', chars)}
+      </tbody></table></div>`;
+  }
+  $('#main').innerHTML = `<div class="page-h"><div><h1>Comparador</h1><p class="lede">Compará hasta cinco fondos lado a lado con los datos de la curaduría. Los rendimientos negativos se muestran en rojo; el comparador no ordena ni recomienda fondos.</p></div></div>
+    ${addSel}${body}${footer()}`;
+  const sel = $('#addf');
+  sel.addEventListener('change', () => { if (sel.value) { setCmp(cmp.concat(sel.value)); renderCompare(); $('#addf').focus(); } });
+  const cl = $('#cmpClear'); if (cl) cl.addEventListener('click', () => { setCmp([]); renderCompare(); });
+  $$('[data-rm]').forEach(b => b.addEventListener('click', () => { setCmp(cmp.filter(x => x !== b.dataset.rm)); renderCompare(); }));
+}
+
+/* ---------------- CURADURÍA VIEW */
+function renderCuraduria(){
+  const s = INST.steps, p = INST.pillars;
+  const nb = FUNDS.filter(f => f.balanz).length;
+  const met = INST.metodologia;
+  const toc = [['que-es','Qué es la curaduría'],['universo','Universo analizado'],['proceso','Proceso'],['criterios','Criterios de selección'],['perfiles','Asignación según perfiles'],['seguimiento','Seguimiento y actualización']];
+  if (met && met.bloques && met.bloques.length) toc.push(['metodologia','Criterio de actualización']);
+  $('#main').innerHTML = `<div class="cur">
+    <div class="page-h"><div><h1>Curaduría y criterios de selección</h1>
+      <p class="lede">${FUNDS.length} fondos en ${CATS.length} categorías: ${nb} productos propios de Balanz y ${FUNDS.length - nb} fondos de terceros.</p></div></div>
+    <nav class="cur-toc" aria-label="Secciones">${toc.map(([id, l]) => `<a href="#/curaduria/${id}">${l}</a>`).join('')}</nav>
+    <section class="csec" id="que-es"><h2>Qué es la Curaduría de Fondos Offshore</h2>
+      <div class="kick">${esc(sentence(INST.kicker2))}</div>
+      <p class="big">${esc(INST.headline)}</p>
+      <p>${esc(INST.intro)}</p></section>
+    <section class="csec" id="universo"><h2>Universo analizado</h2>
+      <div class="universe"><div><div class="fig">${esc(INST.universeFigure)}</div><div class="fl">${esc(INST.universeLabel)}</div></div>
+      <p style="margin:0">${esc(INST.challenge)}</p></div></section>
+    <section class="csec" id="proceso"><h2>Proceso de la curaduría</h2>
+      <ol class="steps">${s.map(x => `<li><div class="sn">${esc(x.n)}</div><h3>${esc(sentence(x.title))}</h3><p>${esc(x.text)}</p></li>`).join('')}</ol></section>
+    <section class="csec" id="criterios"><h2>Criterios de selección</h2>
+      <div class="kick">${esc(sentence(INST.kicker3))}</div>
+      <p class="big">${esc(INST.headline3)}</p>
+      <p>${esc(INST.intro3)}</p>
+      <div class="pillar"><h3>${esc(sentence(p[0].title))}</h3><p>${esc(p[0].text)}</p></div></section>
+    <section class="csec" id="perfiles"><h2>Asignación según perfiles</h2>
+      <div class="pillar"><h3>${esc(sentence(p[1].title))}</h3><p>${esc(p[1].text)}</p></div>
+      <p>${esc(INST.diversification)}</p>
+      <div class="profiles" aria-label="Perfiles">${INST.profiles.map(x => `<span>${esc(sentence(x))}</span>`).join('')}</div>
+      <div class="nextstep"><h3>${esc(INST.nextTitle)}</h3><p>${esc(INST.nextText)}</p></div></section>
+    <section class="csec" id="seguimiento"><h2>Seguimiento y actualización</h2>
+      <div class="pillar"><h3>${esc(sentence(p[2].title))}</h3><p>${esc(p[2].text)}</p></div>
+      <div class="pillar"><h3>${esc(sentence(s[3].title))}</h3><p>${esc(s[3].text)}</p></div></section>
+    ${met && met.bloques && met.bloques.length ? `<section class="csec" id="metodologia"><h2>${esc(met.titulo)}</h2>
+      ${met.intro ? `<p>${esc(met.intro)}</p>` : ''}
+      ${INST.alcance ? `<p>${esc(INST.alcance)}</p>` : ''}
+      ${met.bloques.map(b2 => `<div class="pillar"><h3>${esc(b2.titulo)}</h3>${b2.parrafos.map(t => `<p>${esc(t)}</p>`).join('')}</div>`).join('')}
+      <p class="foot-src">${esc(META.performance)}. ${esc(META.compositionLong || META.composition)}. ${esc(META.sheetSource)}.</p></section>` : ''}
+    ${footer()}</div>`;
+}
+
+/* ---------------- CATEGORÍAS VIEW */
+function renderCategorias(){
+  $('#main').innerHTML = `<div class="page-h"><div><h1>Categorías</h1><p class="lede">${CATS.length} categorías agrupadas por clase de activo. Los productos propios de Balanz están integrados en su categoría.</p></div></div>
+    ${['rf','rm','rv'].map(a => `<h2 class="asset-h ${a}">${ASSET_NAME[a]}</h2><div class="catgrid">${CATS.filter(c => c.asset === a).map(c => {
+      const items = FUNDS.filter(f => f.category === c.name);
+      return `<section class="catcard ${a}"><h3>${esc(c.name)}</h3><div class="muted" style="font-size:13px">${items.length} ${items.length === 1 ? 'fondo' : 'fondos'}</div>
+        <ul>${items.map(f => `<li><a href="#/fondo/${f.isin}">${esc(f.name)}${f.balanz ? '<span class="bz">BALANZ</span>' : ''}</a><span>${esc(f.manager)}</span></li>`).join('')}</ul>
+        <a class="btn" href="#/mapa${mapQuery(Object.assign({}, DEFAULT_MAP, {cat:c.name}))}">Ver en el mapa</a></section>`;
+    }).join('')}</div>`).join('')}
+    ${footer()}`;
+}
+
+/* ---------------- router */
+function route(){
+  const h = location.hash || '#/mapa';
+  const [path, qs] = h.replace(/^#/, '').split('?');
+  const parts = path.split('/').filter(Boolean);
+  const prev = currentRoute;
+  if (prev && prev.name === 'mapa') {
+    const tw = $('#tw');
+    mapScroll = {y: window.scrollY, left: tw ? tw.scrollLeft : 0, top: tw ? tw.scrollTop : 0};
+  }
+  let name = parts[0] || 'mapa';
+  if (!['mapa','fondo','comparar','curaduria','categorias'].includes(name)) name = 'mapa';
+  currentRoute = {name, isin: parts[1]};
+  renderNav(name);
+  if (name === 'mapa') {
+    if (qs !== undefined) mapState = parseMapQuery(qs);
+    else if (mapQuery(mapState)) history.replaceState(null, '', '#/mapa' + mapQuery(mapState));
+    renderMap();
+    const restore = prev && prev.name !== 'mapa';
+    requestAnimationFrame(() => {
+      if (restore) { window.scrollTo(0, mapScroll.y); const tw = $('#tw'); if (tw) { tw.scrollLeft = mapScroll.left; tw.scrollTop = mapScroll.top; } }
+    });
+  } else if (name === 'fondo') { renderFund(parts[1]); window.scrollTo(0, 0); }
+  else if (name === 'comparar') { renderCompare(); window.scrollTo(0, 0); }
+  else if (name === 'curaduria') {
+    const same = prev && prev.name === 'curaduria';
+    if (!same) renderCuraduria();
+    const target = parts[1] && document.getElementById(parts[1]);
+    if (target) target.scrollIntoView({block:'start'}); else window.scrollTo(0, 0);
+  }
+  else if (name === 'categorias') { renderCategorias(); window.scrollTo(0, 0); }
+  renderIndexList($('#idxSearch') ? $('#idxSearch').value : '');
+  renderTray();
+  const titles = {mapa:'Mapa de fondos', fondo: BY.get(parts[1]) ? BY.get(parts[1]).name : 'Ficha', comparar:'Comparador', curaduria:'Curaduría y criterios', categorias:'Categorías'};
+  document.title = titles[name] + ' · Curaduría de Fondos Offshore · Balanz International';
+  if (prev && prev.name !== name || (prev && name === 'fondo')) $('#main').focus({preventScroll:true});
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-untray]');
+  if (b) toggleCmp(b.dataset.untray);
+});
+let lastDrawer = isDrawer();
+window.addEventListener('resize', () => {
+  const d = isDrawer();
+  if (d !== lastDrawer) {
+    lastDrawer = d; $('#index').classList.remove('open'); $('#backdrop').classList.remove('open');
+    $('#shell').classList.toggle('noindex', !d && store.get('indexHidden', false));
+    $('#idxBtn').setAttribute('aria-expanded', d ? 'false' : String(!$('#shell').classList.contains('noindex')));
+  }
+});
+setupShell();
+window.addEventListener('hashchange', route);
+route();
+})();
+</script>
+</body>
+</html>

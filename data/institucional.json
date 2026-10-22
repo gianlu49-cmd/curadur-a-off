@@ -1,0 +1,61 @@
+{
+ "institutional": {
+  "kicker2": "CURADURÍA INSTITUCIONAL",
+  "headline": "De un universo de más de 122.000 fondos a una selección accionable",
+  "intro": "La curaduría desarrollada por el equipo de Investment Ideas combina análisis cuantitativo, due diligence cualitativa y seguimiento continuo para identificar estrategias de alta calidad alineadas con las necesidades de cada cliente.",
+  "universeFigure": "+122.000",
+  "universeLabel": "fondos mutuos a nivel global",
+  "challenge": "El desafío no es acceder a más productos, sino seleccionar aquellos con procesos robustos, equipos experimentados y mejores condiciones para sostener resultados a largo plazo, controlando el riesgo de pérdida.",
+  "steps": [
+   {
+    "n": "01",
+    "title": "SELECCIONAR",
+    "text": "El equipo de Investment Ideas filtra el universo para priorizar calidad de gestión, consistencia, liquidez y claridad de mandato."
+   },
+   {
+    "n": "02",
+    "title": "CONOCER",
+    "text": "El análisis realizado por Investment Ideas incorpora reuniones con portfolio managers y distribuidores para comprender la estrategia, su racional y sus fuentes de valor."
+   },
+   {
+    "n": "03",
+    "title": "CONSTRUIR",
+    "text": "La selección elaborada por Investment Ideas reúne fondos complementarios para cubrir perfiles conservador, moderado y agresivo sin duplicar riesgos."
+   },
+   {
+    "n": "04",
+    "title": "ACTUALIZAR",
+    "text": "Investment Ideas revisa periódicamente la selección frente a cambios de mercado y a la evolución de las necesidades de los clientes."
+   }
+  ],
+  "diversification": "Una correcta diversificación y asignación busca reducir la dependencia de un único mercado, proteger el capital a lo largo del ciclo y mejorar la consistencia de los retornos.",
+  "profiles": [
+   "CONSERVADOR",
+   "MODERADO",
+   "AGRESIVO"
+  ],
+  "kicker3": "CONSTRUIR CARTERAS CON MAYOR INTENCIONALIDAD",
+  "headline3": "La selección es el punto de partida; la asignación define el resultado.",
+  "intro3": "La curaduría transforma una oferta global extensa en building blocks concretos para diseñar carteras más diversificadas, comprensibles y alineadas con cada objetivo.",
+  "pillars": [
+   {
+    "n": "01",
+    "title": "SELECCIÓN",
+    "text": "Estrategias evaluadas por calidad, proceso de inversión y consistencia a través de distintos escenarios."
+   },
+   {
+    "n": "02",
+    "title": "ASIGNACIÓN",
+    "text": "Combinación de renta fija, multi-asset y renta variable según horizonte, tolerancia al riesgo y necesidad de liquidez."
+   },
+   {
+    "n": "03",
+    "title": "SEGUIMIENTO",
+    "text": "Monitoreo periódico de performance, riesgo, posicionamiento y cambios relevantes en la gestión."
+   }
+  ],
+  "nextTitle": "El próximo paso",
+  "nextText": "Definir el perfil y construir una asignación que combine retorno esperado, preservación de capital y horizonte de inversión.",
+  "disclaimer": "Material informativo. Los fondos no garantizan rendimientos y están sujetos a riesgos de mercado, crédito, liquidez y moneda."
+ }
+}
